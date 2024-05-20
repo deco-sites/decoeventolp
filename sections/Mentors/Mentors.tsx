@@ -1,1 +1,1 @@
-export { default } from "$store/components/ui/Mentors/index.tsx";
+export { default } from "site/components/ui/Mentors/index.tsx";
