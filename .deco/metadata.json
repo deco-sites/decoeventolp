@@ -5,7 +5,7 @@
   },
   "/.deco/blocks/Faq%20-%20default.json": {
     "blockType": "sections",
-    "__resolveType": "site/sections/Faq.tsx"
+    "__resolveType": "site/sections/Faq/Default.tsx"
   },
   "/.deco/blocks/Groovy%20Vibes.json": {
     "blockType": "sections",
@@ -21,7 +21,7 @@
   },
   "/.deco/blocks/Preview%20%2Fsections%2FFaq.tsx.json": {
     "blockType": "sections",
-    "__resolveType": "site/sections/Faq.tsx"
+    "__resolveType": "site/sections/Faq/Default.tsx"
   },
   "/.deco/blocks/Preview%20%2Fsections%2FFooter.tsx.json": {
     "blockType": "sections",
@@ -129,7 +129,7 @@
   },
   "/.deco/blocks/Header.json": {
     "blockType": "sections",
-    "__resolveType": "site/sections/Header.tsx"
+    "__resolveType": "site/sections/Header/Header.tsx"
   },
   "/.deco/blocks/Footer.json": {
     "blockType": "sections",

@@ -4,7 +4,7 @@
   },
   "Faq - default": {
     "title": "FAQs",
-    "__resolveType": "site/sections/Faq.tsx"
+    "__resolveType": "site/sections/Faq/Default.tsx"
   },
   "Footer": {
     "__resolveType": "site/sections/Footer/Default.tsx",
@@ -51,7 +51,7 @@
     }
   },
   "Header": {
-    "__resolveType": "site/sections/Header.tsx",
+    "__resolveType": "site/sections/Header/Header.tsx",
     "navigation": {
       "links": [],
       "buttons": []
@@ -104,8 +104,8 @@
       "count": 6
     }
   },
-  "Preview /sections/Faq.tsx": {
-    "__resolveType": "site/sections/Faq.tsx",
+  "Preview /sections/Faq/Default.tsx": {
+    "__resolveType": "site/sections/Faq/Default.tsx",
     "questions": []
   },
   "Preview /sections/Footer/Default.tsx": {
@@ -115,7 +115,7 @@
     "social": [],
     "subscribe": {}
   },
-  "Preview /sections/Header.tsx": {
+  "Preview /sections/Header/Header.tsx": {
     "__resolveType": "site\\sections\\Header.tsx"
   },
   "Preview /sections/Hero.tsx": {
@@ -453,7 +453,7 @@
     "path": "/blog/:slug",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "site/sections/Header/Header.tsx"
       },
       {
         "__resolveType": "site/sections/BlogPost.tsx",
