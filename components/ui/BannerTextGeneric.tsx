@@ -130,11 +130,11 @@ export default function BannerTextGeneric(
     <section class={`${ layout?.variants?.section === 'Reverse' ? 'bg-[#0A2121]' : 'bg-[#FFF]' } w-full py-10 md:py-24`}>
       <div
         class={`relative z-0 ${layout?.image === 'Background' && banners?.desktop ? 'h-[900px] flex justify-center items-center' : 'h-full'}`}>
-        { layout?.image === 'Background' && banners?.desktop ? <Image width={400} height={380} src={banners?.desktop ?? ""} class="w-full h-full object-cover absolute z-[-1]" /> : null}
+        
 
-        <div class={`xl:container xl:mx-auto mx-5 md:mx-10 ${ALIGNMENT_CONTAINER[layout?.alignment ?? "Column"]} gap-12 md:gap-16 items-center justify-center`}>
+        <div class={`xl:container xl:mx-auto mx-5 md:mx-10 gap-12 md:gap-16 items-center justify-center`}>
           <div />
-          <div class={`w-full ${ALIGNMENT_FIRST_CHILD[layout?.alignment ?? "Column"]}`}>
+          <div class="w-full text-center">
             {textContainer}
           </div>
           <div class={`w-full ${ALIGNMENT_LAST_CHILD[layout?.alignment ?? "Column"]}`}>
@@ -162,6 +162,9 @@ export default function BannerTextGeneric(
                     loading="lazy"
                   />
                 </Picture>
+              </div>
+              ) : null}
+              <div className="flex flex-col">
                 { banners?.textTopics?.length ? (
                 <div class="flex flex-col bg-[#f2f2f2] items-start gap-4 px-4 py-8 md:px-6 md:py-10">
                   {
@@ -184,7 +187,6 @@ export default function BannerTextGeneric(
                   </div>
                 ) : null }
               </div>
-          ) : null}
           </div>
         </div>
       </div>
