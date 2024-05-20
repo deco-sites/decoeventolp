@@ -5,48 +5,50 @@
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Achievements/Achievements.tsx";
-import * as $$$$$$1 from "./sections/Benefits/Benefits.tsx";
-import * as $$$$$$2 from "./sections/BlogPost.tsx";
-import * as $$$$$$3 from "./sections/BlogPosts.tsx";
-import * as $$$$$$4 from "./sections/Faq/Default.tsx";
-import * as $$$$$$5 from "./sections/Faq/Faq.tsx";
-import * as $$$$$$6 from "./sections/Footer/Default.tsx";
-import * as $$$$$$7 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$8 from "./sections/Header/Default.tsx";
-import * as $$$$$$9 from "./sections/Header/Header.tsx";
-import * as $$$$$$10 from "./sections/Hero/Default.tsx";
-import * as $$$$$$11 from "./sections/Hero/Hero.tsx";
-import * as $$$$$$12 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$13 from "./sections/Logos.tsx";
-import * as $$$$$$14 from "./sections/MainPost.tsx";
-import * as $$$$$$15 from "./sections/Mentors/Mentors.tsx";
-import * as $$$$$$16 from "./sections/NRF/Grid.tsx";
-import * as $$$$$$17 from "./sections/Syllabus/Syllabus.tsx";
-import * as $$$$$$18 from "./sections/Testimonials.tsx";
-import * as $$$$$$19 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$1 from "./sections/Banners/BannerTextGeneric.tsx";
+import * as $$$$$$2 from "./sections/Benefits/Benefits.tsx";
+import * as $$$$$$3 from "./sections/BlogPost.tsx";
+import * as $$$$$$4 from "./sections/BlogPosts.tsx";
+import * as $$$$$$5 from "./sections/Faq/Default.tsx";
+import * as $$$$$$6 from "./sections/Faq/Faq.tsx";
+import * as $$$$$$7 from "./sections/Footer/Default.tsx";
+import * as $$$$$$8 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$9 from "./sections/Header/Default.tsx";
+import * as $$$$$$10 from "./sections/Header/Header.tsx";
+import * as $$$$$$11 from "./sections/Hero/Default.tsx";
+import * as $$$$$$12 from "./sections/Hero/Hero.tsx";
+import * as $$$$$$13 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$14 from "./sections/Logos.tsx";
+import * as $$$$$$15 from "./sections/MainPost.tsx";
+import * as $$$$$$16 from "./sections/Mentors/Mentors.tsx";
+import * as $$$$$$17 from "./sections/NRF/Grid.tsx";
+import * as $$$$$$18 from "./sections/Syllabus/Syllabus.tsx";
+import * as $$$$$$19 from "./sections/Testimonials.tsx";
+import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Achievements/Achievements.tsx": $$$$$$0,
-    "site/sections/Benefits/Benefits.tsx": $$$$$$1,
-    "site/sections/BlogPost.tsx": $$$$$$2,
-    "site/sections/BlogPosts.tsx": $$$$$$3,
-    "site/sections/Faq/Default.tsx": $$$$$$4,
-    "site/sections/Faq/Faq.tsx": $$$$$$5,
-    "site/sections/Footer/Default.tsx": $$$$$$6,
-    "site/sections/Footer/Footer.tsx": $$$$$$7,
-    "site/sections/Header/Default.tsx": $$$$$$8,
-    "site/sections/Header/Header.tsx": $$$$$$9,
-    "site/sections/Hero/Default.tsx": $$$$$$10,
-    "site/sections/Hero/Hero.tsx": $$$$$$11,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$12,
-    "site/sections/Logos.tsx": $$$$$$13,
-    "site/sections/MainPost.tsx": $$$$$$14,
-    "site/sections/Mentors/Mentors.tsx": $$$$$$15,
-    "site/sections/NRF/Grid.tsx": $$$$$$16,
-    "site/sections/Syllabus/Syllabus.tsx": $$$$$$17,
-    "site/sections/Testimonials.tsx": $$$$$$18,
-    "site/sections/Theme/Theme.tsx": $$$$$$19,
+    "site/sections/Banners/BannerTextGeneric.tsx": $$$$$$1,
+    "site/sections/Benefits/Benefits.tsx": $$$$$$2,
+    "site/sections/BlogPost.tsx": $$$$$$3,
+    "site/sections/BlogPosts.tsx": $$$$$$4,
+    "site/sections/Faq/Default.tsx": $$$$$$5,
+    "site/sections/Faq/Faq.tsx": $$$$$$6,
+    "site/sections/Footer/Default.tsx": $$$$$$7,
+    "site/sections/Footer/Footer.tsx": $$$$$$8,
+    "site/sections/Header/Default.tsx": $$$$$$9,
+    "site/sections/Header/Header.tsx": $$$$$$10,
+    "site/sections/Hero/Default.tsx": $$$$$$11,
+    "site/sections/Hero/Hero.tsx": $$$$$$12,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$13,
+    "site/sections/Logos.tsx": $$$$$$14,
+    "site/sections/MainPost.tsx": $$$$$$15,
+    "site/sections/Mentors/Mentors.tsx": $$$$$$16,
+    "site/sections/NRF/Grid.tsx": $$$$$$17,
+    "site/sections/Syllabus/Syllabus.tsx": $$$$$$18,
+    "site/sections/Testimonials.tsx": $$$$$$19,
+    "site/sections/Theme/Theme.tsx": $$$$$$20,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
