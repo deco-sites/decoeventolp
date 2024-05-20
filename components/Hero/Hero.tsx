@@ -1,8 +1,8 @@
-import Button from "../Button/Button.tsx";
-import type { Props as PropsButton } from "$store/components/camp/Button/Button.tsx";
-import PopUp from "$store/islands/PopUp.tsx";
-import type { Props as PropsPopUp } from "$store/components/camp/PopUp/PopUp.tsx";
-import Icon from "../../ui/Icon.tsx";
+import Button from "../ui/Button.tsx";
+import type { Props as PropsButton } from "../ui/Button.tsx";
+import PopUp from "site/islands/PopUp.tsx";
+import type { Props as PropsPopUp } from "site/components/ui/PopUp.tsx";
+import Icon from "../ui/Icon.tsx";
 
 export interface Props {
   flag: string;

@@ -13,15 +13,16 @@ import * as $$$$$$5 from "./sections/Footer/Default.tsx";
 import * as $$$$$$6 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$7 from "./sections/Header/Default.tsx";
 import * as $$$$$$8 from "./sections/Header/Header.tsx";
-import * as $$$$$$9 from "./sections/Hero.tsx";
-import * as $$$$$$10 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$11 from "./sections/Logos.tsx";
-import * as $$$$$$12 from "./sections/MainPost.tsx";
-import * as $$$$$$13 from "./sections/Mentors/Mentors.tsx";
-import * as $$$$$$14 from "./sections/NRF/Grid.tsx";
-import * as $$$$$$15 from "./sections/Syllabus/Syllabus.tsx";
-import * as $$$$$$16 from "./sections/Testimonials.tsx";
-import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$9 from "./sections/Hero/Default.tsx";
+import * as $$$$$$10 from "./sections/Hero/Hero.tsx";
+import * as $$$$$$11 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$12 from "./sections/Logos.tsx";
+import * as $$$$$$13 from "./sections/MainPost.tsx";
+import * as $$$$$$14 from "./sections/Mentors/Mentors.tsx";
+import * as $$$$$$15 from "./sections/NRF/Grid.tsx";
+import * as $$$$$$16 from "./sections/Syllabus/Syllabus.tsx";
+import * as $$$$$$17 from "./sections/Testimonials.tsx";
+import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -34,15 +35,16 @@ const manifest = {
     "site/sections/Footer/Footer.tsx": $$$$$$6,
     "site/sections/Header/Default.tsx": $$$$$$7,
     "site/sections/Header/Header.tsx": $$$$$$8,
-    "site/sections/Hero.tsx": $$$$$$9,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$10,
-    "site/sections/Logos.tsx": $$$$$$11,
-    "site/sections/MainPost.tsx": $$$$$$12,
-    "site/sections/Mentors/Mentors.tsx": $$$$$$13,
-    "site/sections/NRF/Grid.tsx": $$$$$$14,
-    "site/sections/Syllabus/Syllabus.tsx": $$$$$$15,
-    "site/sections/Testimonials.tsx": $$$$$$16,
-    "site/sections/Theme/Theme.tsx": $$$$$$17,
+    "site/sections/Hero/Default.tsx": $$$$$$9,
+    "site/sections/Hero/Hero.tsx": $$$$$$10,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$11,
+    "site/sections/Logos.tsx": $$$$$$12,
+    "site/sections/MainPost.tsx": $$$$$$13,
+    "site/sections/Mentors/Mentors.tsx": $$$$$$14,
+    "site/sections/NRF/Grid.tsx": $$$$$$15,
+    "site/sections/Syllabus/Syllabus.tsx": $$$$$$16,
+    "site/sections/Testimonials.tsx": $$$$$$17,
+    "site/sections/Theme/Theme.tsx": $$$$$$18,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
