@@ -50,7 +50,7 @@
       "__resolveType": "site/sections/ImageWithParagraph.tsx"
     },
     { "__resolveType": "site/sections/BlogPosts.tsx" },
-    { "__resolveType": "site/sections/Footer.tsx" }
+    { "__resolveType": "site/sections/Footer/Default.tsx" }
   ],
   "__resolveType": "website/pages/Page.tsx"
 }

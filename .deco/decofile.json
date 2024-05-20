@@ -7,7 +7,7 @@
     "__resolveType": "site/sections/Faq.tsx"
   },
   "Footer": {
-    "__resolveType": "site/sections/Footer.tsx",
+    "__resolveType": "site/sections/Footer/Default.tsx",
     "links": [],
     "bottomLinks": [],
     "social": [],
@@ -108,8 +108,8 @@
     "__resolveType": "site/sections/Faq.tsx",
     "questions": []
   },
-  "Preview /sections/Footer.tsx": {
-    "__resolveType": "site/sections/Footer.tsx",
+  "Preview /sections/Footer/Default.tsx": {
+    "__resolveType": "site/sections/Footer/Default.tsx",
     "links": [],
     "bottomLinks": [],
     "social": [],
@@ -473,7 +473,7 @@
         }
       },
       {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "site/sections/Footer/Default.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
