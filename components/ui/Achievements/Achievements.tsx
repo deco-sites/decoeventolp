@@ -12,7 +12,8 @@ export interface Props {
    */
   subTitle: string;
   topics: {
-    text: string;
+    title: string;
+    description: string;
   }[];
 }
 
