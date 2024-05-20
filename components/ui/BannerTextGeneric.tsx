@@ -1,8 +1,6 @@
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Icon, { AvailableIcons } from "site/components/ui/Icon.tsx";
-import BannerCarousel from 'site/components/ui/BannerCarousel.tsx';
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
 import type { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
@@ -186,7 +184,13 @@ export default function BannerTextGeneric(
                   }
                   </div>
                 ) : null }
+                { banners?.textDescription ? (
+                  <div>
+                    <HTMLRenderer html={banners?.textDescription} />
+                  </div>
+                ) : null }
               </div>
+              
           </div>
         </div>
       </div>
