@@ -1,1 +1,1 @@
-export { default } from "$store/components/ui/BannerTextGeneric.tsx";
+export { default } from "site/components/ui/BannerTextGeneric.tsx";
