@@ -3,6 +3,14 @@ import Icon, { AvailableIcons } from "site/components/ui/Icon.tsx";
 import BannerCarousel from 'site/components/ui/BannerCarousel.tsx';
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import type { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
+
+export interface TextProps {
+  icon?: ImageWidget
+  title?: string
+  description?: string
+}
 
 export interface BannerProps {
   /**  @title Image Mobile */
@@ -10,8 +18,8 @@ export interface BannerProps {
   /**  @title Image Desktop */
   desktop?: ImageWidget;
 
-  title?: string;
-  description?: string;
+  textTopics?: TextProps[]
+  textDescription?: HTML
 }
 
 export interface CTAProps {
@@ -32,11 +40,12 @@ export interface BannerTextGenericProps {
 
   ctaList?: CTAProps[]
 
-  banners?: BannerProps[]
+  banners?: BannerProps
 
   /**  @title Hide Components */
   hide: {
-    cta: boolean
+    cta: boolean,
+    label: boolean
   }
 
   layout?: {
@@ -51,20 +60,20 @@ export interface BannerTextGenericProps {
 
 
 export default function BannerTextGeneric(
-  { title, description, ctaList, layout, hide, banners }: BannerTextGenericProps,
+  { title, description, ctaList, layout, hide = { cta: false, label: false }, banners = [] }: BannerTextGenericProps,
   ) {
 
     const ALIGNMENT_LAST_CHILD = {
       'Row': 'col-start-2 row-start-1',
       'Column': '',
-      'Row reverse': banners?.length > 0 ? 'col-start-1 row-start-1' : '',
+      'Row reverse': banners?.desktop ? 'col-start-1 row-start-1' : '',
       'Column reverse': ''
     }
 
     const ALIGNMENT_FIRST_CHILD = {
       'Row': 'col-start-1 row-start-1',
       'Column': '',
-      'Row reverse': banners?.length > 0 ? 'col-start-2 row-start-1' : 'col-start-1 row-start-1',
+      'Row reverse': banners?.desktop ? 'col-start-2 row-start-1' : 'col-start-1 row-start-1',
       'Column reverse': ''
     }
 
@@ -75,21 +84,21 @@ export default function BannerTextGeneric(
   }
 
   const ALIGNMENT_CONTAINER = {
-    'Row': banners?.length > 0 ? 'grid grid-cols-2 grid-rows-1' : 'grid grid-cols-1 grid-rows-1',
+    'Row': banners?.desktop ? 'grid grid-cols-2 grid-rows-1' : 'grid grid-cols-1 grid-rows-1',
     'Column': 'flex flex-col items-center',
-    'Row reverse': banners?.length > 0 ? 'grid grid-cols-2 grid-rows-1' : 'grid grid-cols-1 grid-rows-1',
+    'Row reverse': banners?.desktop ? 'grid grid-cols-2 grid-rows-1' : 'grid grid-cols-1 grid-rows-1',
     'Column reverse': 'flex flex-col-reverse items-center'
   }
 
-  const cta = ({ href, text, label, hide, variants }: CTAProps) => hide?.cta ? <></> : (
-      <a href={href ?? "#"} class={`btn normal-case rounded-none text-base px-6 py-3  ${!hide?.label ? 'pr-3' : 'pr-4'} transition-colors duration-200 flex items-center gap-2 ${BACKGROUND_CTA[variants ?? "Normal"]}`}>
-        <span class="h-full flex justify-center items-center">
-          {text}
-        </span>
-        <span class="h-full flex justify-center items-center">
-          { !hide?.label ? <Icon id={label} size={30} /> : '' }
-        </span>
-      </a>
+  const cta = ({ href, text, label = 'ArrowLeft', hide, variants }: CTAProps) => hide?.cta ? <></> : (
+    <a href={href ?? "#"} class={`btn normal-case rounded-none text-base px-6 py-3  ${!hide?.label ? 'pr-3' : 'pr-4'} transition-colors duration-200 flex items-center gap-2 ${BACKGROUND_CTA[variants ?? "Normal"]}`}>
+      <span class="h-full flex justify-center items-center">
+        {text}
+      </span>
+      <span class="h-full flex justify-center items-center">
+        { !hide?.label ? <Icon id={label ?? ''} size={30} /> : '' }
+      </span>
+    </a>
   )
   const textContainer = <>
     <div class={`flex gap-4
@@ -102,12 +111,12 @@ export default function BannerTextGeneric(
           {title}
         </p>
       <div class={`flex flex-col gap-6 md:gap-8 w-full ${layout?.alignment === 'Column' ? 'md:items-center' : 'items-center md:items-start'}`}>
-        <div class={`text-base md:text-[18px] md:leading-8
+        <div class={`text-base md:text-[18px] md:leading-8 text-white flex flex-row items-center justify-center gap-2
           ${layout?.variants?.section === 'Reverse' ? 'text-[#FFFFFF]' : 'text-[#181212]'} 
           ${layout?.alignment === 'Column' ? 'text-center' : 'text-center md:text-start'}
         `}>
           {description && (
-            <p dangerouslySetInnerHTML={{ __html: description }} />
+            <p className="border border-base-content rounded-3xl px-4 py-2 w-min" dangerouslySetInnerHTML={{ __html: description }} />
           )}
         </div>
         <div class={`${hide?.cta ? 'hidden' : 'flex'} items-center gap-4`}>
@@ -120,8 +129,8 @@ export default function BannerTextGeneric(
   return (
     <section class={`${ layout?.variants?.section === 'Reverse' ? 'bg-[#0A2121]' : 'bg-[#FFF]' } w-full py-10 md:py-24`}>
       <div
-        class={`relative z-0 ${layout?.image === 'Background' && banners?.length ? 'h-[900px] flex justify-center items-center' : 'h-full'}`}>
-        { layout?.image === 'Background' && banners?.length ? <Image width={400} height={380} src={banners[0]?.desktop ?? ""} class="w-full h-full object-cover absolute z-[-1]" /> : null}
+        class={`relative z-0 ${layout?.image === 'Background' && banners?.desktop ? 'h-[900px] flex justify-center items-center' : 'h-full'}`}>
+        { layout?.image === 'Background' && banners?.desktop ? <Image width={400} height={380} src={banners?.desktop ?? ""} class="w-full h-full object-cover absolute z-[-1]" /> : null}
 
         <div class={`xl:container xl:mx-auto mx-5 md:mx-10 ${ALIGNMENT_CONTAINER[layout?.alignment ?? "Column"]} gap-12 md:gap-16 items-center justify-center`}>
           <div />
@@ -129,48 +138,53 @@ export default function BannerTextGeneric(
             {textContainer}
           </div>
           <div class={`w-full ${ALIGNMENT_LAST_CHILD[layout?.alignment ?? "Column"]}`}>
-            { layout?.image === 'Background' ? null : banners?.length === 1 ? (
+            { layout?.image === 'Background' ? null : banners?.desktop ? (
               <div>
                 <Picture>
                   <Source
                     media="(max-width: 767px)"
-                    src={banners[0]?.mobile ?? ""}
+                    src={banners?.mobile ?? ""}
                     width={181.5}
                     height={174.75}
                   />
                   <Source
                     media="(min-width: 768px)"
-                    src={banners[0]?.desktop ?? ""}
+                    src={banners?.desktop ?? ""}
                     width={228}
                     height={219.5}
                   />
                   <img
                     class="w-full object-cover"
                     sizes="(max-width: 640px) 100vw, 30vw"
-                    src={banners[0]?.mobile ?? ""}
-                    alt={banners[0]?.title ?? ""}
+                    src={banners?.mobile ?? ""}
+                    alt={banners?.textTopics?.[0]?.title ?? ""}
                     decoding="async"
                     loading="lazy"
                   />
                 </Picture>
-                { banners[0]?.title || banners[0]?.description ? (
+                { banners?.textTopics?.length ? (
                 <div class="flex flex-col bg-[#f2f2f2] items-start gap-4 px-4 py-8 md:px-6 md:py-10">
-                    <div class="flex justify-start">
-                      <h1 class="text-[#0A2121] font-semibold text-xl lg:text-2xl">
-                        {banners[0]?.title}
-                      </h1>
-                    </div>
-                    <div class="flex flex-col items-start w-full text-[#0A2121]">
-                      {banners[0]?.description && (
-                        <p class="md:leading-8">{banners[0]?.description}</p>
-                      )}
-                    </div>
+                  {
+                    banners?.textTopics?.map((item) => (
+                      <>
+                        { item?.icon && <Icon id={item.icon} size={24} /> }
+                        <div class="flex justify-start">
+                          <h1 class="text-[#0A2121] font-semibold text-xl lg:text-2xl">
+                            {item?.title}
+                          </h1>
+                        </div>
+                        <div class="flex flex-col items-start w-full text-[#0A2121]">
+                          {item?.description && (
+                            <p class="md:leading-8">{item?.description}</p>
+                          )}
+                        </div>
+                      </>
+                    ))
+                  }
                   </div>
                 ) : null }
               </div>
-          ) : ( 
-              <BannerCarousel images={banners}  />
-            )}
+          ) : null}
           </div>
         </div>
       </div>
