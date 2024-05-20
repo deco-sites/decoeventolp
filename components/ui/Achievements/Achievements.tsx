@@ -63,11 +63,18 @@ export default function Achievements({ props }: { props: Props }) {
         <div class="relative">
           <div class="lg:mx-auto lg:max-w-max">
             {topics.map((topic) => (
-              <div class="mb-6 mx-auto flex items-start gap-4">
-                <img src={asset("/image/check.png")} width={25} height={25} />
-                <p class="text-white text-xl leading-6 font-medium md:text-2xl md:leading-7 ">
-                  {topic.title}
-                </p>
+              <div className="flex flex-col gap-2">
+                <div class="mb-6 mx-auto flex items-start gap-4">
+                  <img src={asset("/image/check.png")} width={25} height={25} />
+                  <p class="text-white text-xl leading-6 font-medium md:text-2xl md:leading-7 ">
+                    {topic.title}
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    {topic.description}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
