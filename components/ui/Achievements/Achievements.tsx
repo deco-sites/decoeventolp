@@ -66,7 +66,7 @@ export default function Achievements({ props }: { props: Props }) {
               <div class="mb-6 mx-auto flex items-start gap-4">
                 <img src={asset("/image/check.png")} width={25} height={25} />
                 <p class="text-white text-xl leading-6 font-medium md:text-2xl md:leading-7 ">
-                  {topic.text}
+                  {topic.title}
                 </p>
               </div>
             ))}

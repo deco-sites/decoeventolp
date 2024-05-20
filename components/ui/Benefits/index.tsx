@@ -1,4 +1,4 @@
-import { Image as LiveImage } from "deco-sites/std/components/types.ts";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
 import BenefitCard from "./BenefitCard.tsx";
 
@@ -6,7 +6,7 @@ import BenefitCard from "./BenefitCard.tsx";
  * @titleBy title
  */
 interface Item {
-  icon: LiveImage;
+  icon: ImageWidget;
   title: string;
   subTitle: string;
 }
