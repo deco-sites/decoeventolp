@@ -20,7 +20,7 @@ export default function RegisterNow(props: Props) {
         <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8 text-[#000]">
       </div>
         <div class="w-full text-center items-center">
-          <div class="overflow-hidden pt-2">
+          <div class="overflow-hidden py-2">
             <ul
               class={`grid grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px] w-full animate-walk items-center gap-4`}
               style={`animation-delay: 300ms`}
