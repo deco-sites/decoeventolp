@@ -1,4 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
 
 export interface Props {
   image: ImageWidget;
@@ -31,7 +32,9 @@ export default function BenefitCard(
           <img class="mb-4" src={image} width={32} height={32} />
 
           <h4 class="text-[#fff] text-bold text-xl">{title}</h4>
-          <h5 class="mt-2 text-[#A1A1AA] text-base">{subTitle}</h5>
+          <div className="mt-2 text-[#A1A1AA] text-base"> 
+            <HTMLRenderer html={subTitle} />
+          </div>
         </div>
       </div>
     </>

@@ -9,7 +9,7 @@ import BenefitCard from "./BenefitCard.tsx";
 interface Item {
   icon: ImageWidget;
   title: string;
-  subTitle: string;
+  subTitle: HTML;
 }
 
 export interface Props {
