@@ -97,7 +97,7 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 
   return (
     <li
-      class="relative h-full grid hover:text-[#02F67C] text-transparent"
+      class="relative h-full grid hover:text-[#02F67C] text-white"
       {...props}
     >
       <a
