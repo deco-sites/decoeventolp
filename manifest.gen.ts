@@ -25,6 +25,7 @@ import * as $$$$$$17 from "./sections/NRF/Grid.tsx";
 import * as $$$$$$18 from "./sections/Syllabus/Syllabus.tsx";
 import * as $$$$$$19 from "./sections/Testimonials.tsx";
 import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$21 from "./sections/WhyGetInvolved.tsx";
 
 const manifest = {
   "sections": {
@@ -49,6 +50,7 @@ const manifest = {
     "site/sections/Syllabus/Syllabus.tsx": $$$$$$18,
     "site/sections/Testimonials.tsx": $$$$$$19,
     "site/sections/Theme/Theme.tsx": $$$$$$20,
+    "site/sections/WhyGetInvolved.tsx": $$$$$$21,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

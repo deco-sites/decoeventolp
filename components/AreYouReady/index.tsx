@@ -32,7 +32,7 @@ const BASE_PROPS = {
     "<p>A 3-day event to transform ideas into stunning websites. Join the Get Site Done sprint and compete for over R$20,000 in prizes <3</p>",
 };
 
-export default function Hero({ props }: { props: Props }) {
+export default function AreYouReady({ props }: { props: Props }) {
   const {
     flag,
     title,
@@ -57,13 +57,13 @@ export default function Hero({ props }: { props: Props }) {
             </span>
             {flagSound && (
               <span class="whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 w-min text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
-                <Icon id="sound" width={16} height={16} />
+                <Icon id="" width={16} height={16} />
                 {flagSound}
               </span>
             )}
             {flagLegend && (
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 w-min text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
-                <Icon id="subtitle" width={16} height={12} />
+                <Icon id="XMark" width={16} height={12} />
                 {flagLegend}
               </span>
             )}
@@ -84,9 +84,6 @@ export default function Hero({ props }: { props: Props }) {
               label={button.label}
               href={button.href}
             />
-            {/* <div class="lg:ml-4">
-              <PopUp buttonLabel={popUp.buttonLabel} items={popUp.items} />
-            </div> */}
           </div>
         </div>
       </div>
