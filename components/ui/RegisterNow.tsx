@@ -15,7 +15,7 @@ export default function RegisterNow(props: Props) {
   );
 
   return (
-    <div class="w-full py-5 md:py-10">
+    <div class="w-full py-5 md:py-10 bg-black">
       <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8 bg-[#02F67C] text-[#000]">
         <div class="w-full text-center items-center">
           <div class="overflow-hidden pt-2">
@@ -24,7 +24,7 @@ export default function RegisterNow(props: Props) {
               style={`animation-delay: 300ms`}
             >
               {list.map((text: string, index: number) => (
-                <li className="w-[120px] text-black text-lg font-semibold">{text}</li>
+                <li className="w-[160px] text-black text-lg font-semibold">{text}</li>
               ))}
             </ul>
           </div>
