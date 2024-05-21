@@ -22,11 +22,11 @@ export default function RegisterNow(props: Props) {
         <div class="w-full text-center items-center">
           <div class="overflow-hidden pt-2">
             <ul
-              class={`flex flex-row flex-nowrap w-full animate-walk items-center gap-4`}
+              class={`grid grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px] w-full animate-walk items-center gap-4`}
               style={`animation-delay: 300ms`}
             >
               {list.map((text: string, index: number) => (
-                <li className="w-[160px] text-black text-lg font-semibold">{text}</li>
+                <li className="w-[160px] text-black text-lg font-semibold list-disc">{text}</li>
               ))}
             </ul>
           </div>
