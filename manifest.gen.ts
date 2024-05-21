@@ -5,52 +5,56 @@
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Achievements/Achievements.tsx";
-import * as $$$$$$1 from "./sections/Banners/BannerTextGeneric.tsx";
-import * as $$$$$$2 from "./sections/Benefits/Benefits.tsx";
-import * as $$$$$$3 from "./sections/BlogPost.tsx";
-import * as $$$$$$4 from "./sections/BlogPosts.tsx";
-import * as $$$$$$5 from "./sections/Faq/Default.tsx";
-import * as $$$$$$6 from "./sections/Faq/Faq.tsx";
-import * as $$$$$$7 from "./sections/Footer/Default.tsx";
-import * as $$$$$$8 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$9 from "./sections/Header/Default.tsx";
-import * as $$$$$$10 from "./sections/Header/Header.tsx";
-import * as $$$$$$11 from "./sections/Hero/Default.tsx";
-import * as $$$$$$12 from "./sections/Hero/Hero.tsx";
-import * as $$$$$$13 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$14 from "./sections/Logos.tsx";
-import * as $$$$$$15 from "./sections/MainPost.tsx";
-import * as $$$$$$16 from "./sections/Mentors/Mentors.tsx";
-import * as $$$$$$17 from "./sections/NRF/Grid.tsx";
-import * as $$$$$$18 from "./sections/Syllabus/Syllabus.tsx";
-import * as $$$$$$19 from "./sections/Testimonials.tsx";
-import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$21 from "./sections/WhyGetInvolved.tsx";
+import * as $$$$$$1 from "./sections/AreYouReady.tsx";
+import * as $$$$$$2 from "./sections/Banners/BannerTextGeneric.tsx";
+import * as $$$$$$3 from "./sections/Benefits/Benefits.tsx";
+import * as $$$$$$4 from "./sections/BlogPost.tsx";
+import * as $$$$$$5 from "./sections/BlogPosts.tsx";
+import * as $$$$$$6 from "./sections/Faq/Default.tsx";
+import * as $$$$$$7 from "./sections/Faq/Faq.tsx";
+import * as $$$$$$8 from "./sections/Footer/Default.tsx";
+import * as $$$$$$9 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$10 from "./sections/Header/Default.tsx";
+import * as $$$$$$11 from "./sections/Header/Header.tsx";
+import * as $$$$$$12 from "./sections/Hero/Default.tsx";
+import * as $$$$$$13 from "./sections/Hero/Hero.tsx";
+import * as $$$$$$14 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$15 from "./sections/Logos.tsx";
+import * as $$$$$$16 from "./sections/MainPost.tsx";
+import * as $$$$$$17 from "./sections/Mentors/Mentors.tsx";
+import * as $$$$$$18 from "./sections/NRF/Grid.tsx";
+import * as $$$$$$19 from "./sections/RegisterNowBanner.tsx";
+import * as $$$$$$20 from "./sections/Syllabus/Syllabus.tsx";
+import * as $$$$$$21 from "./sections/Testimonials.tsx";
+import * as $$$$$$22 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$23 from "./sections/WhyGetInvolved.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Achievements/Achievements.tsx": $$$$$$0,
-    "site/sections/Banners/BannerTextGeneric.tsx": $$$$$$1,
-    "site/sections/Benefits/Benefits.tsx": $$$$$$2,
-    "site/sections/BlogPost.tsx": $$$$$$3,
-    "site/sections/BlogPosts.tsx": $$$$$$4,
-    "site/sections/Faq/Default.tsx": $$$$$$5,
-    "site/sections/Faq/Faq.tsx": $$$$$$6,
-    "site/sections/Footer/Default.tsx": $$$$$$7,
-    "site/sections/Footer/Footer.tsx": $$$$$$8,
-    "site/sections/Header/Default.tsx": $$$$$$9,
-    "site/sections/Header/Header.tsx": $$$$$$10,
-    "site/sections/Hero/Default.tsx": $$$$$$11,
-    "site/sections/Hero/Hero.tsx": $$$$$$12,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$13,
-    "site/sections/Logos.tsx": $$$$$$14,
-    "site/sections/MainPost.tsx": $$$$$$15,
-    "site/sections/Mentors/Mentors.tsx": $$$$$$16,
-    "site/sections/NRF/Grid.tsx": $$$$$$17,
-    "site/sections/Syllabus/Syllabus.tsx": $$$$$$18,
-    "site/sections/Testimonials.tsx": $$$$$$19,
-    "site/sections/Theme/Theme.tsx": $$$$$$20,
-    "site/sections/WhyGetInvolved.tsx": $$$$$$21,
+    "site/sections/AreYouReady.tsx": $$$$$$1,
+    "site/sections/Banners/BannerTextGeneric.tsx": $$$$$$2,
+    "site/sections/Benefits/Benefits.tsx": $$$$$$3,
+    "site/sections/BlogPost.tsx": $$$$$$4,
+    "site/sections/BlogPosts.tsx": $$$$$$5,
+    "site/sections/Faq/Default.tsx": $$$$$$6,
+    "site/sections/Faq/Faq.tsx": $$$$$$7,
+    "site/sections/Footer/Default.tsx": $$$$$$8,
+    "site/sections/Footer/Footer.tsx": $$$$$$9,
+    "site/sections/Header/Default.tsx": $$$$$$10,
+    "site/sections/Header/Header.tsx": $$$$$$11,
+    "site/sections/Hero/Default.tsx": $$$$$$12,
+    "site/sections/Hero/Hero.tsx": $$$$$$13,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$14,
+    "site/sections/Logos.tsx": $$$$$$15,
+    "site/sections/MainPost.tsx": $$$$$$16,
+    "site/sections/Mentors/Mentors.tsx": $$$$$$17,
+    "site/sections/NRF/Grid.tsx": $$$$$$18,
+    "site/sections/RegisterNowBanner.tsx": $$$$$$19,
+    "site/sections/Syllabus/Syllabus.tsx": $$$$$$20,
+    "site/sections/Testimonials.tsx": $$$$$$21,
+    "site/sections/Theme/Theme.tsx": $$$$$$22,
+    "site/sections/WhyGetInvolved.tsx": $$$$$$23,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
