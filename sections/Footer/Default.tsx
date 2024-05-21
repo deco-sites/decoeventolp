@@ -29,7 +29,6 @@ export interface Props {
     alt?: string;
   };
   links?: Column[];
-  subscribe?: Subscribe;
   madeWith?: {
     label?: string;
     src?: ImageWidget;
@@ -78,13 +77,6 @@ export default function Footer({
       ],
     },
   ],
-  subscribe = {
-    title: "Subcribe",
-    description:
-      "Join our newsletter to stay up to date on features and releases.",
-    instructions:
-      "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
-  },
   madeWith = {
     label: "Made with",
     src:
