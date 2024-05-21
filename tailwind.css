@@ -30,8 +30,11 @@
   }
 
   .bs-gradient-green:hover {
-    animation: changeBackgroundColorHover 3s ease-in-out alternate infinite;
-    
+    animation: changeBackgroundColorHover 3s ease-in-out alternate infinite; 
+  }
+
+  .light-green {
+    background: linear-gradient(180deg, #E4E4E7 0%, #FFFFFF 100%);
   }
 }
 

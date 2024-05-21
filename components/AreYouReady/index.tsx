@@ -7,7 +7,6 @@ import Icon from "../ui/Icon.tsx";
 export interface Props {
   flag: string;
   flagSound?: string;
-  flegLegend?: string;
   /**
    * @format html
    */
@@ -38,10 +37,7 @@ export default function AreYouReady({ props }: { props: Props }) {
     title,
     subtitle,
     button,
-    popUp,
-    idVimeo,
     flagSound,
-    flagLegend,
   } = {
     ...BASE_PROPS,
     ...props,
@@ -49,22 +45,17 @@ export default function AreYouReady({ props }: { props: Props }) {
 
   return (
     <div class="w-full h-full bg-black">
-      <div class="w-full h-full flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-28 lg:pt-56 container px-3">
-        <div class=" h-full flex flex-col justify-center items-center lg:items-start gap-4 md:gap-6 xl:gap-8 lg:w-[55%] xl:w-2/4 w-full">
+      <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-28 lg:pt-56 container px-3">
+        <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 lg:w-[55%] xl:w-2/4 w-full">
           <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
-            <span class="text-white border border-base-content rounded-3xl px-4 py-2 w-min text-sm text-center lg:text-start">
+            <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
+              <Icon id="Identification" width={16} height={16} />
               {flag}
             </span>
             {flagSound && (
               <span class="whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 w-min text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
-                <Icon id="" width={16} height={16} />
+                <Icon id="Calendar" width={16} height={16} />
                 {flagSound}
-              </span>
-            )}
-            {flagLegend && (
-              <span class="text-white border border-base-content rounded-3xl px-4 py-2 w-min text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
-                <Icon id="XMark" width={16} height={12} />
-                {flagLegend}
               </span>
             )}
           </div>
@@ -78,11 +69,13 @@ export default function AreYouReady({ props }: { props: Props }) {
             dangerouslySetInnerHTML={{ __html: subtitle }}
           >
           </span>
+          <div className="light-green" />
           <div class="flex flex-col gap-2 items-center lg:items-start ">
             <Button
               id={button.id}
               label={button.label}
               href={button.href}
+              theme="dark"
             />
           </div>
         </div>
