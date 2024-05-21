@@ -16,7 +16,9 @@ export default function RegisterNow(props: Props) {
 
   return (
     <div class="w-full py-5 md:py-10 bg-black">
-      <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8 bg-[#02F67C] text-[#000]">
+      <div className="bg-[#02F67C]">
+        <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8 text-[#000]">
+      </div>
         <div class="w-full text-center items-center">
           <div class="overflow-hidden pt-2">
             <ul
