@@ -19,7 +19,7 @@ export interface Subscribe {
 }
 
 export interface Social {
-  network: "Facebook" | "Instagram" | "Linkedin" | "X - Twitter" | "Youtube";
+  network: "Facebook" | "Instagram" | "Linkedin" | "Twitter" | "Youtube";
   href: string;
 }
 
