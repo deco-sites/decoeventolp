@@ -15,18 +15,18 @@ export default function RegisterNow(props: Props) {
   );
 
   return (
-    <div class="w-full bg-[#02F67C] text-[#000] py-5 md:py-10">
-      <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8">
+    <div class="w-full py-5 md:py-10">
+      <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8 bg-[#02F67C] text-[#000]">
         <div class="w-full text-center items-center">
           <div class="overflow-hidden pt-2">
-            <div
+            <ul
               class={`flex flex-row flex-nowrap w-full animate-walk items-center gap-4`}
               style={`animation-delay: 300ms`}
             >
               {list.map((text: string, index: number) => (
-                <h4 className="w-[120px]">{text}</h4>
+                <li className="w-[120px] text-black text-lg font-semibold">{text}</li>
               ))}
-              </div>
+            </ul>
           </div>
         </div>
       </div>
