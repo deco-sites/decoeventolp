@@ -21,7 +21,10 @@ export interface Props {
     gitUrl?: string;
     discordUrl?: string;
   };
-  extraLinks?: ExtraLink[];
+  extraLinks?: {
+    title: string;
+    items: ExtraLink[],
+  }[];
 }
 
 function SubMenu({ menu }: { menu: Menu[] }) {
