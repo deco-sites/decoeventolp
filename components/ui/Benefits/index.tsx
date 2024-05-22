@@ -54,7 +54,7 @@ export default function Benefits({ props }: { props: Props }) {
       <div className="flex flex-col">
         {props?.title ? (
           <div className="w-full text-center">
-            <HTMLRenderer html={props.title} />
+            <HTMLRenderer class="text-[40px] md:text-[48px]" html={props.title} />
           </div>
         ) : null}
         <div class="container md:flex md:gap-6 md:flex-wrap py-10 px-12 lg:grid lg:grid-cols-4 divide-y lg:divide-x lg:divide-y-0 border-[#A1A1AA]">
