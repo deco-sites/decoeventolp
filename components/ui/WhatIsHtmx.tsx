@@ -30,19 +30,17 @@ export default function WhatIsHtmx(
   { titleText = '', titleImage = '', description = '', cta, cards }: WhatIsHtmxProps,
 ) {
   return (
-    <div class="w-full bg-[#0A2121] py-5 md:py-10">
-      <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col items-center justify-center gap-4 md:gap-6">
+    <div class="w-full bg-black py-5 md:py-10">
+      <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col items-center justify-center gap-6 md:gap-8">
         { titleImage ? (
           <div className="flex justify-center">
             <Image src={titleImage ?? ""} alt="HTMX" width={224} height={44} />
           </div>
         ) : null }
-        <div class="flex justify-center">
+        <div class="flex flex-col items-center gap-4">
           <p class="text-[#FFF] font-semibold text-[32px] md:text-[40px]">
             <HTMLRenderer html={titleText ?? ""} />
           </p>
-        </div>
-        <div className="flex justify-center">
           <HTMLRenderer html={description ?? ""} />
         </div>
         <div className="flex gap-4">
@@ -66,11 +64,11 @@ export default function WhatIsHtmx(
               key={index}
               class="bg-[#0C2929] flex flex-col justify-center items-start gap-2 md:gap-6 p-6 md:p-10 py-12 md:py-20 text-[#FFFFFF] rounded-2xl"
             >
-              {icon && <img src={icon} width={32} height={32} />}
+              {icon && <div className="rounded-full p-1 bg-[#113032]"><img src={icon} width={32} height={32} /></div>}
               {title && (
                 <p class="font-semibold mt-2 md:mt-0 md:text-[28px]">{title}</p>
               )}
-              {description && <p class="text-xs md:text-base">{description}</p>}
+              {description && <p class="text-xs md:text-base text-[#A1A1AA]">{description}</p>}
             </div>
           ))}
         </div>
