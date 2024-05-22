@@ -46,15 +46,15 @@ export default function Hero({ props }: { props: Props }) {
 
   return (
     <div class="w-full h-full bg-black">
-      <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-28 container px-3">
+      <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-40 container px-3">
         <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full mx-auto">
           <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
-            <span class="text-white off-black border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 font-semibold">
+            <span class="text-white off-black border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
               <Icon id="Identification" width={16} height={16} />
               {flag}
             </span>
             {flagSound && (
-              <span class="sm:whitespace-nowrap lg:ml-6 text-white off-black border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 font-semibold">
+              <span class="sm:whitespace-nowrap lg:ml-6 text-white off-black border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
                 <Icon id="Calendar" width={16} height={16} />
                 {flagSound}
               </span>

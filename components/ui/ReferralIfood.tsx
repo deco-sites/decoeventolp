@@ -20,10 +20,10 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
   return (
     <section className="w-full bg-black md:pb-28 md:pt-28">
       <div className="xl:container mx-4 lg:mx-[120px] xl:mx-auto flex justify-center rounded-[24px] relative z-1 black-green">
-        <div className="flex flex-col-reverse items-center md:grid grid-cols-[1fr_200px] gap-6">
+        <div className="flex flex-col-reverse items-center md:grid grid-cols-[1fr_200px] gap-6 px-6 py-24">
           <div className="flex flex-col items-center md:items-start gap-4 md:gap-6">
-            <div>
-              <HTMLRenderer html={title} />
+            <div className="text-[48px] md:text-[80px]">
+              <HTMLRenderer class="text-[48px] md:text-[80px]" html={title} />
             </div>
             <div className="md:max-w-[800px]">
               <HTMLRenderer html={description} />
