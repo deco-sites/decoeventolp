@@ -1,5 +1,4 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Icon, { AvailableIcons } from "./Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
