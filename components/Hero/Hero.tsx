@@ -54,14 +54,14 @@ export default function Hero({ props }: { props: Props }) {
               {flag}
             </span>
             {flagSound && (
-              <span class="whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 w-min text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
+              <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
                 <Icon id="Calendar" width={16} height={16} />
                 {flagSound}
               </span>
             )}
           </div>
           <h2
-            class="text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[3.2rem] text-white text-center lg:text-start"
+            class="text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[3.2rem] text-white text-center lg:text-start -mb-2 sm:mb-0 md:mb-2"
             dangerouslySetInnerHTML={{ __html: title }}
           >
           </h2>
