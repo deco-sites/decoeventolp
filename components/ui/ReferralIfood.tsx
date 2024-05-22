@@ -36,7 +36,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
                   `}
                   href={href}
                 >
-                  {icon}
+                  {icon ? <img src={icon} alt={'check'} width={20} /> : null}
                   {label}
                 </a>
               ))}
