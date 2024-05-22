@@ -63,7 +63,7 @@ export default function AreYouReady({ props }: { props: Props }) {
             >
             </h2>
             <span
-              class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg lg:max-w-[570px] xl:text-2xl text-center lg:text-start"
+              class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg xl:text-2xl text-center lg:text-start"
               dangerouslySetInnerHTML={{ __html: subtitle }}
             >
             </span>
