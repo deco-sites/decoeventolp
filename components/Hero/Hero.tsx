@@ -1,10 +1,13 @@
+import { ImageWidget } from "apps/admin/widgets.ts";
 import type { Props as PropsButton } from "../ui/Button.tsx";
 import Icon from "../ui/Icon.tsx";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   flag: string;
   flagSound?: string;
   flegLegend?: string;
+  image?: ImageWidget;
   /**
    * @format html
    */
@@ -62,6 +65,14 @@ export default function Hero({ props }: { props: Props }) {
             dangerouslySetInnerHTML={{ __html: title }}
           >
           </h2>
+          <div className="flex justify-center">
+            <Image 
+              src={props.image ?? ''} 
+              width={224} 
+              height={44} 
+              alt={'HTMX'} 
+            />
+          </div>
           <span
             class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg lg:max-w-[380px] xl:text-2xl xl:max-w-[540px] text-center lg:text-start"
             dangerouslySetInnerHTML={{ __html: subtitle }}
