@@ -15,7 +15,7 @@ export default function RegisterNow(props: Props) {
   );
 
   return (
-    <div class="w-full py-5 md:py-10 pt-8 md:pt-14 bg-black">
+    <div class="w-full py-5 md:py-10 bg-black">
       <div className="bg-[#02F67C]">
         <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col gap-4 lg:gap-8 text-[#000]">
       </div>
