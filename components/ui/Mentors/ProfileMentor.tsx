@@ -56,7 +56,7 @@ export default function ProfileMentor({ props }: { props: Props }) {
         {contacts.map((contact) => (
           <a
             href={contact.href}
-            class="text-primary hover:opacity-70 duration-300 ease-in-out"
+            class="text-[#02F67C] duration-300 ease-in-out"
           >
             <Icon id={contact.type} size={32}></Icon>
           </a>
