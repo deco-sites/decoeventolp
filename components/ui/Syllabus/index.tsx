@@ -14,7 +14,6 @@ const BASE_PROPS = {
           labelMobule: "Modules",
           title: "Modern Web Tech",
           content: "<p>Dive into server-side rendering and edge computing.</p>",
-          dataPublish: "Watch now",
           time: 1,
         },
         {
@@ -22,14 +21,12 @@ const BASE_PROPS = {
           title: "Design & Development Fusion",
           content:
             "<p>Experience the synergy of design and code with 'Figma meets VS Code'.</p>",
-          dataPublish: "Launch Feb 26",
           time: 1,
         },
         {
           labelMobule: "Modules",
           title: "Essential Tools & Languages",
           content: "<p>Master JSX, Tailwind CSS, Preact, and TypeScript.</p>",
-          dataPublish: "Launch Mar 4",
           time: 1,
         },
         {

@@ -13,7 +13,7 @@ interface Content {
   /**
    * @default Modules
    */
-  dataPublish: string;
+  dataPublish?: string;
   time: number;
 }
 
@@ -83,12 +83,14 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
                 </span>
               </div>
               <div class="hidden md:flex flex-row gap-3 ml-auto text-base">
-                <a
-                  href={item.link}
-                  class="hover:text-[#02f67c] hover:underline cursor-pointer"
-                >
-                  {item.dataPublish}
-                </a>
+                { item.dataPublish ? (
+                  <a
+                    href={item.link}
+                    class="hover:text-[#02f67c] hover:underline cursor-pointer"
+                  >
+                    {item.dataPublish}
+                  </a>
+                ) : null }
                 <span class="text-white">{item.time + "h"}</span>
               </div>
             </li>
