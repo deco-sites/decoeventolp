@@ -30,7 +30,7 @@ export default function WhatIsHtmx(
   { titleText = '', titleImage = '', description = '', cta, cards }: WhatIsHtmxProps,
 ) {
   return (
-    <div class="w-full bg-black py-5 md:py-10">
+    <div class="w-full bg-black py-5 md:py-28">
       <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col items-center justify-center gap-6 md:gap-8">
         { titleImage ? (
           <div className="flex justify-center">
