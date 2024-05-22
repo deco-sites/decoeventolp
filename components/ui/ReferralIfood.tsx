@@ -5,7 +5,7 @@ import Image from "apps/website/components/Image.tsx";
 export interface CTA {
   href: string;
   label: string;
-  icon: ImageWidget;
+  icon?: ImageWidget;
   color: "green" | "none";
 }
 
