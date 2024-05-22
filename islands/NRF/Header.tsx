@@ -105,6 +105,8 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 export default function Header(props: Props) {
   const [open, setOpen] = useState(false);
 
+  console.log(props, { getStarted: props.getStarted });
+
   return (
     <section class="lg:container rounded-full bg-white/5 backdrop-blur-xl fixed top-2 lg:top-6 z-50 w-[calc(100vw-16px)] lg:w-full left-1/2 transform -translate-x-1/2 shadow-[0px_4px_16px_0px_rgba(0,0,0,0.10)]">
       <nav class="flex flex-row gap-16 items-center h-[63px] pb-[2px] max-w-screen-2xl m-auto relative">
