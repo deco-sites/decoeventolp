@@ -27,7 +27,8 @@ import * as $$$$$$19 from "./sections/RegisterNowBanner.tsx";
 import * as $$$$$$20 from "./sections/Syllabus/Syllabus.tsx";
 import * as $$$$$$21 from "./sections/Testimonials.tsx";
 import * as $$$$$$22 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$23 from "./sections/WhyGetInvolved.tsx";
+import * as $$$$$$23 from "./sections/WhatIsHtmx.tsx";
+import * as $$$$$$24 from "./sections/WhyGetInvolved.tsx";
 
 const manifest = {
   "sections": {
@@ -54,7 +55,8 @@ const manifest = {
     "site/sections/Syllabus/Syllabus.tsx": $$$$$$20,
     "site/sections/Testimonials.tsx": $$$$$$21,
     "site/sections/Theme/Theme.tsx": $$$$$$22,
-    "site/sections/WhyGetInvolved.tsx": $$$$$$23,
+    "site/sections/WhatIsHtmx.tsx": $$$$$$23,
+    "site/sections/WhyGetInvolved.tsx": $$$$$$24,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
