@@ -14,7 +14,7 @@ interface Content {
    * @default Modules
    */
   dataPublish?: string;
-  time: number;
+  time: string;
 }
 
 /**
@@ -23,23 +23,11 @@ interface Content {
 export interface Props {
   title: string;
   listContent: Content[];
-  labelMobule?: string;
+  period?: string;
 }
 
 export default function AccordionSyllabus({ props }: { props: Props }) {
-  const { title, listContent, labelMobule = "Modules" } = props;
-
-  function TotalTime() {
-    let totalTime = 0;
-
-    listContent.map((item) => {
-      totalTime += item.time;
-    });
-
-    return totalTime;
-  }
-
-  const totalTime = TotalTime();
+  const { title, listContent, period = "4PM" } = props;
 
   return (
     <details className="border-b rounded-none border-neutral border-[rgba(255,255,255,0.15)] last:border-b-0 cursor-pointer syllabus">
@@ -55,8 +43,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
           {title}
         </h4>
         <span class="hidden md:block ml-auto w-auto">
-          {listContent.length + " " + " " + labelMobule + " • " + totalTime +
-            " h"}
+          {period}
         </span>
       </summary>
       <div className=" md:px-8 bg-black p-4 md:py-6 cursor-default">
@@ -91,7 +78,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
                     {item.dataPublish}
                   </a>
                 ) : null }
-                <span class="text-white">{item.time + "h"}</span>
+                <span class="text-white">{item.time}</span>
               </div>
             </li>
           ))}
