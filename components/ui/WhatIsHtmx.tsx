@@ -37,13 +37,13 @@ export default function WhatIsHtmx(
             <Image src={titleImage ?? ""} alt="HTMX" width={224} height={44} />
           </div>
         ) : null }
-        <div class="flex flex-col items-center gap-4">
+        <div class="flex flex-col items-center gap-3">
           <p class="text-[#FFF] font-semibold text-[32px] md:text-[40px]">
             <HTMLRenderer html={titleText ?? ""} />
           </p>
           <HTMLRenderer html={description ?? ""} />
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-2">
           {cta?.map(({ color = 'neutral', href = '', label = '' }) => (
             <a
               className={`flex items-center font-medium text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
@@ -55,20 +55,20 @@ export default function WhatIsHtmx(
             </a>
           ))}
         </div>
-        <div class="grid flex-row wrap justify-center gap-2 grid-cols-2 lg:grid-cols-4">
+        <div class="grid flex-row wrap justify-center gap-6 grid-cols-2 lg:grid-cols-4">
           {cards?.map((
             { icon, title, description }: CardProps,
             index: number,
           ) => (
             <div
               key={index}
-              class="bg-[#000D0D] flex flex-col justify-center items-start gap-2 md:gap-6 p-6 md:p-10 py-12 md:py-20 text-[#FFFFFF] rounded-2xl"
+              class="bg-[#000D0D] flex flex-col justify-center items-start gap-2 md:gap-6 p-6 md:p-10 py-12 text-[#FFFFFF] rounded-2xl"
             >
               {icon && <div className="rounded-full p-1 bg-[#113032]"><img src={icon} width={32} height={32} /></div>}
               {title && (
-                <p class="font-semibold mt-2 md:mt-0 md:text-[28px]">{title}</p>
+                <p class="font-semibold mt-2 md:mt-0 text-[24px]">{title}</p>
               )}
-              {description && <p class="text-xs md:text-base text-[#A1A1AA]">{description}</p>}
+              {description && <p class="text-[20px] text-[#A1A1AA]">{description}</p>}
             </div>
           ))}
         </div>

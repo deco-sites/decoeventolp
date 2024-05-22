@@ -46,15 +46,15 @@ export default function Hero({ props }: { props: Props }) {
 
   return (
     <div class="w-full h-full bg-black">
-      <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-28 lg:pt-56 container px-3">
+      <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-28 container px-3">
         <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full mx-auto">
           <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
-            <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
+            <span class="text-white off-black border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 font-semibold">
               <Icon id="Identification" width={16} height={16} />
               {flag}
             </span>
             {flagSound && (
-              <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
+              <span class="sm:whitespace-nowrap lg:ml-6 text-white off-black border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 font-semibold">
                 <Icon id="Calendar" width={16} height={16} />
                 {flagSound}
               </span>
@@ -80,7 +80,7 @@ export default function Hero({ props }: { props: Props }) {
           </span>
           <div class="flex flex-col gap-2 items-center lg:items-start ">
             <a
-              className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-medium text-[18px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-bold"
+              className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-bold text-[18px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-bold"
               href={button.href}
             >
               {button.label}
