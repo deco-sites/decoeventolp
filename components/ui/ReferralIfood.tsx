@@ -30,7 +30,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             </div>
             <div className="black-green" />
             <div className="flex gap-4">
-              {cta?.map(({ color = 'none', href = '', label = '', icon = '' }) => (
+              {cta?.map(({ color = 'none', href = '', label = '', icon }) => (
                 <a
                   className={`flex items-center gap-2 font-medium text-lg px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
                   ${color === 'green' ? 'bg-[#02F67C] text-black' : 'bg-black text-white'}
