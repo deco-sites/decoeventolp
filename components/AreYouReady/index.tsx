@@ -70,7 +70,7 @@ export default function AreYouReady({ props }: { props: Props }) {
             <div className="light-green" />
             <div class="flex flex-col gap-2 items-center lg:items-start ">
               <a
-                className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-medium text-[16px] text-[#0A2121] max-h-[37px] px-4 py-2 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold"
+                className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-medium text-[16px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold"
                 href={button.href}
               >
                 {button.label}
