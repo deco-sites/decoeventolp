@@ -1,8 +1,9 @@
+import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 import type { Props as Accordion } from "./AccordionSyllabus.tsx";
 import AccordionSyllabus from "./AccordionSyllabus.tsx";
 
 export interface Props {
-  title: string;
+  title: HTML;
   accordions: Accordion[];
 }
 
@@ -166,7 +167,7 @@ export default function Syllabus({ props }: { props: Props }) {
     <div class="w-full h-full bg-black">
       <div class="flex w-full flex-col justify-center py-16 px-6 gap-10 container">
         <h2 class="text-white text-3xl md:text-4xl xl:text-7xl text-center">
-          {title}
+          <HTMLRenderer html={title} />
         </h2>
         <div class="flex flex-col w-full rounded-xl border-neutral border border-off-black bg-white bg-opacity-5">
           {accordions.map((accordion) => (

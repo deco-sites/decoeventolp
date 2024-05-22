@@ -24,8 +24,64 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
-      </Head>
 
+        <link
+          rel="preload"
+          type="text/css"
+          href={asset("/fonts/ArgentPixelCF-Italic.woff")}
+        />
+        <link
+          rel="preload"
+          type="text/css"
+          href={asset("/fonts/ArgentPixelCF-Italic2.woff")}
+        />
+        <link
+          rel="preload"
+          type="text/css"
+          href={asset("/fonts/ArgentPixelCF-Regular.woff")}
+        />
+        <link
+          rel="preload"
+          type="text/css"
+          href={asset("/fonts/ArgentPixelCF-Regular2.woff")}
+        />
+      </Head>
+      <style
+        type="text/css"
+        dangerouslySetInnerHTML={{
+          __html: `
+          @font-face {
+            font-family: 'ArgentPixelCF';
+            font-style: normal;
+            font-weight: 400, 600, 700;
+            font-display: swap;
+            src: url(${asset('/fonts/ArgentPixelCF-Regular.woff')}) format('woff');
+          }
+          @font-face {
+            font-family: 'ArgentPixelCF2';
+            font-style: italic;
+            font-weight: 400, 600, 700;
+            font-display: swap;
+            src: url(${asset('/fonts/ArgentPixelCF-Regular2.woff')}) format('woff');
+          }
+
+          @font-face {
+            font-family: 'ArgentPixelCF2';
+            font-style: italic;
+            font-weight: 400, 600, 700;
+            font-display: swap;
+            src: url(${asset('/fonts/ArgentPixelCF-Italic.woff')}) format('woff');
+          }
+          @font-face {
+            font-family: 'ArgentPixelCF';
+            font-style: italic;
+            font-weight: 400, 600, 700;
+            font-display: swap;
+            src: url(${asset('/fonts/ArgentPixelCF-Italic2.woff')}) format('woff');
+          }
+          `}
+        }
+      />
       {/* Rest of Preact tree */}
       <ctx.Component />
     </>

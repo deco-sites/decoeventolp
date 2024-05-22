@@ -61,7 +61,7 @@ export default function Hero({ props }: { props: Props }) {
             )}
           </div>
           <h2
-            class="text-[54px] md:leading-[5.2rem] md:text-[98px] lg:text-[128px] text-white text-center lg:text-start -mb-2 sm:mb-0 md:mb-2 md:mt-4"
+            class="argentPixel text-[54px] md:leading-[5.2rem] md:text-[98px] lg:text-[128px] text-white text-center lg:text-start -mb-2 sm:mb-0 md:mb-2 md:mt-4"
             dangerouslySetInnerHTML={{ __html: title }}
           >
           </h2>

@@ -6,7 +6,11 @@
 
   /* Allow changing font family via CMS */
   html {
-    font-family: var(--font-family);
+    font-family: 'Albert Sans', sans-serif;
+  }
+
+  .argentPixel {
+    font-family: 'ArgentPixelCF', sans-serif;
   }
 
   /** Remove default styles from input[type=number] */
@@ -43,6 +47,12 @@
 
   .black-green {
     background: linear-gradient(281deg, #02f67c -116%,#113032 49%);
+    width: 100%;
+    height: 100%;
+  }
+
+  .black-off-black {
+    background: linear-gradient(45deg, #0B1612 0%,#272D2D 100%);
     width: 100%;
     height: 100%;
   }

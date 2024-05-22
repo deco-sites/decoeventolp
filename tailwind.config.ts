@@ -6,6 +6,10 @@ export default {
   content: ["./**/*.tsx"],
   theme: {
     container: { center: true },
+    fontFamily: {
+      ArgentPixelCF: ["ArgentPixelCF", "sans-serif", "Helvetica Neue", "Helvetica"],
+      ArgentPixelCF2: ["ArgentPixelCF2", "sans-serif", "Helvetica Neue", "Helvetica"],
+    },
     extend: {
       animation: {
         sliding: "sliding 30s linear infinite",
