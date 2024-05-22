@@ -87,7 +87,7 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 
   return (
     <li
-      class="relative h-full grid hover:text-[#02F67C] text-white"
+      class="relative h-full grid text-white hover:text-[#02F67C]"
       {...props}
     >
       <a
@@ -104,8 +104,6 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 
 export default function Header(props: Props) {
   const [open, setOpen] = useState(false);
-
-  console.log(props, { getStarted: props.getStarted });
 
   return (
     <section class="lg:container rounded-full bg-white/5 backdrop-blur-xl fixed top-2 lg:top-6 z-50 w-[calc(100vw-16px)] lg:w-full left-1/2 transform -translate-x-1/2 shadow-[0px_4px_16px_0px_rgba(0,0,0,0.10)]">
@@ -134,7 +132,7 @@ export default function Header(props: Props) {
         </ul>
         <ul class="hidden lg:flex lg:flex-row h-full group">
           {props.menuLinks.map((link, index) => {
-            return <div className="text-white"><MenuLink key={index} {...link} /></div>;
+            return <MenuLink key={index} {...link} />;
           })}
         </ul>
         <div class="ml-auto lg:hidden pr-4 lg:pr-8">
@@ -311,7 +309,7 @@ export default function Header(props: Props) {
           <li>
             <a
               href={props.getStarted.url}
-              class="flex gap-2 items-center text-[#02F67C] bg-[#113032] md:hover:text-[#fff] border-[#113032] border hover:bg-transparent font-medium text-[16px] max-h-[37px] px-4 py-2 rounded-full md:transition md:ease-in-out md:duration-300"
+              class="flex gap-2 items-center text-[#02F67C] bg-[#113032] md:hover:text-[#fff] border-[#113032] border hover:border-[#02F67C] hover:bg-transparent font-medium text-[16px] max-h-[37px] px-4 py-2 rounded-full md:transition md:ease-in-out md:duration-300"
             >
               {props.getStarted.label}
             </a>

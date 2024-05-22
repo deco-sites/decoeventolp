@@ -2,6 +2,7 @@ import { useMemo } from "preact/hooks";
 
 export interface Props {
   title: string;
+  href?: string;
 }
 
 export default function RegisterNow(props: Props) {
@@ -21,14 +22,16 @@ export default function RegisterNow(props: Props) {
       </div>
         <div class="w-full text-center items-center">
           <div class="overflow-hidden py-2">
-            <ul
-              class={`grid grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px] w-full animate-walk items-center gap-4`}
-              style={`animation-delay: 300ms`}
-            >
-              {list.map((text: string, index: number) => (
-                <li className="w-[185px] text-black font-semibold list-disc">{text}</li>
-              ))}
-            </ul>
+            <a href={props?.href ?? ''}>
+              <ul
+                class={`grid grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px] w-full animate-walk items-center gap-4`}
+                style={`animation-delay: 300ms`}
+              >
+                {list.map((text: string, index: number) => (
+                  <li className="w-[185px] text-black font-semibold list-disc">{text}</li>
+                ))}
+              </ul>
+            </a>
           </div>
         </div>
       </div>

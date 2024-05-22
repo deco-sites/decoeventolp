@@ -61,7 +61,7 @@ export default function Hero({ props }: { props: Props }) {
             )}
           </div>
           <h2
-            class="text-[54px] md:leading-[5.2rem] md:text-[98px] lg:text-[128px] text-white text-center lg:text-start -mb-2 sm:mb-0 md:mb-2"
+            class="text-[54px] md:leading-[5.2rem] md:text-[98px] lg:text-[128px] text-white text-center lg:text-start -mb-2 sm:mb-0 md:mb-2 md:mt-4"
             dangerouslySetInnerHTML={{ __html: title }}
           >
           </h2>
@@ -74,7 +74,7 @@ export default function Hero({ props }: { props: Props }) {
             />
           </div>
           <span
-            class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg xl:text-2xl xl:max-w-[540px] text-center lg:text-start"
+            class="text-sm md:text-base text-camp-neutral md:leading-[1.8rem] lg:text-lg xl:text-2xl text-center lg:text-start"
             dangerouslySetInnerHTML={{ __html: subtitle }}
           >
           </span>

@@ -58,7 +58,7 @@ export default function AreYouReady({ props }: { props: Props }) {
               )}
             </div>
             <h2
-              class="text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[5.2rem] lg:mb-4 text-white text-center lg:text-start"
+              class="text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[5.2rem] lg:mb-4 text-white text-center lg:text-start md:mt-4"
               dangerouslySetInnerHTML={{ __html: title }}
             >
             </h2>
