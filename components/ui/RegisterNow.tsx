@@ -26,7 +26,7 @@ export default function RegisterNow(props: Props) {
               style={`animation-delay: 300ms`}
             >
               {list.map((text: string, index: number) => (
-                <li className="w-[185px] text-black text-lg font-semibold list-disc">{text}</li>
+                <li className="w-[185px] text-black font-semibold list-disc">{text}</li>
               ))}
             </ul>
           </div>

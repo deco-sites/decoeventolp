@@ -31,7 +31,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
 
   return (
     <details className="border-b rounded-none border-neutral border-[rgba(255,255,255,0.15)] last:border-b-0 cursor-pointer syllabus">
-      <summary className="collapse-title flex flex-row px-4 py-5 md:py-7 md:px-8 font-medium text-white justify-start items-center text-sm md:text-base lg:text-2xl gap-3 xl:gap-4">
+      <summary className="collapse-title flex flex-row px-4 py-5 md:py-7 md:px-8 font-medium text-white justify-start items-center text-sm md:text-[20px] gap-3 xl:gap-4">
         <Icon
           class="text-white w-auto h-auto -ml-[3px] md:min-w-[20px] md:min-h-[20px]"
           id="ChevronDown"
@@ -59,7 +59,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
               <div class="flex flex-col w-fit">
                 <a
                   href={item.link}
-                  class="text-[#02f67c] text-sm md:text-base xl:text-xl hover:underline cursor-pointer"
+                  class="text-[#02f67c] text-sm md:text-[20px] hover:underline cursor-pointer"
                 >
                   {item.title}
                 </a>
