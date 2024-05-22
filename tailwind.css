@@ -34,10 +34,10 @@
   }
 
   .light-green {
-    background: radial-gradient(#02F67C -123%, black 100%);
+    background: radial-gradient(#02f67c -247%, #000 55%);
     position: absolute;
-    z-index: -2;
-    width: 100%;
+    z-index: -1;
+    width: 71%;
     height: 100%;
   }
 

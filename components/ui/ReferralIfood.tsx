@@ -28,7 +28,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             <div className="md:max-w-[800px]">
               <HTMLRenderer html={description} />
             </div>
-            <div className="black-green" />
+            <div className="black-green lg:translate-y-[235px]" />
             <div className="flex gap-4">
               {cta?.map(({ color = 'none', href = '', label = '', icon }) => (
                 <a
