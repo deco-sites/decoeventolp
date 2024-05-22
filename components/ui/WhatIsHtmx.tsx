@@ -10,7 +10,7 @@ export interface CTA {
 }
 export interface WhatIsHtmxProps {
   titleImage?: ImageWidget;
-  titleText?: string;
+  titleText?: HTML;
   description?: HTML;
   cta: CTA[];
   cards?: CardProps[];
@@ -20,6 +20,11 @@ export interface CardProps {
   icon?: ImageWidget;
   title?: string;
   description?: string;
+}
+
+const BTN_COLORS = {
+  green: 'hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] text-[#0A2121]',
+  neutral: 'bg-[#113032] hover:bg-transparent md:hover:border-[#02F67C] md:hover:border md:hover:text-[#fff] border-[transparent] border text-white'
 }
 
 export default function WhatIsHtmx(
@@ -34,12 +39,24 @@ export default function WhatIsHtmx(
           </div>
         ) : null }
         <div class="flex justify-center">
-          <p class="text-[#02F67C] font-semibold text-[32px] md:text-[40px]">
-            {titleText}
+          <p class="text-[#FFF] font-semibold text-[32px] md:text-[40px]">
+            <HTMLRenderer html={titleText ?? ""} />
           </p>
         </div>
         <div className="flex justify-center">
           <HTMLRenderer html={description ?? ""} />
+        </div>
+        <div className="flex gap-4">
+          {cta?.map((item) => (
+            <a
+              className={`flex items-center font-medium text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
+                ${}
+              `}
+              href={item.href}
+            >
+              {item.label}
+            </a>
+          ))}
         </div>
         <div class="grid flex-row wrap justify-center gap-2 grid-cols-2 lg:grid-cols-4">
           {cards?.map((
