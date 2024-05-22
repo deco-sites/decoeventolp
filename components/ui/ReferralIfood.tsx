@@ -29,7 +29,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
               <HTMLRenderer html={description} />
             </div>
             <div className="black-green lg:translate-y-[235px]" />
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               {cta?.map(({ color = 'none', href = '', label = '', icon }) => (
                 <a
                   className={`flex items-center gap-2 font-medium text-lg px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
@@ -43,7 +43,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
               ))}
             </div>
           </div>
-          <div className="flex">
+          <div className="flex max-w-[200px] md:max-w-auto">
             <Image src={image} alt="Ifood" width={300} height={160} />
           </div>
         </div>
