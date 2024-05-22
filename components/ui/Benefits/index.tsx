@@ -61,7 +61,7 @@ export default function Benefits({ props }: { props: Props }) {
           {items.map((item, index) => (
             <>
               <hr
-                class={`hidden h-[131px] self-end bg-[#A1A1AA] ${
+                class={`hidden h-[225px] self-end bg-[#A1A1AA] ${
                   (index + 1) % 2 == 0 ? "md:block w-[1px] lg:hidden" : ""
                 }`}
               />
