@@ -44,7 +44,7 @@ export default function AreYouReady({ props }: { props: Props }) {
     <div className="w-full bg-[#02F67C]">
       <div className="w-full h-full bg-black w-full relative z-1">
         <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-16 pt-28 lg:pt-56 container px-3 rounded-b-3xl">
-          <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 lg:w-[55%] xl:w-2/4 w-full">
+          <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full">
             <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
                 <Icon id="Identification" width={16} height={16} />
@@ -58,12 +58,12 @@ export default function AreYouReady({ props }: { props: Props }) {
               )}
             </div>
             <h2
-              class="text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[3.2rem] text-white text-center lg:text-start"
+              class="text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[5.2rem] lg:mb-4 text-white text-center lg:text-start"
               dangerouslySetInnerHTML={{ __html: title }}
             >
             </h2>
             <span
-              class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg lg:max-w-[380px] xl:text-2xl xl:max-w-[540px] text-center lg:text-start"
+              class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg lg:max-w-[570px] xl:text-2xl text-center lg:text-start"
               dangerouslySetInnerHTML={{ __html: subtitle }}
             >
             </span>
