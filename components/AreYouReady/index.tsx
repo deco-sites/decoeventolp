@@ -42,7 +42,7 @@ export default function AreYouReady({ props }: { props: Props }) {
 
   return (
     <div className="w-full bg-[#02F67C]">
-      <div className="w-full h-full bg-black w-full relative z-1">
+      <div className="w-full h-full bg-black w-full relative z-[1]">
         <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-28 pt-8 container px-3 md:rounded-b-[40px] lg:rounded-b-[60px]">
           <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full">
             <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
@@ -67,7 +67,7 @@ export default function AreYouReady({ props }: { props: Props }) {
               dangerouslySetInnerHTML={{ __html: subtitle }}
             >
             </span>
-            <div className="light-green" />
+            <div className="light-green lg:translate-y-[235px]" />
             <div class="flex flex-col gap-2 items-center lg:items-start ">
               <a
                 className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-medium text-[16px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold"
