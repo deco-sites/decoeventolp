@@ -74,7 +74,7 @@ export default function Hero({ props }: { props: Props }) {
             />
           </div>
           <span
-            class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg lg:max-w-[380px] xl:text-2xl xl:max-w-[540px] text-center lg:text-start"
+            class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg xl:text-2xl xl:max-w-[540px] text-center lg:text-start"
             dangerouslySetInnerHTML={{ __html: subtitle }}
           >
           </span>
