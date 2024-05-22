@@ -93,7 +93,7 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
       <a
         target={targetBlank ? "_blank" : "_self"}
         href={href}
-        class="flex items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-center"
+        class="flex text-white items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-center"
         style="background-size: 200%;"
       >
         {label}
@@ -134,7 +134,7 @@ export default function Header(props: Props) {
         </ul>
         <ul class="hidden lg:flex lg:flex-row h-full group">
           {props.menuLinks.map((link, index) => {
-            return <MenuLink key={index} {...link} />;
+            return <div className="text-white"><MenuLink key={index} {...link} /></div>;
           })}
         </ul>
         <div class="ml-auto lg:hidden pr-4 lg:pr-8">
