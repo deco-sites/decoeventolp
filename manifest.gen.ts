@@ -23,12 +23,13 @@ import * as $$$$$$15 from "./sections/Logos.tsx";
 import * as $$$$$$16 from "./sections/MainPost.tsx";
 import * as $$$$$$17 from "./sections/Mentors/Mentors.tsx";
 import * as $$$$$$18 from "./sections/NRF/Grid.tsx";
-import * as $$$$$$19 from "./sections/RegisterNowBanner.tsx";
-import * as $$$$$$20 from "./sections/Syllabus/Syllabus.tsx";
-import * as $$$$$$21 from "./sections/Testimonials.tsx";
-import * as $$$$$$22 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$23 from "./sections/WhatIsHtmx.tsx";
-import * as $$$$$$24 from "./sections/WhyGetInvolved.tsx";
+import * as $$$$$$19 from "./sections/ReferralIfood.tsx";
+import * as $$$$$$20 from "./sections/RegisterNowBanner.tsx";
+import * as $$$$$$21 from "./sections/Syllabus/Syllabus.tsx";
+import * as $$$$$$22 from "./sections/Testimonials.tsx";
+import * as $$$$$$23 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$24 from "./sections/WhatIsHtmx.tsx";
+import * as $$$$$$25 from "./sections/WhyGetInvolved.tsx";
 
 const manifest = {
   "sections": {
@@ -51,12 +52,13 @@ const manifest = {
     "site/sections/MainPost.tsx": $$$$$$16,
     "site/sections/Mentors/Mentors.tsx": $$$$$$17,
     "site/sections/NRF/Grid.tsx": $$$$$$18,
-    "site/sections/RegisterNowBanner.tsx": $$$$$$19,
-    "site/sections/Syllabus/Syllabus.tsx": $$$$$$20,
-    "site/sections/Testimonials.tsx": $$$$$$21,
-    "site/sections/Theme/Theme.tsx": $$$$$$22,
-    "site/sections/WhatIsHtmx.tsx": $$$$$$23,
-    "site/sections/WhyGetInvolved.tsx": $$$$$$24,
+    "site/sections/ReferralIfood.tsx": $$$$$$19,
+    "site/sections/RegisterNowBanner.tsx": $$$$$$20,
+    "site/sections/Syllabus/Syllabus.tsx": $$$$$$21,
+    "site/sections/Testimonials.tsx": $$$$$$22,
+    "site/sections/Theme/Theme.tsx": $$$$$$23,
+    "site/sections/WhatIsHtmx.tsx": $$$$$$24,
+    "site/sections/WhyGetInvolved.tsx": $$$$$$25,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
