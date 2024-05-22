@@ -78,7 +78,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
                     {item.dataPublish}
                   </a>
                 ) : null }
-                <span class="text-white">{item.time}</span>
+                <span>{item.time}</span>
               </div>
             </li>
           ))}
