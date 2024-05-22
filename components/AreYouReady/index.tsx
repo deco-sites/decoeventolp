@@ -1,7 +1,4 @@
-import Button from "../ui/Button.tsx";
 import type { Props as PropsButton } from "../ui/Button.tsx";
-import PopUp from "site/islands/PopUp.tsx";
-import type { Props as PropsPopUp } from "site/components/ui/PopUp.tsx";
 import Icon from "../ui/Icon.tsx";
 
 export interface Props {
