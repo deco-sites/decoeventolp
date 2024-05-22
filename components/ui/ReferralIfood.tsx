@@ -18,7 +18,7 @@ export interface ReferralIfoodProps {
 
 export default function ReferralIfood({ image, title, description, cta }: ReferralIfoodProps) {
   return (
-    <section className="w-full bg-black">
+    <section className="w-full bg-black pb-28 pt-28">
       <div className="xl:container mx-4 lg:mx-[120px] xl:mx-auto flex justify-center rounded-[24px] relative z-1">
         <div className="flex flex-col-reverse items-center md:grid grid-cols-[1fr_200px]">
           <div className="flex flex-col items-center md:items-start gap-4 md:gap-6">
