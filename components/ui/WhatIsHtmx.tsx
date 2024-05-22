@@ -62,7 +62,7 @@ export default function WhatIsHtmx(
           ) => (
             <div
               key={index}
-              class="bg-[#0C2929] flex flex-col justify-center items-start gap-2 md:gap-6 p-6 md:p-10 py-12 md:py-20 text-[#FFFFFF] rounded-2xl"
+              class="bg-[#000D0D] flex flex-col justify-center items-start gap-2 md:gap-6 p-6 md:p-10 py-12 md:py-20 text-[#FFFFFF] rounded-2xl"
             >
               {icon && <div className="rounded-full p-1 bg-[#113032]"><img src={icon} width={32} height={32} /></div>}
               {title && (

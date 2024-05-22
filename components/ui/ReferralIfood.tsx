@@ -19,7 +19,7 @@ export interface ReferralIfoodProps {
 export default function ReferralIfood({ image, title, description, cta }: ReferralIfoodProps) {
   return (
     <section className="w-full bg-black">
-      <div className="xl:container mx-4 lg:mx-[120px] xl:mx-auto flex justify-center rounded-[24px]">
+      <div className="xl:container mx-4 lg:mx-[120px] xl:mx-auto flex justify-center rounded-[24px] relative z-1">
         <div className="flex flex-col-reverse items-center md:grid grid-cols-[1fr_200px]">
           <div className="flex flex-col items-center md:items-start gap-4 md:gap-6">
             <div>
@@ -28,6 +28,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             <div>
               <HTMLRenderer html={description} />
             </div>
+            <div className="black-green" />
             <div className="flex gap-4">
               {cta?.map(({ color = 'none', href = '', label = '', icon = '' }) => (
                 <a
