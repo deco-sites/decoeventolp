@@ -19,20 +19,20 @@ export interface ReferralIfoodProps {
 export default function ReferralIfood({ image, title, description, cta }: ReferralIfoodProps) {
   return (
     <section className="w-full bg-black md:pb-28 md:pt-28">
-      <div className="xl:container mx-4 lg:mx-[120px] xl:mx-auto flex justify-center rounded-[24px] relative z-1">
-        <div className="flex flex-col-reverse items-center md:grid grid-cols-[1fr_200px]">
+      <div className="xl:container mx-4 lg:mx-[120px] xl:mx-auto flex justify-center rounded-[24px] relative z-1 black-green">
+        <div className="flex flex-col-reverse items-center md:grid grid-cols-[1fr_200px] gap-6">
           <div className="flex flex-col items-center md:items-start gap-4 md:gap-6">
             <div>
               <HTMLRenderer html={title} />
             </div>
-            <div>
+            <div className="md:max-w-[800px]">
               <HTMLRenderer html={description} />
             </div>
             <div className="black-green" />
             <div className="flex gap-4">
               {cta?.map(({ color = 'none', href = '', label = '', icon = '' }) => (
                 <a
-                  className={`flex items-center font-medium text-lg px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
+                  className={`flex items-center gap-2 font-medium text-lg px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
                   ${color === 'green' ? 'bg-[#02F67C] text-black' : 'bg-black text-white'}
                   `}
                   href={href}

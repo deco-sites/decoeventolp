@@ -44,7 +44,7 @@
   .black-green {
     background: linear-gradient(#02F67C -123%, #113032 100%);
     position: absolute;
-    z-index: -2;
+    z-index: 1;
     width: 100%;
     height: 100%;
   }
