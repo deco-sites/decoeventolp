@@ -1,1 +1,635 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"Deco Header [EN]"},{"__resolveType":"site/sections/Hero/Hero.tsx","props":{"flag":"100% remote: Discord + Zoom","popUp":{"items":[{"title":"Language","content":"<p>React or any other component framework (Vue, Angular)</p>"},{"title":"Desirable","content":"<p>React, TypeScript, Tailwind</p>"},{"title":"Experience","content":"<p>Real-life professional experience implementing and managing web apps in production (sites, ecommerces, etc)</p>"}],"buttonLabel":"Check the Requirements"},"title":"<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon V</span><br></pre>","button":{"id":"bt-click-enroll-1","href":"#prices-section","type":"ligth","label":"Register now"},"subtitle":"<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>","flagSound":"Friday, June 14th @4pm (GMV-3) to Sunday, June 16th","afterButtonText":"Check the Pre-requisites","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6797598e-91d1-49b2-b586-acd9e85e5827"}},{"__resolveType":"site/sections/Benefits/Benefits.tsx","props":{"title":"<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Why&nbsp;</span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">participate ?</span></p>","items":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c16cc13c-696f-432d-8f24-348d2dbf2a59","title":"Build whatever you want","subTitle":"<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Landing Pages, Blogs, Storefronts, or anything else!<br><br>Finally get that idea out of the paper or select a job from our marketplace (and get paid)!</p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/23119936-e827-42b4-a638-d81035899e38","title":"Compete for over R$20K","subTitle":"<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Get ready to claim your slice of the prize pool worth over R$25,000 in cash rewards!<br><br>We´ll also have iFood vouchers, coveted deco.cx gear &amp; more!</p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9d33cedf-03cd-43da-831c-ac98ef288293","title":"Content for Web Masters","subTitle":"<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Turn your freelance projects into a profitable business.<br><br>We´ll have speakers and workshops to train you into a web entrepreneur!</p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ea7c8966-4ee5-4ed0-85f4-0df70f68148c","title":"Speed-test deco.cx","subTitle":"<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Take the first step to create high-performance, scalable site using TS, JSX, Tailwind.<br><br>Join a community of potential collaborators and opportunities.</p>"}]}},{"__resolveType":"site/sections/HowItWork.tsx","title":"<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">How</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">it works</span></p>","cards":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb","title":"Categories & Prizes","description":"<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Build&nbsp;<strong>Landing Pages, Blogs, Storefronts</strong>, or submit to our <strong>Open Category</strong>.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">The prizes vary according to the delivery, but the criteria is always <strong>Design, Editability &amp; Performance</strong>.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">There will be <strong>one winning team and three honorable mentions per category</strong>. Scroll down for more details.</span><br></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d","title":"Content","description":"<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong><br data-mce-bogus=\"1\"></strong></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Marketplace bounties:</strong> Explore our marketplace and select from a variety of bounty options to work on.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Your own creations:</strong> Feel inspired? Develop your own template idea and showcase your creativity.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Client projects welcome:</strong> Take the opportunity to work on a project for a client of yours.</span><br></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df","title":"Team","description":"<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">At least one designer and one developer on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Maximum of five in each group. All members that deliver a site will get a certificate.</span></p>"},{"title":"HTMX-powered templates","icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/75afb5fd-d402-48ea-be4d-0ed04ef39175","description":"<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We would love to receive templates to be featured on our deco.store. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/e60328d7-00b0-4a7b-8051-345744a1d6c5","title":"Talks & Workshops","description":"<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A series of 30-minute sessions throughout Saturday, where industry experts explore crucial topics for building successful web experiences - from UX writing, design essentials to SEO strategies and performance marketing. </span><br></p>"}]},{"__resolveType":"site/sections/RegisterNowBanner.tsx","title":"REGISTER NOW","href":"#"},{"__resolveType":"site/sections/Syllabus/Syllabus.tsx","props":{"title":"<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255); \" data-mce-style=\"color: rgb(255, 255, 255);\">overview</span></p>","accordions":[{"title":"Friday, June 14th","children":[{"title":"deco’s Web Builder and Framework","subtitle":"Modern Web Tech"}],"listContent":[{"title":"Introduction to deco.cx","content":"Purus a nis sed elementum at tortor viverra orci sit.","time":"4PM"},{"time":"4PM","title":"Website creation tutorial","content":"Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."},{"time":"4PM","title":"Competition rules overview","content":"Pharetra quam ut est sit amet viverra ageu eu."},{"time":"4PM","title":"Event schedule","content":"Arcu dictum nunc  vel accumsan lacus ut in. Amet."}],"period":"4PM - 10PM"},{"title":"Saturday, June 15th","children":[{"title":"deco’s Web Builder and Framework","subtitle":"Modern Web Tech"}],"listContent":[{"time":"4PM","title":"Introduction to deco.cx","content":"Purus a nis sed elementum at tortor viverra orci sit."},{"time":"4PM","title":"Website creation tutorial","content":"Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."},{"time":"4PM","title":"Competition rules overview","content":"Pharetra quam ut est sit amet viverra ageu eu."},{"time":"4PM","title":"Event schedule","content":"Arcu dictum nunc  vel accumsan lacus ut in. Amet."}],"period":"4PM - 10PM"},{"title":"Sunday, June 16th","children":[{"title":"deco’s Web Builder and Framework","subtitle":"Modern Web Tech"}],"listContent":[{"time":"4PM","title":"Introduction to deco.cx","content":"Purus a nis sed elementum at tortor viverra orci sit."},{"time":"4PM","title":"Website creation tutorial","content":"Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."},{"time":"4PM","title":"Competition rules overview","content":"Pharetra quam ut est sit amet viverra ageu eu."},{"time":"4PM","title":"Event schedule","content":"Arcu dictum nunc  vel accumsan lacus ut in. Amet."}],"period":"4PM - 10PM"}]}},{"__resolveType":"site/sections/WhatIsHtmx.tsx","cards":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2fd88016-04fc-4227-bda5-b9c504cdf1d2","description":"Any element can issue an HTTP request - not just anchors and forms"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bcd5f81d-e25b-4011-86d3-bef70111ea13","description":"Any event can trigger requests - not just clicks or form submissions"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ce18ccbc-60d2-41df-bfa0-d4bc9e70cb09","description":"Leverage over ten HTTP verbs to indicate actions - not just GET and POST"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/30350966-50bc-4556-ac23-9c6cf7da4467","description":"Update any element though a request - don't be limited to replacing the entire screen"}],"description":"<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">htmx extends and generalizes the core idea of HTML as a hypertext, opening up many more possibilities directly within the language:</span></p>","titleImage":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403","titleText":"<h5 data-mce-style=\"line-height: 1.2; text-align: center;\" style=\"line-height: 1.2; text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">htmx </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">is a library that allows you to access modern browser features directly from HTML, rather than using javascript</span></span></h5>","cta":[{"color":"green","href":"#","label":"How deco.cx supports HTMX"},{"color":"neutral","href":"#","label":"Check htmx’s official docs"}],"bottomMessage":"<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"},{"__resolveType":"site/sections/Category.tsx","title":"<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Categories</span></p>","flags":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d","text":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Winners and mentioned all get deco kit</span></p>"},{"text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"},{"text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Tie-breaker: </span>Creativity</p>"}],"cards":[{"topics":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4","text":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">One-page websties</span></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c9d4a0f0-1ad2-49ee-946a-c64c03019ae9","text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$2,500</span></p>"},{"text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>","icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2a43fd4e-3618-46f1-b34e-0bd1935a8d22"}],"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8c12c2fc-cab4-4e0d-a92a-6c149fc5e0cd","title":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Landing Pages</span></p>"},{"topics":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4","text":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, Search Page &amp; Post Page</span><br></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/26439bb9-cb65-47ff-9e5a-123f2317fcec","text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$5,000</span></p>"},{"text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>","icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/d16665f8-87e4-406b-a44f-04f395efbc93"}],"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b0d8f7e1-8e51-41bc-bb08-3f5d632e10eb","title":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Blog</span></p>"},{"topics":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4","text":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, PLP, PDP &amp; Cart</span><br></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9df239d1-7aec-4c7a-af68-e11047befc5a","text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$7,500</span></p>"},{"text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>","icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f6fa5f2d-f5e4-406c-8100-e075ae3a749a"}],"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd","title":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>"},{"topics":[{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4","text":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Anything you like!</span><br></p>"},{"icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8509bd73-fb69-40c8-8736-bf3add5584a2","text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$10,000</span></p>"},{"text":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>","icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3333d0ba-6aca-4e75-9205-b5961c863937"}],"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd","title":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"}]},{"__resolveType":"site/sections/Mentors/Mentors.tsx","props":{"title":"<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Become a</span>&nbsp;<span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Web Master</span><br></p>","mentors":[{"image":{"alt":"Matheus Gaudêncio","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/a09ff2fe-a610-4397-a885-cce2b87dff3f"},"content":"<p>As the founding software engineer at deco.cx, Gaudencio has spearheaded educational initiatives and provided crucial support. Prior to this role, he served as a licensed computer science teacher at UFCG, where he took on responsibilities for chairs in web development and infrastructure. Additionally, Gaudencio led Public-Private Partnership (PPP) projects with industry giants like Lenovo and VTEX. With a decade-long tenure at UFCG, Matheus impacted the lives of over 1000 students.</p>","contacts":[{"href":"https://www.linkedin.com/in/matheusgaudencio/","type":"Linkedin"},{"href":"https://github.com/matheusgr","type":"Git-hub"},{"href":"https://twitter.com/mathgaudencio","type":"Twitter"}],"nameMentor":"Matheus Gaudêncio","profession":"Software Engineer at deco.cx"},{"image":{"alt":"Tiago Gimenes","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/106dc900-5175-4786-8503-ef819efddb36"},"content":"<p>Tiago is a software developer with a solid academic background, having graduated from Ecole Polytechnique in Paris and obtained a master's degree in Artificial Intelligence from HKUST. Over the past six years, he has dedicated his expertise to web development and optimizing frontend performance at leading ecommerce solutions. His journey reflects a commitment to staying updated with technological advances, enabling him to navigate the dynamic field of software development.</p>","contacts":[{"href":"https://www.linkedin.com/search/results/all/?keywords=gimenes&sid=Z31","type":"Linkedin"},{"href":"https://github.com/tlgimenes","type":"Git-hub"}],"nameMentor":"Tiago Gimenes","profession":"Software Engineer at deco.cx"},{"image":{"alt":"Luciano Junior","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/38a43da0-02a5-4070-9198-99484acd7dae"},"content":"<p>Luciano Júnior, a.k.a <strong>Lucis,&nbsp;</strong>has been coding since he was 7 and is passionate about creating simple solutions of make people's lives better. He is an advocate of the Web and has experience in building multi-tenant scalable applications, especially with his favorite language: Typescript. Lucis is also passionate about education, having mentored and lectured in his area since his college degree in Computer Science at UFCG. He follows the mantra \"Simplicity is the ultimate sophistication\".</p>","contacts":[{"href":"https://www.linkedin.com/in/lcnjnr/","type":"Linkedin"},{"href":"https://github.com/lucis","type":"Git-hub"}],"nameMentor":"Luciano Junior","profession":"Co-Founder and CTO at deco.cx"}]}},{"__resolveType":"site/sections/ReferralIfood.tsx","title":"<p><span><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>","description":"<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get <span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">R$50.00</span> at iFood.&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants <strong>wins </strong><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">R$5,000</span> <strong>at any deco.cx store.</strong></span><br></p>","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020","cta":[{"color":"green","href":"#","label":"Invite now"},{"color":"none","href":"#","label":"Copied link","icon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"}]},{"__resolveType":"site/sections/Faq/Faq.tsx","props":{"title":"FAQs","items":[{"answer":"deco.cx is the web builder for the Post-AI era. It is a modern alternative to WordPress built with TypeScript, React and Tailwind","question":"What's deco.cx?"},{"answer":"Absolutely, if you intent to enroll more than 5 students from the same company, please reach out.","question":"Do you have group discounts?"},{"answer":"You should know React or a similar component-based framework. Desirably you also know TypeScript and Tailwind.","question":"What are the pre-requisites for enrolling?"},{"answer":"After submitting your final PR, we will take 10-15 business days to review it.","question":"How long does it takes to get my certification?"},{"answer":"You will have all tools and methods needed to create a fully integrated, high-performance digital experience such as stores already powered by deco.cx.","question":"What will I be able to build after decoCamp?"},{"answer":"Sure thing! You can choose between a regular student and get access only to the content or becoming an Official Certified Partner.","question":"Can I have access to the content without getting certified?"},{"answer":"Currently, deco.camp is held in both Portuguese and English.","question":"In which language is decoCamp taught?"}]}},{"__resolveType":"site/sections/RegisterNowBanner.tsx","title":"REGISTER NOW","href":"#"},{"__resolveType":"site/sections/AreYouReady.tsx","props":{"flag":"100% remote: Discord + Zoom","popUp":{"items":[{"title":"Language","content":"<p>React or any other component framework (Vue, Angular)</p>"},{"title":"Desirable","content":"<p>React, TypeScript, Tailwind</p>"},{"title":"Experience","content":"<p>Real-life professional experience implementing and managing web apps in production (sites, ecommerces, etc)</p>"}],"buttonLabel":"Check the Requirements"},"title":"<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready</span></p>","button":{"id":"bt-click-enroll-1","href":"#prices-section","type":"ligth","label":"Register now"},"subtitle":"<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>","flagSound":"Friday, June 14th @4pm (GMV-3) to Sunday, June 16th","afterButtonText":"Check the Pre-requisites"}},{"__resolveType":"site/sections/Footer/Default.tsx","subscribe":{},"logo":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/87ef2894-327a-42b3-ae82-3fa8b880c09d","alt":"Deco logo"},"social":[{"network":"Instagram","href":"https://www.instagram.com/deco.cx/"},{"network":"Linkedin","href":"https://www.linkedin.com/company/deco-cx/posts/?feedView=all"},{"network":"Facebook","href":"#"},{"network":"Twitter","href":"https://x.com/deco_frontend"}]},{"__resolveType":"site/sections/Theme/Theme.tsx","colorScheme":"any","font":{"__resolveType":"website/loaders/fonts/googleFonts.ts","fonts":[{"variations":[],"family":"Albert Sans"}]},"mode":"dark"}],"__resolveType":"website/pages/Page.tsx","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website"}}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Deco Header [EN]"
+    },
+    {
+      "__resolveType": "site/sections/Hero/Hero.tsx",
+      "props": {
+        "flag": {
+          "0": "1",
+          "1": "0",
+          "2": "0",
+          "3": "%",
+          "4": " ",
+          "5": "r",
+          "6": "e",
+          "7": "m",
+          "8": "o",
+          "9": "t",
+          "10": "e",
+          "11": ":",
+          "12": " ",
+          "13": "D",
+          "14": "i",
+          "15": "s",
+          "16": "c",
+          "17": "o",
+          "18": "r",
+          "19": "d",
+          "20": " ",
+          "21": "+",
+          "22": " ",
+          "23": "Z",
+          "24": "o",
+          "25": "o",
+          "26": "m",
+          "text": "100% remote: Discord",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f7f1800e-dc58-41e5-b6a8-2cd9f4d07fa4"
+        },
+        "popUp": {
+          "items": [
+            {
+              "title": "Language",
+              "content": "<p>React or any other component framework (Vue, Angular)</p>"
+            },
+            {
+              "title": "Desirable",
+              "content": "<p>React, TypeScript, Tailwind</p>"
+            },
+            {
+              "title": "Experience",
+              "content": "<p>Real-life professional experience implementing and managing web apps in production (sites, ecommerces, etc)</p>"
+            }
+          ],
+          "buttonLabel": "Check the Requirements"
+        },
+        "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon V</span><br></pre>",
+        "button": {
+          "id": "bt-click-enroll-1",
+          "href": "#prices-section",
+          "type": "ligth",
+          "label": "Register now"
+        },
+        "subtitle": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
+        "flagSound": {
+          "0": "F",
+          "1": "r",
+          "2": "i",
+          "3": "d",
+          "4": "a",
+          "5": "y",
+          "6": ",",
+          "7": " ",
+          "8": "J",
+          "9": "u",
+          "10": "n",
+          "11": "e",
+          "12": " ",
+          "13": "1",
+          "14": "4",
+          "15": "t",
+          "16": "h",
+          "17": " ",
+          "18": "@",
+          "19": "4",
+          "20": "p",
+          "21": "m",
+          "22": " ",
+          "23": "(",
+          "24": "G",
+          "25": "M",
+          "26": "V",
+          "27": "-",
+          "28": "3",
+          "29": ")",
+          "30": " ",
+          "31": "t",
+          "32": "o",
+          "33": " ",
+          "34": "S",
+          "35": "u",
+          "36": "n",
+          "37": "d",
+          "38": "a",
+          "39": "y",
+          "40": ",",
+          "41": " ",
+          "42": "J",
+          "43": "u",
+          "44": "n",
+          "45": "e",
+          "46": " ",
+          "47": "1",
+          "48": "6",
+          "49": "t",
+          "50": "h",
+          "text": "Friday, June 28th @4pm - Sunday, June 30th ",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3ca60ebd-d38b-4503-8e46-7b6de7e72a29"
+        },
+        "afterButtonText": "Check the Pre-requisites",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6797598e-91d1-49b2-b586-acd9e85e5827"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Benefits/Benefits.tsx",
+      "props": {
+        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Why&nbsp;</span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">participate ?</span></p>",
+        "items": [
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c16cc13c-696f-432d-8f24-348d2dbf2a59",
+            "title": "Build whatever you want",
+            "subTitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Landing Pages, Blogs, Storefronts, or anything else!<br><br>Finally get that idea out of the paper or select a job from our marketplace (and get paid)!</p>"
+          },
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/23119936-e827-42b4-a638-d81035899e38",
+            "title": "Compete for over R$20K",
+            "subTitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Get ready to claim your slice of the prize pool worth over R$25,000 in cash rewards!<br><br>We´ll also have iFood vouchers, coveted deco.cx gear &amp; more!</p>"
+          },
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9d33cedf-03cd-43da-831c-ac98ef288293",
+            "title": "Content for Web Masters",
+            "subTitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Turn your freelance projects into a profitable business.<br><br>We´ll have speakers and workshops to train you into a web entrepreneur!</p>"
+          },
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ea7c8966-4ee5-4ed0-85f4-0df70f68148c",
+            "title": "Speed-test deco.cx",
+            "subTitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\">Take the first step to create high-performance, scalable site using TS, JSX, Tailwind.<br><br>Join a community of potential collaborators and opportunities.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/HowItWork.tsx",
+      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">How</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">it works</span></p>",
+      "cards": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
+          "title": "Categories & Prizes",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Build&nbsp;<strong>Landing Pages, Blogs, Storefronts</strong>, or submit to our <strong>Open Category</strong>.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">The prizes vary according to the delivery, but the criteria is always <strong>Design, Editability &amp; Performance</strong>.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">There will be <strong>one winning team and three honorable mentions per category</strong>. Scroll down for more details.</span><br></p>"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d",
+          "title": "Content",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong><br data-mce-bogus=\"1\"></strong></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Marketplace bounties:</strong> Explore our marketplace and select from a variety of bounty options to work on.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Your own creations:</strong> Feel inspired? Develop your own template idea and showcase your creativity.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Client projects welcome:</strong> Take the opportunity to work on a project for a client of yours.</span><br></p>"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
+          "title": "Team",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">At least one designer and one developer on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Maximum of five in each group. All members that deliver a site will get a certificate.</span></p>"
+        },
+        {
+          "title": "HTMX-powered templates",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/75afb5fd-d402-48ea-be4d-0ed04ef39175",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We would love to receive templates to be featured on our deco.store. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/e60328d7-00b0-4a7b-8051-345744a1d6c5",
+          "title": "Talks & Workshops",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A series of 30-minute sessions throughout Saturday, where industry experts explore crucial topics for building successful web experiences - from UX writing, design essentials to SEO strategies and performance marketing. </span><br></p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/RegisterNowBanner.tsx",
+      "title": "REGISTER NOW",
+      "href": "#"
+    },
+    {
+      "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
+      "props": {
+        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255); \" data-mce-style=\"color: rgb(255, 255, 255);\">overview</span></p>",
+        "accordions": [
+          {
+            "title": "Friday, June 14th",
+            "children": [
+              {
+                "title": "deco’s Web Builder and Framework",
+                "subtitle": "Modern Web Tech"
+              }
+            ],
+            "listContent": [
+              {
+                "title": "Introduction to deco.cx",
+                "content": "Purus a nis sed elementum at tortor viverra orci sit.",
+                "time": "4PM"
+              },
+              {
+                "time": "4PM",
+                "title": "Website creation tutorial",
+                "content": "Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."
+              },
+              {
+                "time": "4PM",
+                "title": "Competition rules overview",
+                "content": "Pharetra quam ut est sit amet viverra ageu eu."
+              },
+              {
+                "time": "4PM",
+                "title": "Event schedule",
+                "content": "Arcu dictum nunc  vel accumsan lacus ut in. Amet."
+              }
+            ],
+            "period": "4PM - 10PM"
+          },
+          {
+            "title": "Saturday, June 15th",
+            "children": [
+              {
+                "title": "deco’s Web Builder and Framework",
+                "subtitle": "Modern Web Tech"
+              }
+            ],
+            "listContent": [
+              {
+                "time": "4PM",
+                "title": "Introduction to deco.cx",
+                "content": "Purus a nis sed elementum at tortor viverra orci sit."
+              },
+              {
+                "time": "4PM",
+                "title": "Website creation tutorial",
+                "content": "Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."
+              },
+              {
+                "time": "4PM",
+                "title": "Competition rules overview",
+                "content": "Pharetra quam ut est sit amet viverra ageu eu."
+              },
+              {
+                "time": "4PM",
+                "title": "Event schedule",
+                "content": "Arcu dictum nunc  vel accumsan lacus ut in. Amet."
+              }
+            ],
+            "period": "4PM - 10PM"
+          },
+          {
+            "title": "Sunday, June 16th",
+            "children": [
+              {
+                "title": "deco’s Web Builder and Framework",
+                "subtitle": "Modern Web Tech"
+              }
+            ],
+            "listContent": [
+              {
+                "time": "4PM",
+                "title": "Introduction to deco.cx",
+                "content": "Purus a nis sed elementum at tortor viverra orci sit."
+              },
+              {
+                "time": "4PM",
+                "title": "Website creation tutorial",
+                "content": "Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."
+              },
+              {
+                "time": "4PM",
+                "title": "Competition rules overview",
+                "content": "Pharetra quam ut est sit amet viverra ageu eu."
+              },
+              {
+                "time": "4PM",
+                "title": "Event schedule",
+                "content": "Arcu dictum nunc  vel accumsan lacus ut in. Amet."
+              }
+            ],
+            "period": "4PM - 10PM"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/WhatIsHtmx.tsx",
+      "cards": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2fd88016-04fc-4227-bda5-b9c504cdf1d2",
+          "description": "Any element can issue an HTTP request - not just anchors and forms"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bcd5f81d-e25b-4011-86d3-bef70111ea13",
+          "description": "Any event can trigger requests - not just clicks or form submissions"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ce18ccbc-60d2-41df-bfa0-d4bc9e70cb09",
+          "description": "Leverage over ten HTTP verbs to indicate actions - not just GET and POST"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/30350966-50bc-4556-ac23-9c6cf7da4467",
+          "description": "Update any element though a request - don't be limited to replacing the entire screen"
+        }
+      ],
+      "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">htmx extends and generalizes the core idea of HTML as a hypertext, opening up many more possibilities directly within the language:</span></p>",
+      "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403",
+      "titleText": "<h5 data-mce-style=\"line-height: 1.2; text-align: center;\" style=\"line-height: 1.2; text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">htmx </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">is a library that allows you to access modern browser features directly from HTML, rather than using javascript</span></span></h5>",
+      "cta": [
+        {
+          "color": "green",
+          "href": "#",
+          "label": "How deco.cx supports HTMX"
+        },
+        {
+          "color": "neutral",
+          "href": "#",
+          "label": "Check htmx’s official docs"
+        }
+      ],
+      "bottomMessage": "<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"
+    },
+    {
+      "__resolveType": "site/sections/Category.tsx",
+      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Categories</span></p>",
+      "flags": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
+          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Winners and mentioned all get deco kit</span></p>"
+        },
+        {
+          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"
+        },
+        {
+          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Tie-breaker: </span>Creativity</p>"
+        }
+      ],
+      "cards": [
+        {
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">One-page websties</span></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c9d4a0f0-1ad2-49ee-946a-c64c03019ae9",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$2,500</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2a43fd4e-3618-46f1-b34e-0bd1935a8d22"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8c12c2fc-cab4-4e0d-a92a-6c149fc5e0cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Landing Pages</span></p>"
+        },
+        {
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, Search Page &amp; Post Page</span><br></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/26439bb9-cb65-47ff-9e5a-123f2317fcec",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$5,000</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/d16665f8-87e4-406b-a44f-04f395efbc93"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b0d8f7e1-8e51-41bc-bb08-3f5d632e10eb",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Blog</span></p>"
+        },
+        {
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, PLP, PDP &amp; Cart</span><br></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9df239d1-7aec-4c7a-af68-e11047befc5a",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$7,500</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f6fa5f2d-f5e4-406c-8100-e075ae3a749a"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>"
+        },
+        {
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Anything you like!</span><br></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8509bd73-fb69-40c8-8736-bf3add5584a2",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$10,000</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3333d0ba-6aca-4e75-9205-b5961c863937"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Mentors/Mentors.tsx",
+      "props": {
+        "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Become a</span>&nbsp;<span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Web Master</span><br></p>",
+        "mentors": [
+          {
+            "image": {
+              "alt": "Matheus Gaudêncio",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/a09ff2fe-a610-4397-a885-cce2b87dff3f"
+            },
+            "content": "<p>As the founding software engineer at deco.cx, Gaudencio has spearheaded educational initiatives and provided crucial support. Prior to this role, he served as a licensed computer science teacher at UFCG, where he took on responsibilities for chairs in web development and infrastructure. Additionally, Gaudencio led Public-Private Partnership (PPP) projects with industry giants like Lenovo and VTEX. With a decade-long tenure at UFCG, Matheus impacted the lives of over 1000 students.</p>",
+            "contacts": [
+              {
+                "href": "https://www.linkedin.com/in/matheusgaudencio/",
+                "type": "Linkedin"
+              },
+              {
+                "href": "https://github.com/matheusgr",
+                "type": "Git-hub"
+              },
+              {
+                "href": "https://twitter.com/mathgaudencio",
+                "type": "Twitter"
+              }
+            ],
+            "nameMentor": "Matheus Gaudêncio",
+            "profession": "Software Engineer at deco.cx"
+          },
+          {
+            "image": {
+              "alt": "Tiago Gimenes",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/106dc900-5175-4786-8503-ef819efddb36"
+            },
+            "content": "<p>Tiago is a software developer with a solid academic background, having graduated from Ecole Polytechnique in Paris and obtained a master's degree in Artificial Intelligence from HKUST. Over the past six years, he has dedicated his expertise to web development and optimizing frontend performance at leading ecommerce solutions. His journey reflects a commitment to staying updated with technological advances, enabling him to navigate the dynamic field of software development.</p>",
+            "contacts": [
+              {
+                "href": "https://www.linkedin.com/search/results/all/?keywords=gimenes&sid=Z31",
+                "type": "Linkedin"
+              },
+              {
+                "href": "https://github.com/tlgimenes",
+                "type": "Git-hub"
+              }
+            ],
+            "nameMentor": "Tiago Gimenes",
+            "profession": "Software Engineer at deco.cx"
+          },
+          {
+            "image": {
+              "alt": "Luciano Junior",
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/38a43da0-02a5-4070-9198-99484acd7dae"
+            },
+            "content": "<p>Luciano Júnior, a.k.a <strong>Lucis,&nbsp;</strong>has been coding since he was 7 and is passionate about creating simple solutions of make people's lives better. He is an advocate of the Web and has experience in building multi-tenant scalable applications, especially with his favorite language: Typescript. Lucis is also passionate about education, having mentored and lectured in his area since his college degree in Computer Science at UFCG. He follows the mantra \"Simplicity is the ultimate sophistication\".</p>",
+            "contacts": [
+              {
+                "href": "https://www.linkedin.com/in/lcnjnr/",
+                "type": "Linkedin"
+              },
+              {
+                "href": "https://github.com/lucis",
+                "type": "Git-hub"
+              }
+            ],
+            "nameMentor": "Luciano Junior",
+            "profession": "Co-Founder and CTO at deco.cx"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ReferralIfood.tsx",
+      "title": "<p><span><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>",
+      "description": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get <span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">R$50.00</span> at iFood.&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants <strong>wins </strong><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">R$5,000</span> <strong>at any deco.cx store.</strong></span><br></p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020",
+      "cta": [
+        {
+          "color": "green",
+          "href": "#",
+          "label": "Invite now"
+        },
+        {
+          "color": "none",
+          "href": "#",
+          "label": "Copied link",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq/Faq.tsx",
+      "props": {
+        "title": "FAQs",
+        "items": [
+          {
+            "answer": "deco.cx is the web builder for the Post-AI era. It is a modern alternative to WordPress built with TypeScript, React and Tailwind",
+            "question": "What's deco.cx?"
+          },
+          {
+            "answer": "Absolutely, if you intent to enroll more than 5 students from the same company, please reach out.",
+            "question": "Do you have group discounts?"
+          },
+          {
+            "answer": "You should know React or a similar component-based framework. Desirably you also know TypeScript and Tailwind.",
+            "question": "What are the pre-requisites for enrolling?"
+          },
+          {
+            "answer": "After submitting your final PR, we will take 10-15 business days to review it.",
+            "question": "How long does it takes to get my certification?"
+          },
+          {
+            "answer": "You will have all tools and methods needed to create a fully integrated, high-performance digital experience such as stores already powered by deco.cx.",
+            "question": "What will I be able to build after decoCamp?"
+          },
+          {
+            "answer": "Sure thing! You can choose between a regular student and get access only to the content or becoming an Official Certified Partner.",
+            "question": "Can I have access to the content without getting certified?"
+          },
+          {
+            "answer": "Currently, deco.camp is held in both Portuguese and English.",
+            "question": "In which language is decoCamp taught?"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/RegisterNowBanner.tsx",
+      "title": "REGISTER NOW",
+      "href": "#"
+    },
+    {
+      "__resolveType": "site/sections/AreYouReady.tsx",
+      "props": {
+        "flag": {
+          "text": "100% remote: Discord",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/08071aaf-e548-4f38-853c-e759b83c6e8d"
+        },
+        "popUp": {
+          "items": [
+            {
+              "title": "Language",
+              "content": "<p>React or any other component framework (Vue, Angular)</p>"
+            },
+            {
+              "title": "Desirable",
+              "content": "<p>React, TypeScript, Tailwind</p>"
+            },
+            {
+              "title": "Experience",
+              "content": "<p>Real-life professional experience implementing and managing web apps in production (sites, ecommerces, etc)</p>"
+            }
+          ],
+          "buttonLabel": "Check the Requirements"
+        },
+        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready</span></p>",
+        "button": {
+          "id": "bt-click-enroll-1",
+          "href": "#prices-section",
+          "type": "ligth",
+          "label": "Register now"
+        },
+        "subtitle": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
+        "flagSound": {
+          "text": "Friday, June 14th @4pm (GMV-3) to Sunday, June 16th",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/24b8c88d-459e-41ad-ac57-8811150d4b08"
+        },
+        "afterButtonText": "Check the Pre-requisites"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Footer/Default.tsx",
+      "subscribe": {},
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/87ef2894-327a-42b3-ae82-3fa8b880c09d",
+        "alt": "Deco logo"
+      },
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/deco.cx/"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://www.linkedin.com/company/deco-cx/posts/?feedView=all"
+        },
+        {
+          "network": "Facebook",
+          "href": "#"
+        },
+        {
+          "network": "Twitter",
+          "href": "https://x.com/deco_frontend"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Theme/Theme.tsx",
+      "colorScheme": "any",
+      "font": {
+        "__resolveType": "website/loaders/fonts/googleFonts.ts",
+        "fonts": [
+          {
+            "variations": [],
+            "family": "Albert Sans"
+          }
+        ]
+      },
+      "mode": "dark"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website"
+  }
+}

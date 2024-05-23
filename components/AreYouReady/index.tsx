@@ -1,9 +1,15 @@
 import type { Props as PropsButton } from "../ui/Button.tsx";
-import Icon from "../ui/Icon.tsx";
+import { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
-  flag: string;
-  flagSound?: string;
+  flag: {
+    text: string,
+    icon?: ImageWidget
+  };
+  flagSound?: {
+    text: string,
+    icon?: ImageWidget
+  };
   /**
    * @format html
    */
@@ -16,8 +22,13 @@ export interface Props {
 }
 
 const BASE_PROPS = {
-  flag: "Masterclass",
-  flagSound: "Português",
+  flag: {
+    text: "Masterclass",
+  },
+  flagSound: {
+    text: "Português",
+    icon: ''
+  },
   title:
     '<p><span style="color: rgb(45, 194, 107);" data-mce-style="color: rgb(45, 194, 107);">Are you ready?</span></p>',
   button: {
@@ -52,13 +63,13 @@ export default function AreYouReady({ props }: { props: Props }) {
             </h2>
             <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
-                <Icon id="Identification" width={16} height={16} />
-                {flag}
+                { flag?.icon && <img src={flag?.icon} alt={flag?.text} width={16} height={16} />}
+                { flag?.text }
               </span>
               {flagSound && (
                 <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
-                  <Icon id="Calendar" width={16} height={16} />
-                  {flagSound}
+                  { flagSound?.icon && <img src={flagSound?.icon} alt={flagSound?.text} width={16} height={16} />}
+                  { flagSound?.text }
                 </span>
               )}
             </div>
