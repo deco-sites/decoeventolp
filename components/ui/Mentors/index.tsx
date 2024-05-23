@@ -1,8 +1,9 @@
 import type { Props as Mentors } from "site/components/ui/Mentors/ProfileMentor.tsx";
 import ProfileMentor from "./ProfileMentor.tsx";
+import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
 export interface Props {
-  title?: string;
+  title?: HTML;
   mentors: Mentors[];
 }
 
@@ -95,7 +96,7 @@ export default function Mentors({ props }: { props: Props }) {
         {title && title.length
           ? (
             <h2 class="text-white text-3xl text-center md:text-4xl md:leading-9 lg:text-[4rem] lg:leading-[4rem]">
-              {title}
+              <HTMLRenderer html={title} />
             </h2>
           )
           : null}

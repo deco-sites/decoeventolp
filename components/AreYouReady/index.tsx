@@ -45,6 +45,11 @@ export default function AreYouReady({ props }: { props: Props }) {
       <div className="w-full h-full bg-black w-full relative z-[1]">
         <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-28 pt-8 container px-3 md:rounded-b-[40px] lg:rounded-b-[60px]">
           <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full">
+            <h2
+              class="argentPixel text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[5.2rem] lg:mb-4 text-white text-center lg:text-start md:pb-4"
+              dangerouslySetInnerHTML={{ __html: title }}
+            >
+            </h2>
             <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
                 <Icon id="Identification" width={16} height={16} />
@@ -57,11 +62,6 @@ export default function AreYouReady({ props }: { props: Props }) {
                 </span>
               )}
             </div>
-            <h2
-              class="argentPixel text-[54px] md:leading-[4.2rem] md:text-[98px] lg:text-[128px] lg:leading-[5.2rem] lg:mb-4 text-white text-center lg:text-start md:mt-4"
-              dangerouslySetInnerHTML={{ __html: title }}
-            >
-            </h2>
             <span
               class="md:text-[1.5rem] text-camp-neutral md:leading-[1.8rem] lg:text-lg xl:text-2xl text-center lg:text-start"
               dangerouslySetInnerHTML={{ __html: subtitle }}

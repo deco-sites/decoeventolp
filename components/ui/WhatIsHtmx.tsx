@@ -13,6 +13,7 @@ export interface WhatIsHtmxProps {
   description?: HTML;
   cta: CTA[];
   cards?: CardProps[];
+  bottomMessage?: HTML;
 }
 
 export interface CardProps {
@@ -27,7 +28,7 @@ const BTN_COLORS = {
 }
 
 export default function WhatIsHtmx(
-  { titleText = '', titleImage = '', description = '', cta, cards }: WhatIsHtmxProps,
+  { titleText = '', titleImage = '', description = '', cta, cards, bottomMessage }: WhatIsHtmxProps,
 ) {
   return (
     <div class="w-full bg-black py-5 md:py-28">
@@ -72,6 +73,11 @@ export default function WhatIsHtmx(
             </div>
           ))}
         </div>
+        { bottomMessage ? (
+          <div className="text-[30px] text-center">
+            <HTMLRenderer html={bottomMessage} />
+          </div>
+        ) : null }
       </div>
     </div>
   );
