@@ -20,18 +20,19 @@ import * as $$$$$$12 from "./sections/Header/Header.tsx";
 import * as $$$$$$13 from "./sections/Header/Header2.tsx";
 import * as $$$$$$14 from "./sections/Hero/Default.tsx";
 import * as $$$$$$15 from "./sections/Hero/Hero.tsx";
-import * as $$$$$$16 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$17 from "./sections/Logos.tsx";
-import * as $$$$$$18 from "./sections/MainPost.tsx";
-import * as $$$$$$19 from "./sections/Mentors/Mentors.tsx";
-import * as $$$$$$20 from "./sections/NRF/Grid.tsx";
-import * as $$$$$$21 from "./sections/ReferralIfood.tsx";
-import * as $$$$$$22 from "./sections/RegisterNowBanner.tsx";
-import * as $$$$$$23 from "./sections/Syllabus/Syllabus.tsx";
-import * as $$$$$$24 from "./sections/Testimonials.tsx";
-import * as $$$$$$25 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$26 from "./sections/WhatIsHtmx.tsx";
-import * as $$$$$$27 from "./sections/WhyGetInvolved.tsx";
+import * as $$$$$$16 from "./sections/HowItWork.tsx";
+import * as $$$$$$17 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$18 from "./sections/Logos.tsx";
+import * as $$$$$$19 from "./sections/MainPost.tsx";
+import * as $$$$$$20 from "./sections/Mentors/Mentors.tsx";
+import * as $$$$$$21 from "./sections/NRF/Grid.tsx";
+import * as $$$$$$22 from "./sections/ReferralIfood.tsx";
+import * as $$$$$$23 from "./sections/RegisterNowBanner.tsx";
+import * as $$$$$$24 from "./sections/Syllabus/Syllabus.tsx";
+import * as $$$$$$25 from "./sections/Testimonials.tsx";
+import * as $$$$$$26 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$27 from "./sections/WhatIsHtmx.tsx";
+import * as $$$$$$28 from "./sections/WhyGetInvolved.tsx";
 
 const manifest = {
   "sections": {
@@ -51,18 +52,19 @@ const manifest = {
     "site/sections/Header/Header2.tsx": $$$$$$13,
     "site/sections/Hero/Default.tsx": $$$$$$14,
     "site/sections/Hero/Hero.tsx": $$$$$$15,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$16,
-    "site/sections/Logos.tsx": $$$$$$17,
-    "site/sections/MainPost.tsx": $$$$$$18,
-    "site/sections/Mentors/Mentors.tsx": $$$$$$19,
-    "site/sections/NRF/Grid.tsx": $$$$$$20,
-    "site/sections/ReferralIfood.tsx": $$$$$$21,
-    "site/sections/RegisterNowBanner.tsx": $$$$$$22,
-    "site/sections/Syllabus/Syllabus.tsx": $$$$$$23,
-    "site/sections/Testimonials.tsx": $$$$$$24,
-    "site/sections/Theme/Theme.tsx": $$$$$$25,
-    "site/sections/WhatIsHtmx.tsx": $$$$$$26,
-    "site/sections/WhyGetInvolved.tsx": $$$$$$27,
+    "site/sections/HowItWork.tsx": $$$$$$16,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$17,
+    "site/sections/Logos.tsx": $$$$$$18,
+    "site/sections/MainPost.tsx": $$$$$$19,
+    "site/sections/Mentors/Mentors.tsx": $$$$$$20,
+    "site/sections/NRF/Grid.tsx": $$$$$$21,
+    "site/sections/ReferralIfood.tsx": $$$$$$22,
+    "site/sections/RegisterNowBanner.tsx": $$$$$$23,
+    "site/sections/Syllabus/Syllabus.tsx": $$$$$$24,
+    "site/sections/Testimonials.tsx": $$$$$$25,
+    "site/sections/Theme/Theme.tsx": $$$$$$26,
+    "site/sections/WhatIsHtmx.tsx": $$$$$$27,
+    "site/sections/WhyGetInvolved.tsx": $$$$$$28,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

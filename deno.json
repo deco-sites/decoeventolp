@@ -1,7 +1,7 @@
 {
   "imports": {
     "site/": "./",
-    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.67.8/",
+    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.67.9/",
     "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.26.3/",
     "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.43.2/",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",

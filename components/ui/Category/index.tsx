@@ -40,12 +40,14 @@ export default function Category({ title, flags, cards }: CategoryProps) {
             </span>
           )) }
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4">
           { cards?.map(({ title, topics, image }) => (
-            <div className="grid grid-rows-2 max-h-[600px] rounded-md overflow-hidden black-off-black">
-              <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover" />
-              <div className="p-4 pt-6">
-                <HTMLRenderer html={title} />
+            <div className="grid grid-rows-2 h-full max-h-[600px] rounded-md overflow-hidden black-off-black">
+              <div className="max-h-[200px]">
+                <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover" />
+              </div>
+              <div className="px-6 pb-4 pt-6 black-off-black">
+                <HTMLRenderer class="text-[32px]" html={title} />
                 <ul>
                   { topics?.map(({ text, icon }) => (
                     <li className="flex gap-2 items-center">
