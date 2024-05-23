@@ -95,7 +95,7 @@ export default function Mentors({ props }: { props: Props }) {
       <div class="flex flex-col container gap-10 py-8 px-4 lg:py-20">
         {title && title.length
           ? (
-            <h2 class="text-white text-3xl text-center md:text-4xl md:leading-9 lg:text-[4rem] lg:leading-[4rem]">
+            <h2 class="text-center text-[40px] md:text-[48px]">
               <HTMLRenderer html={title} />
             </h2>
           )

@@ -152,40 +152,131 @@
       }
     },
     {
-      "__resolveType": "site/sections/HowItWork.tsx",
-      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">How</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">it works</span></p>",
+      "__resolveType": "site/sections/WhatIsHtmx.tsx",
       "cards": [
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
-          "title": "Categories & Prizes",
-          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Build&nbsp;<strong>Landing Pages, Blogs, Storefronts</strong>, or submit to our <strong>Open Category</strong>.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">The prizes vary according to the delivery, but the criteria is always <strong>Design, Editability &amp; Performance</strong>.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">There will be <strong>one winning team and three honorable mentions per category</strong>. Scroll down for more details.</span><br></p>"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2fd88016-04fc-4227-bda5-b9c504cdf1d2",
+          "description": "Any element can issue an HTTP request - not just anchors and forms"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d",
-          "title": "Content",
-          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong><br data-mce-bogus=\"1\"></strong></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Marketplace bounties:</strong> Explore our marketplace and select from a variety of bounty options to work on.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Your own creations:</strong> Feel inspired? Develop your own template idea and showcase your creativity.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Client projects welcome:</strong> Take the opportunity to work on a project for a client of yours.</span><br></p>"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bcd5f81d-e25b-4011-86d3-bef70111ea13",
+          "description": "Any event can trigger requests - not just clicks or form submissions"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
-          "title": "Team",
-          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">At least one designer and one developer on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Maximum of five in each group. All members that deliver a site will get a certificate.</span></p>"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ce18ccbc-60d2-41df-bfa0-d4bc9e70cb09",
+          "description": "Leverage over ten HTTP verbs to indicate actions - not just GET and POST"
         },
         {
-          "title": "HTMX-powered templates",
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/75afb5fd-d402-48ea-be4d-0ed04ef39175",
-          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We would love to receive templates to be featured on our deco.store. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"
-        },
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/e60328d7-00b0-4a7b-8051-345744a1d6c5",
-          "title": "Talks & Workshops",
-          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A series of 30-minute sessions throughout Saturday, where industry experts explore crucial topics for building successful web experiences - from UX writing, design essentials to SEO strategies and performance marketing. </span><br></p>"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/30350966-50bc-4556-ac23-9c6cf7da4467",
+          "description": "Update any element though a request - don't be limited to replacing the entire screen"
         }
-      ]
+      ],
+      "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">htmx extends and generalizes the core idea of HTML as a hypertext, opening up many more possibilities directly within the language:</span></p>",
+      "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403",
+      "titleText": "<h5 data-mce-style=\"line-height: 1.2; text-align: center;\" style=\"line-height: 1.2; text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">htmx </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">is a library that allows you to access modern browser features directly from HTML, rather than using javascript</span></span></h5>",
+      "cta": [
+        {
+          "color": "green",
+          "href": "#",
+          "label": "How deco.cx supports HTMX"
+        },
+        {
+          "color": "neutral",
+          "href": "#",
+          "label": "Check htmx’s official docs"
+        }
+      ],
+      "bottomMessage": "<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"
     },
     {
-      "__resolveType": "site/sections/RegisterNowBanner.tsx",
-      "title": "REGISTER NOW",
-      "href": "#"
+      "__resolveType": "site/sections/Category.tsx",
+      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Choose your</span> category</span></p>",
+      "cards": [
+        {
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Landing Pages</span></p>",
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">One-page websties</span></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c9d4a0f0-1ad2-49ee-946a-c64c03019ae9",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$2,500</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2a43fd4e-3618-46f1-b34e-0bd1935a8d22"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8c12c2fc-cab4-4e0d-a92a-6c149fc5e0cd"
+        },
+        {
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Blog</span></p>",
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, Search Page &amp; Post Page</span><br></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/26439bb9-cb65-47ff-9e5a-123f2317fcec",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$5,000</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/d16665f8-87e4-406b-a44f-04f395efbc93"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b0d8f7e1-8e51-41bc-bb08-3f5d632e10eb"
+        },
+        {
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>",
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, PLP, PDP &amp; Cart</span><br></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9df239d1-7aec-4c7a-af68-e11047befc5a",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$7,500</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f6fa5f2d-f5e4-406c-8100-e075ae3a749a"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd"
+        },
+        {
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>",
+          "topics": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
+              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Anything you like!</span><br></p>"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8509bd73-fb69-40c8-8736-bf3add5584a2",
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$10,000</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3333d0ba-6aca-4e75-9205-b5961c863937"
+            }
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd"
+        }
+      ],
+      "flags": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
+          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Each category winner gets</span> <span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">swag kit</span><br></p>"
+        },
+        {
+          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"
+        },
+        {
+          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Tie-breaker: </span>Creativity</p>"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
@@ -292,131 +383,40 @@
       }
     },
     {
-      "__resolveType": "site/sections/WhatIsHtmx.tsx",
+      "__resolveType": "site/sections/HowItWork.tsx",
+      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">How</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">it works</span></p>",
       "cards": [
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2fd88016-04fc-4227-bda5-b9c504cdf1d2",
-          "description": "Any element can issue an HTTP request - not just anchors and forms"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
+          "title": "Categories & Prizes",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Build&nbsp;<strong>Landing Pages, Blogs, Storefronts</strong>, or submit to our <strong>Open Category</strong>.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">The prizes vary according to the delivery, but the criteria is always <strong>Design, Editability &amp; Performance</strong>.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">There will be <strong>one winning team and three honorable mentions per category</strong>. Scroll down for more details.</span><br></p>"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bcd5f81d-e25b-4011-86d3-bef70111ea13",
-          "description": "Any event can trigger requests - not just clicks or form submissions"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d",
+          "title": "Content",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong><br data-mce-bogus=\"1\"></strong></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Marketplace bounties:</strong> Explore our marketplace and select from a variety of bounty options to work on.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Your own creations:</strong> Feel inspired? Develop your own template idea and showcase your creativity.</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><strong>Client projects welcome:</strong> Take the opportunity to work on a project for a client of yours.</span><br></p>"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ce18ccbc-60d2-41df-bfa0-d4bc9e70cb09",
-          "description": "Leverage over ten HTTP verbs to indicate actions - not just GET and POST"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
+          "title": "Team",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">At least one designer and one developer on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">Maximum of five in each group. All members that deliver a site will get a certificate.</span></p>"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/30350966-50bc-4556-ac23-9c6cf7da4467",
-          "description": "Update any element though a request - don't be limited to replacing the entire screen"
-        }
-      ],
-      "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">htmx extends and generalizes the core idea of HTML as a hypertext, opening up many more possibilities directly within the language:</span></p>",
-      "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403",
-      "titleText": "<h5 data-mce-style=\"line-height: 1.2; text-align: center;\" style=\"line-height: 1.2; text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">htmx </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">is a library that allows you to access modern browser features directly from HTML, rather than using javascript</span></span></h5>",
-      "cta": [
-        {
-          "color": "green",
-          "href": "#",
-          "label": "How deco.cx supports HTMX"
+          "title": "HTMX-powered templates",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/75afb5fd-d402-48ea-be4d-0ed04ef39175",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We would love to receive templates to be featured on our deco.store. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"
         },
         {
-          "color": "neutral",
-          "href": "#",
-          "label": "Check htmx’s official docs"
-        }
-      ],
-      "bottomMessage": "<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"
-    },
-    {
-      "__resolveType": "site/sections/Category.tsx",
-      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Categories</span></p>",
-      "flags": [
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
-          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Winners and mentioned all get deco kit</span></p>"
-        },
-        {
-          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"
-        },
-        {
-          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Tie-breaker: </span>Creativity</p>"
-        }
-      ],
-      "cards": [
-        {
-          "topics": [
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
-              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">One-page websties</span></p>"
-            },
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c9d4a0f0-1ad2-49ee-946a-c64c03019ae9",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$2,500</span></p>"
-            },
-            {
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2a43fd4e-3618-46f1-b34e-0bd1935a8d22"
-            }
-          ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8c12c2fc-cab4-4e0d-a92a-6c149fc5e0cd",
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Landing Pages</span></p>"
-        },
-        {
-          "topics": [
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
-              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, Search Page &amp; Post Page</span><br></p>"
-            },
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/26439bb9-cb65-47ff-9e5a-123f2317fcec",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$5,000</span></p>"
-            },
-            {
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/d16665f8-87e4-406b-a44f-04f395efbc93"
-            }
-          ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b0d8f7e1-8e51-41bc-bb08-3f5d632e10eb",
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Blog</span></p>"
-        },
-        {
-          "topics": [
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
-              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Home, PLP, PDP &amp; Cart</span><br></p>"
-            },
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9df239d1-7aec-4c7a-af68-e11047befc5a",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$7,500</span></p>"
-            },
-            {
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f6fa5f2d-f5e4-406c-8100-e075ae3a749a"
-            }
-          ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>"
-        },
-        {
-          "topics": [
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
-              "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Anything you like!</span><br></p>"
-            },
-            {
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8509bd73-fb69-40c8-8736-bf3add5584a2",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$10,000</span></p>"
-            },
-            {
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Ends at:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">xpm on Sunday</span></p>",
-              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3333d0ba-6aca-4e75-9205-b5961c863937"
-            }
-          ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/e60328d7-00b0-4a7b-8051-345744a1d6c5",
+          "title": "Talks & Workshops",
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A series of 30-minute sessions throughout Saturday, where industry experts explore crucial topics for building successful web experiences - from UX writing, design essentials to SEO strategies and performance marketing. </span><br></p>"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/RegisterNowBanner.tsx",
+      "title": "REGISTER NOW",
+      "href": "#"
     },
     {
       "__resolveType": "site/sections/Mentors/Mentors.tsx",
@@ -571,7 +571,7 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready</span></p>",
+        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready ?</span></p>",
         "button": {
           "id": "bt-click-enroll-1",
           "href": "#prices-section",
