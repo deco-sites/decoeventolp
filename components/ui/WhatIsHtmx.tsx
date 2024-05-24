@@ -2,11 +2,6 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
-export interface CTA {
-  color: "green" | 'neutral',
-  href: string;
-  label: string;
-}
 export interface WhatIsHtmxProps {
   titleImage?: ImageWidget;
   titleText?: HTML;
@@ -20,6 +15,12 @@ export interface CardProps {
   icon?: ImageWidget;
   title?: string;
   description?: string;
+}
+
+export interface CTA {
+  color: "green" | 'neutral',
+  href: string;
+  label: string;
 }
 
 const BTN_COLORS = {

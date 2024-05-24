@@ -32,9 +32,11 @@ export default function BenefitCard(
           <img class="mb-4" src={image} width={32} height={32} />
 
           <h4 class="text-[#fff] text-semibold text-xl">{title}</h4>
-          <div className="mt-2 text-[#A1A1AA] text-[18px]"> 
-            <HTMLRenderer html={subTitle} />
-          </div>
+          { subTitle ? (
+            <div className="mt-2 text-[#A1A1AA] text-[18px]"> 
+              <HTMLRenderer html={subTitle} />
+            </div>
+          ) : null }
         </div>
       </div>
     </>

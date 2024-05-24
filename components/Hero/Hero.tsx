@@ -2,6 +2,7 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import type { Props as PropsButton } from "../ui/Button.tsx";
 import Icon from "../ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
+import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
 export interface Props {
   flag: {
@@ -17,11 +18,20 @@ export interface Props {
    * @format html
    */
   title: string;
-  /**
-   * @format html
-   */
-  subtitle: string;
-  button: PropsButton;
+  subtitle: HTML;
+  description: HTML;
+  buttons: CTA[];
+}
+
+export interface CTA {
+  color?: "green" | 'neutral',
+  href: string;
+  label: string;
+}
+
+const BTN_COLORS = {
+  green: 'hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] text-[#0A2121] font-semibold',
+  neutral: 'bg-[#113032] hover:bg-transparent md:hover:border-[#02F67C] md:hover:border md:hover:text-[#fff] border-[transparent] border text-white'
 }
 
 const BASE_PROPS = {
@@ -34,11 +44,13 @@ const BASE_PROPS = {
   },
   title:
     '<p><span style="color: rgb(45, 194, 107);" data-mce-style="color: rgb(45, 194, 107);">Are you ready?</span></p>',
-  button: {
+  buttons: [{
     href: "#",
     label: "Register now",
-  },
-  subtitle:
+    color: "green",
+  }],
+  subtitle: "<p>edition</p>",
+  description:
     "<p>A 3-day event to transform ideas into stunning websites. Join the Get Site Done sprint and compete for over R$20,000 in prizes <3</p>",
 };
 
@@ -47,7 +59,8 @@ export default function Hero({ props }: { props: Props }) {
     flag,
     title,
     subtitle,
-    button,
+    description,
+    buttons,
     flagSound,
   } = {
     ...BASE_PROPS,
@@ -70,31 +83,39 @@ export default function Hero({ props }: { props: Props }) {
               </span>
             )}
           </div>
-          <h2
-            class="argentPixel text-[54px] md:leading-[5.2rem] md:text-[98px] lg:text-[128px] text-white text-center lg:text-start -mb-2 sm:mb-0 md:mb-2 md:mt-4"
-            dangerouslySetInnerHTML={{ __html: title }}
-          >
-          </h2>
-          <div className="flex justify-center">
-            <Image 
+          <HTMLRenderer 
+            class="argentPixel text-[54px] md:text-[98px] lg:text-[128px] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
+            html={title}
+          />
+          <div className="flex justify-center items-center">
+            <Image
+              className={"hidden md:block"}
               src={props.image ?? ''} 
               width={224} 
               height={44} 
               alt={'HTMX'} 
             />
+            <Image
+              className={"block md:hidden w-[154px] h-[30px]"}
+              src={props.image ?? ''} 
+              width={193.5} 
+              height={37.5} 
+              alt={'HTMX'} 
+            />
+            <HTMLRenderer class="text-[32px] md:text-[50px]" html={subtitle} />
           </div>
-          <span
-            class="text-sm md:text-base text-camp-neutral md:leading-[1.8rem] lg:text-lg xl:text-2xl text-center lg:text-start"
-            dangerouslySetInnerHTML={{ __html: subtitle }}
-          >
-          </span>
-          <div class="flex flex-col gap-2 items-center lg:items-start ">
-            <a
-              className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-bold text-[18px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-bold"
-              href={button.href}
-            >
-              {button.label}
-            </a>
+          <HTMLRenderer class="text-center text-sm md:text-base md:leading-[1.8rem]" html={description} />
+          <div class="flex flex-col md:flex-row gap-2 items-center">
+            { buttons.map(({ color = 'green', href, label }: CTA) => (
+              <a
+                className={`flex items-center font-medium text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
+                ${BTN_COLORS[color]}
+              `}
+                href={href}
+              >
+                {label}
+              </a>
+            )) }
           </div>
         </div>
       </div>
