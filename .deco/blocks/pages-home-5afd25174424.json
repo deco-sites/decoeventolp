@@ -80,38 +80,42 @@
       "__resolveType": "site/sections/WhatIsHtmx.tsx",
       "cards": [
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2fd88016-04fc-4227-bda5-b9c504cdf1d2",
-          "description": "Any element can issue an HTTP request - not just anchors and forms"
-        },
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bcd5f81d-e25b-4011-86d3-bef70111ea13",
-          "description": "Any event can trigger requests - not just clicks or form submissions"
-        },
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ce18ccbc-60d2-41df-bfa0-d4bc9e70cb09",
-          "description": "Leverage over ten HTTP verbs to indicate actions - not just GET and POST"
-        },
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/30350966-50bc-4556-ac23-9c6cf7da4467",
-          "description": "Update any element though a request - don't be limited to replacing the entire screen"
+          "cards": [
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2fd88016-04fc-4227-bda5-b9c504cdf1d2",
+              "description": "Any element can issue an HTTP request - not just anchors and forms"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bcd5f81d-e25b-4011-86d3-bef70111ea13",
+              "description": "Any event can trigger requests - not just clicks or form submissions"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ce18ccbc-60d2-41df-bfa0-d4bc9e70cb09",
+              "description": "Leverage over ten HTTP verbs to indicate actions - not just GET and POST"
+            },
+            {
+              "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/30350966-50bc-4556-ac23-9c6cf7da4467",
+              "description": "Update any element though a request - don't be limited to replacing the entire screen"
+            }
+          ],
+          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">htmx extends and generalizes the core idea of HTML as a hypertext, opening up many more possibilities directly within the language:</span></p>",
+          "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403",
+          "titleText": "<h5 data-mce-style=\"line-height: 1.2; text-align: center;\" style=\"line-height: 1.2; text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">htmx </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">is a library that allows you to access modern browser features directly from HTML, rather than using javascript</span></span></h5>",
+          "cta": [
+            {
+              "color": "green",
+              "href": "#",
+              "label": "How deco.cx supports HTMX"
+            },
+            {
+              "color": "neutral",
+              "href": "#",
+              "label": "Check htmx’s official docs"
+            }
+          ],
+          "bottomMessage": "<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"
         }
-      ],
-      "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">htmx extends and generalizes the core idea of HTML as a hypertext, opening up many more possibilities directly within the language:</span></p>",
-      "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403",
-      "titleText": "<h5 data-mce-style=\"line-height: 1.2; text-align: center;\" style=\"line-height: 1.2; text-align: center;\"><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">htmx </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">is a library that allows you to access modern browser features directly from HTML, rather than using javascript</span></span></h5>",
-      "cta": [
-        {
-          "color": "green",
-          "href": "#",
-          "label": "How deco.cx supports HTMX"
-        },
-        {
-          "color": "neutral",
-          "href": "#",
-          "label": "Check htmx’s official docs"
-        }
-      ],
-      "bottomMessage": "<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"
+      ]
     },
     {
       "__resolveType": "site/sections/Category.tsx",
