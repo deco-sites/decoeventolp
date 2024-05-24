@@ -1,0 +1,69 @@
+{
+  "__resolveType": "site/sections/Mentors/Mentors.tsx",
+  "props": {
+    "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Become a</span>&nbsp;<span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Web Master</span><br></p>",
+    "mentors": [
+      {
+        "image": {
+          "alt": "Matheus Gaudêncio",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/a09ff2fe-a610-4397-a885-cce2b87dff3f"
+        },
+        "content": "<p>As the founding software engineer at deco.cx, Gaudencio has spearheaded educational initiatives and provided crucial support. Prior to this role, he served as a licensed computer science teacher at UFCG, where he took on responsibilities for chairs in web development and infrastructure. Additionally, Gaudencio led Public-Private Partnership (PPP) projects with industry giants like Lenovo and VTEX. With a decade-long tenure at UFCG, Matheus impacted the lives of over 1000 students.</p>",
+        "contacts": [
+          {
+            "href": "https://www.linkedin.com/in/matheusgaudencio/",
+            "type": "Linkedin"
+          },
+          {
+            "href": "https://github.com/matheusgr",
+            "type": "Git-hub"
+          },
+          {
+            "href": "https://twitter.com/mathgaudencio",
+            "type": "Twitter"
+          }
+        ],
+        "nameMentor": "Matheus Gaudêncio",
+        "profession": "Software Engineer at deco.cx"
+      },
+      {
+        "image": {
+          "alt": "Tiago Gimenes",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/106dc900-5175-4786-8503-ef819efddb36"
+        },
+        "content": "<p>Tiago is a software developer with a solid academic background, having graduated from Ecole Polytechnique in Paris and obtained a master's degree in Artificial Intelligence from HKUST. Over the past six years, he has dedicated his expertise to web development and optimizing frontend performance at leading ecommerce solutions. His journey reflects a commitment to staying updated with technological advances, enabling him to navigate the dynamic field of software development.</p>",
+        "contacts": [
+          {
+            "href": "https://www.linkedin.com/search/results/all/?keywords=gimenes&sid=Z31",
+            "type": "Linkedin"
+          },
+          {
+            "href": "https://github.com/tlgimenes",
+            "type": "Git-hub"
+          }
+        ],
+        "nameMentor": "Tiago Gimenes",
+        "profession": "Software Engineer at deco.cx"
+      },
+      {
+        "image": {
+          "alt": "Luciano Junior",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/38a43da0-02a5-4070-9198-99484acd7dae"
+        },
+        "content": "<p>Luciano Júnior, a.k.a <strong>Lucis,&nbsp;</strong>has been coding since he was 7 and is passionate about creating simple solutions of make people's lives better. He is an advocate of the Web and has experience in building multi-tenant scalable applications, especially with his favorite language: Typescript. Lucis is also passionate about education, having mentored and lectured in his area since his college degree in Computer Science at UFCG. He follows the mantra \"Simplicity is the ultimate sophistication\".</p>",
+        "contacts": [
+          {
+            "href": "https://www.linkedin.com/in/lcnjnr/",
+            "type": "Linkedin"
+          },
+          {
+            "href": "https://github.com/lucis",
+            "type": "Git-hub"
+          }
+        ],
+        "nameMentor": "Luciano Junior",
+        "profession": "Co-Founder and CTO at deco.cx"
+      }
+    ]
+  }
+}

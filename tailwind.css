@@ -64,6 +64,11 @@
   .border-off-black {
     border-color: rgba(255, 255, 255, 0.05)
   }
+
+  .alinhar-ao-lado {
+    display: flex;
+    gap: 10px;
+  }
 }
 
 @layer components {

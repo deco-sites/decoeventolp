@@ -193,7 +193,7 @@
       "flags": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
-          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Each category winner gets</span> <span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">swag kit</span><br></p>"
+          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Each category winner gets</span> <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><a href=\"www.google.com.br\" style=\"color: rgb(2, 246, 124); text-decoration: underline;\" data-mce-style=\"color: rgb(2, 246, 124); text-decoration: underline;\">swag kit</a></span><br></p>"
         },
         {
           "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"
@@ -330,11 +330,6 @@
           "title": "HTMX-powered templates",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/75afb5fd-d402-48ea-be4d-0ed04ef39175",
           "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We would love to receive templates to be featured on our deco.store. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"
-        },
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/e60328d7-00b0-4a7b-8051-345744a1d6c5",
-          "title": "Talks & Workshops",
-          "description": "<p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A series of 30-minute sessions throughout Saturday, where industry experts explore crucial topics for building successful web experiences - from UX writing, design essentials to SEO strategies and performance marketing. </span><br></p>"
         }
       ]
     },
@@ -344,78 +339,9 @@
       "href": "#"
     },
     {
-      "__resolveType": "site/sections/Mentors/Mentors.tsx",
-      "props": {
-        "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Become a</span>&nbsp;<span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Web Master</span><br></p>",
-        "mentors": [
-          {
-            "image": {
-              "alt": "Matheus Gaudêncio",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/a09ff2fe-a610-4397-a885-cce2b87dff3f"
-            },
-            "content": "<p>As the founding software engineer at deco.cx, Gaudencio has spearheaded educational initiatives and provided crucial support. Prior to this role, he served as a licensed computer science teacher at UFCG, where he took on responsibilities for chairs in web development and infrastructure. Additionally, Gaudencio led Public-Private Partnership (PPP) projects with industry giants like Lenovo and VTEX. With a decade-long tenure at UFCG, Matheus impacted the lives of over 1000 students.</p>",
-            "contacts": [
-              {
-                "href": "https://www.linkedin.com/in/matheusgaudencio/",
-                "type": "Linkedin"
-              },
-              {
-                "href": "https://github.com/matheusgr",
-                "type": "Git-hub"
-              },
-              {
-                "href": "https://twitter.com/mathgaudencio",
-                "type": "Twitter"
-              }
-            ],
-            "nameMentor": "Matheus Gaudêncio",
-            "profession": "Software Engineer at deco.cx"
-          },
-          {
-            "image": {
-              "alt": "Tiago Gimenes",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/106dc900-5175-4786-8503-ef819efddb36"
-            },
-            "content": "<p>Tiago is a software developer with a solid academic background, having graduated from Ecole Polytechnique in Paris and obtained a master's degree in Artificial Intelligence from HKUST. Over the past six years, he has dedicated his expertise to web development and optimizing frontend performance at leading ecommerce solutions. His journey reflects a commitment to staying updated with technological advances, enabling him to navigate the dynamic field of software development.</p>",
-            "contacts": [
-              {
-                "href": "https://www.linkedin.com/search/results/all/?keywords=gimenes&sid=Z31",
-                "type": "Linkedin"
-              },
-              {
-                "href": "https://github.com/tlgimenes",
-                "type": "Git-hub"
-              }
-            ],
-            "nameMentor": "Tiago Gimenes",
-            "profession": "Software Engineer at deco.cx"
-          },
-          {
-            "image": {
-              "alt": "Luciano Junior",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4391/38a43da0-02a5-4070-9198-99484acd7dae"
-            },
-            "content": "<p>Luciano Júnior, a.k.a <strong>Lucis,&nbsp;</strong>has been coding since he was 7 and is passionate about creating simple solutions of make people's lives better. He is an advocate of the Web and has experience in building multi-tenant scalable applications, especially with his favorite language: Typescript. Lucis is also passionate about education, having mentored and lectured in his area since his college degree in Computer Science at UFCG. He follows the mantra \"Simplicity is the ultimate sophistication\".</p>",
-            "contacts": [
-              {
-                "href": "https://www.linkedin.com/in/lcnjnr/",
-                "type": "Linkedin"
-              },
-              {
-                "href": "https://github.com/lucis",
-                "type": "Git-hub"
-              }
-            ],
-            "nameMentor": "Luciano Junior",
-            "profession": "Co-Founder and CTO at deco.cx"
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "site/sections/ReferralIfood.tsx",
       "title": "<p><span><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>",
-      "description": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get <span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">R$50.00</span> at iFood.&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants <strong>wins </strong><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">R$5,000</span> <strong>at any deco.cx store.</strong></span><br></p>",
+      "description": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><p class=\"alinhar-ao-lado\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get R$50.00 at</span><span><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\" alt=\"ifood\" width=\"61\"  height=\"33\" /></span><p>      &nbsp;<br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> <span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020",
       "cta": [
         {
@@ -505,7 +431,7 @@
         },
         "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
         "flagSound": {
-          "text": "Friday, June 14th @4pm (GMV-3) to Sunday, June 16th",
+          "text": "Friday, June 28th @4pm (GMV-3) to Sunday, June 30th",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/24b8c88d-459e-41ad-ac57-8811150d4b08"
         },
         "afterButtonText": "Check the Pre-requisites"

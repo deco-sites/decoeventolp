@@ -145,5 +145,9 @@
   "/.deco/blocks/Deco%20Header%20%5BEN%5D.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Header/Header.tsx"
+  },
+  "/.deco/blocks/Mentores.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Mentors/Mentors.tsx"
   }
 }
