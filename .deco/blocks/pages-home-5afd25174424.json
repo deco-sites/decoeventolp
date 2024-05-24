@@ -30,14 +30,14 @@
           "buttonLabel": "Check the Requirements"
         },
         "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon X</span><br></pre>",
-        "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
+        "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
         "flagSound": {
           "text": "Friday, June 28th @4pm - Sunday, June 30th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3ca60ebd-d38b-4503-8e46-7b6de7e72a29"
         },
         "afterButtonText": "Check the Pre-requisites",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6797598e-91d1-49b2-b586-acd9e85e5827",
-        "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
+        "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
         "buttons": [
           {
             "href": "#prices-section",
@@ -116,9 +116,20 @@
     {
       "__resolveType": "site/sections/Category.tsx",
       "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Choose your</span> category</span></p>",
+      "flags": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
+          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Each category winner gets</span> <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><a href=\"www.google.com.br\" style=\"color: rgb(2, 246, 124); text-decoration: underline;\" data-mce-style=\"color: rgb(2, 246, 124); text-decoration: underline;\">swag kit</a></span><br></p>"
+        },
+        {
+          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"
+        },
+        {
+          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Tie-breaker: </span>Creativity</p>"
+        }
+      ],
       "cards": [
         {
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Landing Pages</span></p>",
           "topics": [
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
@@ -133,10 +144,10 @@
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2a43fd4e-3618-46f1-b34e-0bd1935a8d22"
             }
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8c12c2fc-cab4-4e0d-a92a-6c149fc5e0cd"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/8c12c2fc-cab4-4e0d-a92a-6c149fc5e0cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Landing Pages</span></p>"
         },
         {
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Blog</span></p>",
           "topics": [
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
@@ -151,10 +162,10 @@
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/d16665f8-87e4-406b-a44f-04f395efbc93"
             }
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b0d8f7e1-8e51-41bc-bb08-3f5d632e10eb"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b0d8f7e1-8e51-41bc-bb08-3f5d632e10eb",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Blog</span></p>"
         },
         {
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>",
           "topics": [
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
@@ -169,10 +180,10 @@
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f6fa5f2d-f5e4-406c-8100-e075ae3a749a"
             }
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>"
         },
         {
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>",
           "topics": [
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/af055c3c-b152-4e62-9ad5-52d0dd7ffdd4",
@@ -187,19 +198,8 @@
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3333d0ba-6aca-4e75-9205-b5961c863937"
             }
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd"
-        }
-      ],
-      "flags": [
-        {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
-          "text": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Each category winner gets</span> <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><a href=\"www.google.com.br\" style=\"color: rgb(2, 246, 124); text-decoration: underline;\" data-mce-style=\"color: rgb(2, 246, 124); text-decoration: underline;\">swag kit</a></span><br></p>"
-        },
-        {
-          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Criteria:&nbsp;</span>Design, Editability, Performance</p>"
-        },
-        {
-          "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Tie-breaker: </span>Creativity</p>"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
         }
       ]
     },
