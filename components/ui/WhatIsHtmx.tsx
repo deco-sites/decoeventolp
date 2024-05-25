@@ -3,7 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
 export interface SectionProps {
-  cards?: WhatIsHtmxProps[]
+  sections?: WhatIsHtmxProps[]
 }
 
 export interface WhatIsHtmxProps {
@@ -33,11 +33,11 @@ const BTN_COLORS = {
 }
 
 export default function WhatIsHtmx(
-  { cards }: SectionProps,
+  { sections = [] }: SectionProps,
 ) {
   return (
     <div class="w-full bg-black py-5 md:py-28">
-      { cards?.map(({ titleImage = '', titleText = '', description = '', cta, bottomMessage = '' }) => (
+      { sections?.map(({ titleImage = '', titleText = '', description = '', cta, bottomMessage = '' }) => (
         <div class="xl:container xl:mx-auto mx-5 md:mx-10 flex flex-col items-center justify-center gap-6 md:gap-8">
           { titleImage ? (
             <div className="flex justify-center">

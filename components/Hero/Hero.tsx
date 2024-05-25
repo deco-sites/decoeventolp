@@ -77,7 +77,7 @@ export default function Hero({ props }: { props: Props }) {
               { flag?.text }
             </span>
             {flagSound && (
-              <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
+              <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
                 { flagSound?.icon && <img src={flagSound?.icon} alt={flagSound?.text} width={16} height={16} />}
                 { flagSound?.text }
               </span>
@@ -105,7 +105,7 @@ export default function Hero({ props }: { props: Props }) {
             <HTMLRenderer class="text-[32px] md:text-[50px]" html={subtitle} />
           </div>
           <HTMLRenderer class="text-center text-sm md:text-base md:leading-[1.8rem]" html={description} />
-          <div class="flex flex-col md:flex-row gap-2 items-center">
+          <div class="flex flex-col md:flex-row gap-4 md:gap-6 items-center">
             { buttons.map(({ color = 'green', href, label }: CTA) => (
               <a
                 className={`flex items-center font-medium text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
