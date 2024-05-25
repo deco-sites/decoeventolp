@@ -78,7 +78,7 @@
     },
     {
       "__resolveType": "site/sections/WhatIsHtmx.tsx",
-      "cards": [
+      "sections": [
         {
           "cards": [
             {
@@ -112,8 +112,7 @@
               "href": "#",
               "label": "Check htmx’s official docs"
             }
-          ],
-          "bottomMessage": "<div><br data-mce-bogus=\"1\"></div><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Remove these four constraints, and HTMX completes HTML as</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hypertext</span></p>"
+          ]
         }
       ]
     },
