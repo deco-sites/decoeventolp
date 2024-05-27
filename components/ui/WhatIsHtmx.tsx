@@ -36,7 +36,7 @@ export default function WhatIsHtmx(
   { sections = [] }: SectionProps,
 ) {
   return (
-    <div class="w-full bg-black py-5 md:py-[80px]">
+    <div class="w-full bg-black py-10 md:py-[80px]">
       <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-[40px]">
         { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '' }) => (
           <div class="flex flex-col items-start justify-end gap-6 md:gap-8 lg:md:gap-[40px] rounded-[24px] bg-[#000D0D] p-[40px] lg:p-[80px]">

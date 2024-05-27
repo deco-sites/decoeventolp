@@ -84,7 +84,7 @@ export default function Faq({ props }: { props: Props }) {
 
   return (
     <div class="w-full h-full bg-black relative z-[1]">
-      <div class="py-5 md:py-[80px] px-4 container">
+      <div class="py-10 md:py-[80px] px-4 container">
         <div class="lg:w-[80%] lg:mx-auto">
           <FaqTitle title={title ? title : "FAQs"} />
 
