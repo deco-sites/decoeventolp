@@ -31,7 +31,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             <div className="text-[48px] md:text-[80px]">
               <HTMLRenderer class="text-[48px] md:text-[80px]" html={title} />
             </div>
-            <div className="md:max-w-[800px] text-[20px] lg:text-[25px]">
+            <div className="md:max-w-[740px] lg:max-w-[800px] text-[20px] lg:text-[25px]">
               <HTMLRenderer html={description} />
             </div>
             <div className="black-green lg:translate-y-[235px]" />
