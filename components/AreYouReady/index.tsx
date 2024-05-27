@@ -64,7 +64,7 @@ export default function AreYouReady({ props }: { props: Props }) {
               )}
             </div>
             <HTMLRenderer
-              class="argentPixel text-[54px] md:text-[98px] lg:text-[128px] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
+              class="argentPixel text-[54px] md:text-[98px] lg:text-[128px] text-center" 
               html={title}
             />
             <div class="hidden lg:flex flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
