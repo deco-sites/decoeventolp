@@ -47,9 +47,9 @@ export default function Benefits({ props }: { props: Props }) {
 
   return (
     <div class="w-full h-full bg-black py-[40px] md:py-[80px]">
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-10 md:gap-[80px]">
         {props?.title ? (
-          <div className="w-full text-center">
+          <div className="w-full text-center line-height-115">
             <HTMLRenderer class="text-[40px] md:text-[48px]" html={props.title} />
           </div>
         ) : null}

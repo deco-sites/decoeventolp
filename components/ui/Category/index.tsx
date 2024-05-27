@@ -29,7 +29,7 @@ export default function Category({ title, flags, cards }: CategoryProps) {
   return (
     <section className="bg-black w-full py-10 md:py-[80px]">
       <div className="flex flex-col gap-[40px] md:gap-[80px] xl:container xl:mx-auto">
-        <div className="text-[40px] md:text-[48px] text-center w-full">
+        <div className="text-[40px] md:text-[48px] text-center w-full line-height-115">
           <HTMLRenderer html={title} />
         </div>
         <div class="flex flex-row gap-4 lg:gap-8 flex-wrap gap-y-4 lg:gap-y-8 justify-center items-center">
@@ -49,9 +49,9 @@ export default function Category({ title, flags, cards }: CategoryProps) {
                 </div>
                 <div className="flex flex-col gap-[24px] p-4 md:p-8 bg-[#0D1717]">
                   <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />
-                  <ul>
+                  <ul className="flex flex-col gap-[24px]">
                     { topics?.map(({ text, icon }) => (
-                      <li className="flex gap-2 items-center">
+                      <li className="flex items-center gap-4">
                         <img src={icon} alt={text} width={16} height={16} />
                         <HTMLRenderer html={text} />
                       </li>
@@ -65,13 +65,13 @@ export default function Category({ title, flags, cards }: CategoryProps) {
             { cards?.slice(2, 3)?.map(({ title, topics, image }) => (
               <div className="grid grid-rows-2 gap-5 h-full max-h-[600px] rounded-[16px] overflow-hidden bg-[#0D1717]">
                 <div className="max-h-[200px] p-1">
-                  <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px]" />
+                  <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px] object-center" />
                 </div>
                 <div className="flex flex-col gap-[24px] p-4 md:p-8 bg-[#0D1717]">
                   <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />
-                  <ul>
+                  <ul className="flex flex-col gap-[24px]">
                     { topics?.map(({ text, icon }) => (
-                      <li className="flex gap-2 items-center">
+                      <li className="flex items-center gap-4">
                         <img src={icon} alt={text} width={16} height={16} />
                         <HTMLRenderer html={text} />
                       </li>

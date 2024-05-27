@@ -48,8 +48,8 @@ export default function AreYouReady({ props }: { props: Props }) {
 
   return (
     <div className="w-full bg-[#02F67C]">
-      <div className="w-full h-full bg-black w-full relative z-[1] rounded-b-[100px]">
-        <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 py-10 md:py-[80px] container px-3">
+      <div className="w-full h-full bg-black w-full pb-2 rounded-b-[100px]">
+        <div class="w-full h-full flex flex-col relative overflow-hidden z-[1] lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 py-10 md:py-[80px] container px-3">
           <div class=" h-full flex flex-col justify-center items-center gap-[32px] w-full">
             <div class="flex lg:hidden flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm md:text-base text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
@@ -68,12 +68,12 @@ export default function AreYouReady({ props }: { props: Props }) {
               html={title}
             />
             <div class="hidden lg:flex flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
-              <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
+              <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm md:text-base text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                 { flag?.icon && <img src={flag?.icon} alt={flag?.text} width={16} height={16} />}
                 { flag?.text }
               </span>
               {flagSound && (
-                <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
+                <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm md:text-base text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                   { flagSound?.icon && <img src={flagSound?.icon} alt={flagSound?.text} width={16} height={16} />}
                   { flagSound?.text }
                 </span>
@@ -83,7 +83,7 @@ export default function AreYouReady({ props }: { props: Props }) {
             <div className="light-green translate-y-[155px] lg:translate-y-[235px]" />
             <div class="flex flex-col gap-2 items-center lg:items-start ">
               <a
-                className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] font-medium text-[16px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold"
+                className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] text-[16px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold"
                 href={button.href}
               >
                 {button.label}

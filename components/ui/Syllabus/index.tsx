@@ -166,7 +166,7 @@ export default function Syllabus({ props }: { props: Props }) {
   return (
     <div class="w-full h-full bg-black py-10 md:py-[80px]">
       <div class="flex w-full flex-col justify-center px-6 gap-10 md:gap-[80px] container">
-        <h2 class="text-white text-[40px] md:text-[48px] text-center">
+        <h2 class="text-white text-[40px] md:text-[48px] text-center line-height-115">
           <HTMLRenderer html={title} />
         </h2>
         <div class="flex flex-col w-full rounded-xl border-neutral border border-off-black bg-white bg-opacity-5">

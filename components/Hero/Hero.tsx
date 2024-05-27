@@ -108,7 +108,7 @@ export default function Hero({ props }: { props: Props }) {
           <div class="flex flex-col md:flex-row gap-4 md:gap-6 items-center">
             { buttons.map(({ color = 'green', href, label }: CTA) => (
               <a
-                className={`flex items-center text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-bold
+                className={`flex items-center text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
                 ${BTN_COLORS[color]}
               `}
                 href={href}

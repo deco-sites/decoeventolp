@@ -12,7 +12,6 @@ export default function BenefitCard(
   { image, title, subTitle, position }: Props,
 ) {
 
-  console.log(position, title, 'BENEFICIOS')
   return (
     <>
       <div

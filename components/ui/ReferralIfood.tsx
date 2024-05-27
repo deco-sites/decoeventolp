@@ -25,11 +25,11 @@ const BTN_COLORS = {
 export default function ReferralIfood({ image, title, description, cta }: ReferralIfoodProps) {
   return (
     <section className="w-full bg-black px-4 py-10 md:py-[80px] lg:px-24">
-      <div className="xl:container xl:mx-auto px-4 lg:px-0 flex justify-center rounded-[24px] relative z-1 black-green relative">
+      <div className="xl:container xl:mx-auto flex justify-center rounded-[24px] relative z-1 black-green relative">
         <div className="flex flex-col items-center md:grid md:pb-[300px] lg:pb-[100px] md:grid-cols-1 lg:grid-cols-[1fr_400px] py-[64px] px-8 md:p-[40px] lg:py-[100px] lg:px-[80px]">
           <div className="flex flex-col items-center md:items-start gap-4 md:gap-6 lg:gap-8 pb-[64px] md:pb-[95px] lg:pb-0">
-            <div className="text-[48px] md:text-[80px]">
-              <HTMLRenderer class="text-[48px] md:text-[80px]" html={title} />
+            <div className="">
+              <HTMLRenderer class="text-[40px] md:text-[48px] line-height-115" html={title} />
             </div>
             <div className="md:max-w-[740px] lg:max-w-[800px] text-[20px] lg:text-[25px]">
               <HTMLRenderer html={description} />

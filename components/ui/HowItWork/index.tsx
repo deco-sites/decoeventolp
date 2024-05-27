@@ -17,7 +17,7 @@ export default function HowItWork({ title, cards }: HowItWorkProps) {
     <section className="w-full bg-black py-10 md:py-[80px]">
       <div className="flex flex-col gap-10 md:gap-[80px] xl:container xl:mx-auto">
         { title && (
-          <div className="text-[40px] md:text-[48px] text-center w-full pb-4">
+          <div className="text-[40px] md:text-[48px] text-center w-full pb-4 line-height-115">
             <HTMLRenderer html={title} />
           </div>
         ) }

@@ -64,6 +64,10 @@
   .border-off-black {
     border-color: rgba(255, 255, 255, 0.05)
   }
+
+  .line-height-115 {
+    line-height: 115%;
+  }
 }
 
 @layer components {
