@@ -46,7 +46,7 @@ export default function Benefits({ props }: { props: Props }) {
   const { items } = { ...BASE_PROPS, ...props };
 
   return (
-    <div class="w-full h-full bg-black md:pb-18 md:pt-18">
+    <div class="w-full h-full bg-black py-[40px] md:py-[80px]">
       <div className="flex flex-col">
         {props?.title ? (
           <div className="w-full text-center">
@@ -55,19 +55,26 @@ export default function Benefits({ props }: { props: Props }) {
         ) : null}
         <div class="container md:flex md:gap-1 md:flex-wrap py-10 px-12 lg:grid lg:grid-cols-4 divide-y lg:divide-x lg:divide-y-0 border-[#A1A1AA]">
           {items.map((item, index) => (
-            <div className="flex md:justify-center">
-              <hr
-                class={`hidden h-[225px] self-end bg-[#A1A1AA] ${
-                  (index + 1) % 2 == 0 ? "md:block w-[1px] lg:hidden" : ""
-                }`}
-              />
-              <BenefitCard
-                image={item.icon}
-                title={item.title}
-                subTitle={item.subTitle ?? ""}
-                position={index}
-              />
-            </div>
+            <>
+              <div 
+                className={`md:flex md:gap-1 md:flex-wrap lg:justify-center w-full md:w-[45%] lg:w-full
+                ${index === 1 ? 'md:border-t-0 md:border-t-transparent' : ''}
+                ${index === 0 ? 'md:pl-2' : ''}
+                `}
+              >
+                <hr
+                  class={`hidden h-[225px] self-end bg-[#A1A1AA] ${
+                    (index + 1) % 2 == 0 ? "md:block w-[1px] lg:hidden" : ""
+                  }`}
+                />
+                <BenefitCard
+                  image={item.icon}
+                  title={item.title}
+                  subTitle={item.subTitle ?? ""}
+                  position={index}
+                />
+              </div>
+            </>
           ))}
         </div>
       </div>

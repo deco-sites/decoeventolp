@@ -27,7 +27,7 @@ export interface CardProps {
 
 export default function Category({ title, flags, cards }: CategoryProps) {
   return (
-    <section className="bg-black w-full">
+    <section className="bg-black w-full py-5 md:py-[80px]">
       <div className="flex flex-col gap-4 xl:container xl:mx-auto">
         <div className="text-[40px] text-center w-full">
           <HTMLRenderer html={title} />
@@ -42,7 +42,7 @@ export default function Category({ title, flags, cards }: CategoryProps) {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
           { cards?.slice(0, 2)?.map(({ title, topics, image }) => (
-            <div className="grid grid-rows-2 h-full max-h-[600px] rounded-[16px] overflow-hidden black-off-black">
+            <div className="grid grid-rows-2 h-full max-h-[600px] rounded-[16px] overflow-hidden bg-[#0D1717]">
               <div className="max-h-[200px] p-1">
                 <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px]" />
               </div>

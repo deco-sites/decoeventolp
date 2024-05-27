@@ -11,12 +11,14 @@ export interface Props {
 export default function BenefitCard(
   { image, title, subTitle, position }: Props,
 ) {
+
+  console.log(position, title, 'BENEFICIOS')
   return (
     <>
       <div
-        class={`py-6 lg:py-0 md:w-[45%] lg:w-min whitespace-nowrap ${
+        class={`py-6 lg:py-0 lg:w-min lg:whitespace-nowrap ${
           position == 0
-            ? "pl-2 border-t-transparent lg:border-l-transparent lg:pl-0 2xl:pl-0"
+            ? "pl-0 border-t-transparent lg:border-l-transparent 2xl:pl-0"
             : "lg:pl-2 2xl:pl-2"
         } ${
           (position + 1) == 1 || (position + 1) == 2

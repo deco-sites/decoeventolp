@@ -14,7 +14,7 @@ export interface CardProps {
 
 export default function HowItWork({ title, cards }: HowItWorkProps) {
   return (
-    <section className="w-full bg-black">
+    <section className="w-full bg-black py-5 md:py-[80px]">
       <div className="flex flex-col gap-4 xl:container xl:mx-auto">
         { title && (
           <div className="text-[40px] md:text-[48px] text-center w-full pb-4">
@@ -23,7 +23,7 @@ export default function HowItWork({ title, cards }: HowItWorkProps) {
         ) }
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 px-4">
           { cards?.map(({ title, description, icon }) => (
-            <div className="flex flex-col rounded-[24px] off-black gap-6 py-6 px-7 md:py-8 md:px-10 lg:py-9 lg:px-12">
+            <div className="flex flex-col rounded-[24px] bg-[#000D0D] gap-6 py-6 px-7 md:py-8 md:px-10 lg:py-9 lg:px-12">
               {icon && (
                 <div>
                   <img src={icon} alt={title} width={25} height={25} />

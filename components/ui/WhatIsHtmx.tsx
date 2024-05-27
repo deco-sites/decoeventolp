@@ -37,12 +37,12 @@ export default function WhatIsHtmx(
   { sections = [] }: SectionProps,
 ) {
   return (
-    <div class="w-full bg-black py-5 md:py-28">
-      <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+    <div class="w-full bg-black py-5 md:py-[80px]">
+      <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
         { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '', cards = [] }) => (
-          <div class="flex flex-col items-center justify-center md:items-start gap-6 md:gap-8 rounded-[24px] off-black p-6 pb-5 md:p-10 md:pb-8 md:pl-[3.5rem]">
+          <div class="flex flex-col items-start justify-end gap-6 md:gap-8 rounded-[24px] bg-[#000D0D] p-[40px] lg:p-[80px]">
             { titleImage ? (
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center md:justify-start items-center">
                 { titleText && <HTMLRenderer class="text-[32px] md:text-[48px]" html={titleText} /> }
                 { titleImage && (
                   <div className="flex justify-start">
@@ -68,7 +68,7 @@ export default function WhatIsHtmx(
               </p>
               { description && <HTMLRenderer class="md:text-[20px]" html={description} /> }
             </div>
-            <div className="flex flex-col items-center md:flex-row gap-4 mb-6">
+            <div className="flex flex-col items-center md:flex-row gap-4">
               {cta?.map(({ color = 'neutral', href = '', label = '' }) => (
                 <a
                   className={`flex items-center justify-center text-center whitespace-nowrap w-min h-[50px] font-medium text-[16px] px-8 py-3 rounded-full transition md:ease-in-out duration-300 font-semibold
@@ -80,7 +80,7 @@ export default function WhatIsHtmx(
                 </a>
               ))}
             </div>
-            <div class="grid flex-row wrap justify-center gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            {/* <div class="grid flex-row wrap justify-center gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
               {cards?.map((
                 { icon, title, description }: CardProps,
                 index: number,
@@ -96,7 +96,7 @@ export default function WhatIsHtmx(
                   {description && <p class="text-[20px] text-[#A1A1AA]">{description}</p>}
                 </div>
               ))}
-            </div>
+            </div> */}
             { bottomMessage ? (
               <div className="text-[30px] text-center">
                 <HTMLRenderer html={bottomMessage} />
