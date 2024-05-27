@@ -17,6 +17,11 @@ export interface ReferralIfoodProps {
   cta: CTA[];
 }
 
+const BTN_COLORS = {
+  green: 'hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] text-[#0A2121] font-semibold',
+  none: 'bg-[#113032] hover:bg-transparent md:hover:border-[#02F67C] md:hover:border md:hover:text-[#fff] border-[transparent] border text-white'
+}
+
 export default function ReferralIfood({ image, title, description, cta }: ReferralIfoodProps) {
   return (
     <section className="w-full bg-black px-4 py-10 md:pb-28 md:pt-28 lg:px-24">
@@ -31,10 +36,10 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             </div>
             <div className="black-green lg:translate-y-[235px]" />
             <div className="flex flex-col items-center md:flex-row gap-4">
-              {cta?.map(({ color = 'none', href = '', label = '', icon }) => (
+              {cta?.map(({ color = 'green', href = '', label = '', icon }) => (
                 <a
                   className={`flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg px-8 py-2 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
-                  ${color === 'green' ? 'bg-[#02F67C] text-black hover:bg-transparent md:hover:border md:hover:text-[#fff]' : 'bg-[#113032] text-white md:hover:text-[#fff] hover:border-[#02F67C] hover:bg-transparent'}
+                  ${BTN_COLORS[color]}
                   `}
                   href={href}
                 >

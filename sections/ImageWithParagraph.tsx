@@ -73,7 +73,7 @@ export default function ImageWithParagraph({
           <p class="leading-normal">
             {description}
           </p>
-          <div class="flex gap-3 pt-4">
+          <div class="alinhar-ao-lado pt-4">
             {cta?.map((item) => (
               <a
                 key={item?.id}
