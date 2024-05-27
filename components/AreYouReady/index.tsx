@@ -48,7 +48,7 @@ export default function AreYouReady({ props }: { props: Props }) {
 
   return (
     <div className="w-full bg-[#02F67C]">
-      <div className="w-full h-full bg-black w-full pb-2 rounded-b-[100px]">
+      <div className="w-full h-full bg-black w-full pb-[2px] rounded-b-[100px]">
         <div class="w-full h-full flex flex-col relative overflow-hidden z-[1] lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 py-10 md:py-[80px] container px-3">
           <div class=" h-full flex flex-col justify-center items-center gap-[32px] w-full">
             <div class="flex lg:hidden flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
