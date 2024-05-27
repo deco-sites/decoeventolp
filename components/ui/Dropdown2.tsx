@@ -62,7 +62,7 @@ export function Dropdown({
     flat: {
       open: "",
       default:
-        "relative flex text-white text-opacity-80 items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-centerp",
+        "relative flex text-white items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-centerp",
     },
   };
 
