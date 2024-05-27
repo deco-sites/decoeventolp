@@ -50,14 +50,14 @@ export default function AreYouReady({ props }: { props: Props }) {
     <div className="w-full bg-[#02F67C]">
       <div className="w-full h-full bg-black w-full relative z-[1]">
         <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 py-5 md:py-[80px] container px-3 md:rounded-b-[40px] lg:rounded-b-[60px]">
-          <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full">
-            <div class="flex lg:hidden flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
-              <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
+          <div class=" h-full flex flex-col justify-center items-center gap-[32px] w-full">
+            <div class="flex lg:hidden flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
+              <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm md:text-base text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                 { flag?.icon && <img src={flag?.icon} alt={flag?.text} width={16} height={16} />}
                 { flag?.text }
               </span>
               {flagSound && (
-                <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
+                <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm md:text-base text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                   { flagSound?.icon && <img src={flagSound?.icon} alt={flagSound?.text} width={16} height={16} />}
                   { flagSound?.text }
                 </span>
@@ -67,7 +67,7 @@ export default function AreYouReady({ props }: { props: Props }) {
               class="argentPixel text-[54px] md:text-[98px] lg:text-[128px] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
               html={title}
             />
-            <div class="hidden lg:flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
+            <div class="hidden lg:flex flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                 { flag?.icon && <img src={flag?.icon} alt={flag?.text} width={16} height={16} />}
                 { flag?.text }
@@ -79,7 +79,7 @@ export default function AreYouReady({ props }: { props: Props }) {
                 </span>
               )}
             </div>
-            <HTMLRenderer class="text-center text-sm md:text-base md:leading-[1.8rem]" html={description} />
+            <HTMLRenderer class="text-center text-[20px] md:leading-[1.8rem]" html={description} />
             <div className="light-green translate-y-[155px] lg:translate-y-[235px]" />
             <div class="flex flex-col gap-2 items-center lg:items-start ">
               <a

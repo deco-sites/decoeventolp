@@ -70,21 +70,21 @@ export default function Hero({ props }: { props: Props }) {
   return (
     <div class="w-full h-full bg-black">
       <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 pb-[40px] md:pb-[80px] pt-40 container px-3">
-        <div class=" h-full flex flex-col justify-center items-center gap-4 md:gap-6 xl:gap-8 w-full mx-auto">
-          <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
-            <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
+        <div class=" h-full flex flex-col justify-center items-center gap-[40px] w-full mx-auto">
+          <div class="flex flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
+            <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm md:text-base text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
               { flag?.icon && <img src={flag?.icon} alt={flag?.text} width={16} height={16} />}
               { flag?.text }
             </span>
             {flagSound && (
-              <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
+              <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-6 py-2 sm:w-min text-sm md:text-base text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                 { flagSound?.icon && <img src={flagSound?.icon} alt={flagSound?.text} width={16} height={16} />}
                 { flagSound?.text }
               </span>
             )}
           </div>
           <HTMLRenderer 
-            class="argentPixel text-[54px] md:text-[98px] lg:text-[128px] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
+            class="argentPixel text-[54px] md:text-[98px] md:text-[128px] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
             html={title}
           />
           <div className="flex justify-center items-center">

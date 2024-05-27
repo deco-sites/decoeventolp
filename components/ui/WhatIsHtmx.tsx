@@ -12,7 +12,6 @@ export interface WhatIsHtmxProps {
   subtitle?: HTML;
   description?: HTML;
   cta: CTA[];
-  cards?: CardProps[];
   bottomMessage?: HTML;
 }
 
@@ -38,12 +37,12 @@ export default function WhatIsHtmx(
 ) {
   return (
     <div class="w-full bg-black py-5 md:py-[80px]">
-      <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
-        { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '', cards = [] }) => (
-          <div class="flex flex-col items-start justify-end gap-6 md:gap-8 rounded-[24px] bg-[#000D0D] p-[40px] lg:p-[80px]">
+      <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-[40px]">
+        { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '' }) => (
+          <div class="flex flex-col items-start justify-end gap-6 md:gap-8 lg:md:gap-[40px] rounded-[24px] bg-[#000D0D] p-[40px] lg:p-[80px]">
             { titleImage ? (
               <div className="flex justify-center md:justify-start items-center">
-                { titleText && <HTMLRenderer class="text-[32px] md:text-[48px]" html={titleText} /> }
+                { titleText && <HTMLRenderer class="text-[40px] md:text-[48px]" html={titleText} /> }
                 { titleImage && (
                   <div className="flex justify-start">
                     <img
@@ -80,23 +79,6 @@ export default function WhatIsHtmx(
                 </a>
               ))}
             </div>
-            {/* <div class="grid flex-row wrap justify-center gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-              {cards?.map((
-                { icon, title, description }: CardProps,
-                index: number,
-              ) => (
-                <div
-                  key={index}
-                  class="bg-[#000D0D] flex flex-col justify-center items-start gap-2 md:gap-6 p-6 md:p-10 py-12 text-[#FFFFFF] rounded-2xl"
-                >
-                  {icon && <div className="rounded-full p-1 bg-[#113032]"><img src={icon} width={32} height={32} /></div>}
-                  {title && (
-                    <p class="font-semibold mt-2 md:mt-0 text-[24px]">{title}</p>
-                  )}
-                  {description && <p class="text-[20px] text-[#A1A1AA]">{description}</p>}
-                </div>
-              ))}
-            </div> */}
             { bottomMessage ? (
               <div className="text-[30px] text-center">
                 <HTMLRenderer html={bottomMessage} />
