@@ -313,7 +313,7 @@
     {
       "__resolveType": "site/sections/ReferralIfood.tsx",
       "title": "<p><span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>",
-      "description": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><p class=\"alinhar-ao-lado\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get R$50.00 at</span><span><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\" alt=\"ifood\" width=\"61\"  height=\"33\" /></span><p>      &nbsp;<br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
+      "description": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><p ><span class=\"alinhar-ao-lado\" style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get R$50.00 at <img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\" alt=\"ifood\" width=\"61\"  height=\"33\" /></span><p>      &nbsp;<br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020",
       "cta": [
         {
@@ -324,7 +324,7 @@
         {
           "color": "none",
           "href": "#",
-          "label": "Copied link",
+          "label": "Copied link!",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"
         }
       ]
