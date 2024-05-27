@@ -79,7 +79,7 @@ export default function AreYouReady({ props }: { props: Props }) {
                 </span>
               )}
             </div>
-            <HTMLRenderer class="text-center text-[20px] md:leading-[1.8rem]" html={description} />
+            <HTMLRenderer class="text-center text-sm md:text-base md:leading-[1.8rem]" html={description} />
             <div className="light-green translate-y-[155px] lg:translate-y-[235px]" />
             <div class="flex flex-col gap-2 items-center lg:items-start ">
               <a
