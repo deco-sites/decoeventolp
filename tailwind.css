@@ -6,11 +6,11 @@
 
   /* Allow changing font family via CMS */
   html {
-    font-family: 'Albert Sans', sans-serif;
+    font-family: var(--font-family), sans-serif;
   }
 
   .argentPixel {
-    font-family: 'ArgentPixelCF', sans-serif;
+    font-family: 'ArgentPixelCF', var(--font-family), sans-serif;
   }
 
   /** Remove default styles from input[type=number] */

@@ -41,10 +41,30 @@ export default function Category({ title, flags, cards }: CategoryProps) {
           )) }
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
-          { cards?.map(({ title, topics, image }) => (
-            <div className="grid grid-rows-2 h-full max-h-[600px] rounded-md overflow-hidden black-off-black">
-              <div className="max-h-[200px]">
-                <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover" />
+          { cards?.slice(0, 2)?.map(({ title, topics, image }) => (
+            <div className="grid grid-rows-2 h-full max-h-[600px] rounded-[16px] overflow-hidden black-off-black">
+              <div className="max-h-[200px] p-1">
+                <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px]" />
+              </div>
+              <div className="px-6 pb-4 pt-6 black-off-black">
+                <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />
+                <ul>
+                  { topics?.map(({ text, icon }) => (
+                    <li className="flex gap-2 items-center">
+                      <img src={icon} alt={text} width={16} height={16} />
+                      <HTMLRenderer html={text} />
+                    </li>
+                  )) }
+                </ul>
+              </div>
+            </div>
+          )) }
+        </div>
+        <div className="w-full flex px-4">
+          { cards?.slice(2, 3)?.map(({ title, topics, image }) => (
+            <div className="grid grid-rows-2 h-full max-h-[600px] rounded-[16px] overflow-hidden black-off-black">
+              <div className="max-h-[200px] p-1">
+                <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px]" />
               </div>
               <div className="px-6 pb-4 pt-6 black-off-black">
                 <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />

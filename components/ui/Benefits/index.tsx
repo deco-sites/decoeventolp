@@ -46,7 +46,7 @@ export default function Benefits({ props }: { props: Props }) {
   const { items } = { ...BASE_PROPS, ...props };
 
   return (
-    <div class="w-full h-full bg-black md:pb-28 md:pt-28">
+    <div class="w-full h-full bg-black md:pb-18 md:pt-18">
       <div className="flex flex-col">
         {props?.title ? (
           <div className="w-full text-center">
