@@ -41,10 +41,10 @@ export default function WhatIsHtmx(
         { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '' }) => (
           <div class="flex flex-col items-start justify-end gap-6 md:gap-8 lg:md:gap-[40px] rounded-[24px] bg-[#000D0D] p-[40px] lg:p-[80px]">
             { titleImage ? (
-              <div className="flex justify-center md:justify-start items-center">
-                { titleText && <HTMLRenderer class="text-[40px] md:text-[48px]" html={titleText} /> }
+              <div className="flex justify-center md:justify-start items-center flex-wrap">
+                { titleText && <HTMLRenderer class="inline text-[40px] md:text-[48px]" html={titleText} /> }
                 { titleImage && (
-                  <div className="flex justify-start">
+                  <div className="inline">
                     <img
                       className={" h-[28px] md:h-[44px]"}
                       src={titleImage}
