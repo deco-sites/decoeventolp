@@ -27,7 +27,7 @@ export interface CardProps {
 
 export default function Category({ title, flags, cards }: CategoryProps) {
   return (
-    <section className="bg-black w-full py-10 md:py-[80px]">
+    <section className="bg-black w-full py-10 md:py-[80px] pb-[80px] md:pb-[120px]">
       <div className="flex flex-col gap-[40px] md:gap-[80px] xl:container xl:mx-auto">
         <div className="text-[40px] md:text-[48px] text-center w-full line-height-115">
           <HTMLRenderer html={title} />
