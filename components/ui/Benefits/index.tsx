@@ -53,9 +53,9 @@ export default function Benefits({ props }: { props: Props }) {
             <HTMLRenderer class="text-[40px] md:text-[48px]" html={props.title} />
           </div>
         ) : null}
-        <div class="container md:flex md:gap-6 md:flex-wrap py-10 px-12 lg:grid lg:grid-cols-4 divide-y lg:divide-x lg:divide-y-0 border-[#A1A1AA]">
+        <div class="container md:flex md:gap-1 md:flex-wrap py-10 px-12 lg:grid lg:grid-cols-4 divide-y lg:divide-x lg:divide-y-0 border-[#A1A1AA]">
           {items.map((item, index) => (
-            <>
+            <div className="flex md:justify-center">
               <hr
                 class={`hidden h-[225px] self-end bg-[#A1A1AA] ${
                   (index + 1) % 2 == 0 ? "md:block w-[1px] lg:hidden" : ""
@@ -67,7 +67,7 @@ export default function Benefits({ props }: { props: Props }) {
                 subTitle={item.subTitle ?? ""}
                 position={index}
               />
-            </>
+            </div>
           ))}
         </div>
       </div>

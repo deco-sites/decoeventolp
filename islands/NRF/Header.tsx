@@ -74,7 +74,7 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 
   if (nested && nested.length > 0) {
     return (
-      <li class="relative h-full grid" {...props}>
+      <li class="relative h-full grid text-white" {...props}>
         <Dropdown
           items={nested}
           value={label}
