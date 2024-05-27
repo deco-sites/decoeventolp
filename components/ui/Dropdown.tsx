@@ -62,7 +62,7 @@ export function Dropdown({
     flat: {
       open: "",
       default:
-        "relative flex text-white text-opacity-80 items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-center after:absolute after:w-full after:h-[4px] after:bg-transparent after:hover:bg-linear-transp-green-transp after:bottom-[-4px] after:z-20 after:bg-position-100 after:transition-colors after:ease-in after:duration-[0] hover:text-[#02F67C]",
+        "relative flex text-white items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-center after:absolute after:w-full after:h-[4px] after:bg-transparent after:hover:bg-linear-transp-green-transp after:bottom-[-4px] after:z-20 after:bg-position-100 after:transition-colors after:ease-in after:duration-[0] hover:text-[#02F67C]",
     },
   };
 
