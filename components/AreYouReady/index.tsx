@@ -49,7 +49,7 @@ export default function AreYouReady({ props }: { props: Props }) {
   return (
     <div className="w-full bg-[#02F67C]">
       <div className="w-full h-full bg-black w-full relative z-[1] rounded-b-[100px]">
-        <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 py-5 md:py-[80px] container px-3">
+        <div class="w-full h-full flex flex-col lg:flex-row justify-center items-center gap-11 lg:px-8 lg:gap-4 py-10 md:py-[80px] container px-3">
           <div class=" h-full flex flex-col justify-center items-center gap-[32px] w-full">
             <div class="flex lg:hidden flex-row gap-x-[32px] flex-wrap gap-y-4 justify-center items-center">
               <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm md:text-base text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
