@@ -23,13 +23,13 @@ export default function HowItWork({ title, cards }: HowItWorkProps) {
         ) }
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 px-4">
           { cards?.map(({ title, description, icon }) => (
-            <div className="flex flex-col rounded-[24px] off-black">
+            <div className="flex flex-col rounded-[24px] off-black gap-6 py-6 px-7 md:py-8 md:px-10 lg:py-9 lg:px-12">
               {icon && (
-                <div className="px-6 pt-6">
+                <div>
                   <img src={icon} alt={title} width={25} height={25} />
                 </div>
               )}
-              <div className="px-6 pb-4 pt-6">
+              <div>
                 <HTMLRenderer class="text-[20px] md:text-[24px] text-[#02F67C]" html={title} />
                 <HTMLRenderer class="text-[20px]" html={description} />
               </div>
