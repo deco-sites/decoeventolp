@@ -49,14 +49,14 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
           </div>
           <Image
             className="hidden md:block absolute right-0 bottom-0"
-            src={asset('/images/fundoReferral.png')}
+            src={asset('/image/fundoReferral.png')}
             alt={'Fundo macbook'}
             width={390}
             height={505}
           />
           <Image
             className="block md:hidden absolute right-0 bottom-0"
-            src={asset('/images/fundoReferral.png')}
+            src={asset('/image/fundoReferral.png')}
             alt={'Fundo macbook'}
             width={195}
             height={252}

@@ -56,12 +56,12 @@ export default function AreYouReady({ props }: { props: Props }) {
               html={title}
             />
             <div class="flex flex-row gap-2 flex-wrap gap-y-3 justify-center items-center">
-              <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
+              <span class="text-white border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                 { flag?.icon && <img src={flag?.icon} alt={flag?.text} width={16} height={16} />}
                 { flag?.text }
               </span>
               {flagSound && (
-                <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2">
+                <span class="sm:whitespace-nowrap lg:ml-6 text-white border border-base-content rounded-3xl px-4 py-2 sm:w-min text-sm text-start sm:text-center lg:text-start flex flex-row items-center justify-center gap-2 off-black">
                   { flagSound?.icon && <img src={flagSound?.icon} alt={flagSound?.text} width={16} height={16} />}
                   { flagSound?.text }
                 </span>
