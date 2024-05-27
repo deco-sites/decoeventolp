@@ -40,7 +40,7 @@ export default function WhatIsHtmx(
     <div class="w-full bg-black py-5 md:py-28">
       <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '', cards = [] }) => (
-          <div class="flex flex-col items-center justify-center md:items-start gap-6 md:gap-8 rounded-[24px] off-black p-6 pb-5 md:p-10 md:pb-8 md:pl-10">
+          <div class="flex flex-col items-center justify-center md:items-start gap-6 md:gap-8 rounded-[24px] off-black p-6 pb-5 md:p-10 md:pb-8 md:pl-[3.5rem]">
             { titleImage ? (
               <div className="flex justify-center items-center">
                 { titleText && <HTMLRenderer class="text-[32px] md:text-[48px]" html={titleText} /> }
