@@ -28,7 +28,7 @@ export interface CardProps {
 export default function Category({ title, flags, cards }: CategoryProps) {
   return (
     <section className="bg-black w-full">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 xl:container xl:mx-auto">
         <div className="text-[40px] text-center w-full">
           <HTMLRenderer html={title} />
         </div>

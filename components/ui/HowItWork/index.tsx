@@ -15,7 +15,7 @@ export interface CardProps {
 export default function HowItWork({ title, cards }: HowItWorkProps) {
   return (
     <section className="w-full bg-black">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 xl:container xl:mx-auto">
         { title && (
           <div className="text-[40px] md:text-[48px] text-center w-full pb-4">
             <HTMLRenderer html={title} />

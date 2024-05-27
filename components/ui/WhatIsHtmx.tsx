@@ -68,10 +68,10 @@ export default function WhatIsHtmx(
               </p>
               { description && <HTMLRenderer class="md:text-[20px]" html={description} /> }
             </div>
-            <div className="flex flex-col md:flex-row gap-4 mb-6">
+            <div className="flex flex-col items-center md:flex-row gap-4 mb-6">
               {cta?.map(({ color = 'neutral', href = '', label = '' }) => (
                 <a
-                  className={`flex items-center font-medium text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
+                  className={`flex items-center justify-center text-center whitespace-nowrap w-min h-[50px] font-medium text-[16px] px-8 py-3 rounded-full transition md:ease-in-out duration-300 font-semibold
                   ${BTN_COLORS[color]}
                   `}
                   href={href}
