@@ -26,12 +26,12 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
   return (
     <section className="w-full bg-black px-4 py-5 md:py-[80px] lg:px-24">
       <div className="xl:container xl:mx-auto px-4 lg:px-0 flex justify-center rounded-[24px] relative z-1 black-green relative">
-        <div className="flex flex-col-reverse items-center md:grid md:grid-cols-2 lg:grid-cols-[1fr_400px] gap-6 px-2 md:px-6 pt-16 pb-20">
-          <div className="flex flex-col items-center md:items-start gap-4 md:gap-6">
+        <div className="flex flex-col items-center md:grid md:pb-[300px] lg:pb-[100px] md:grid-cols-1 lg:grid-cols-[1fr_400px] py-[64px] px-8 md:p-[40px] lg:py-[100px] lg:px-[80px]">
+          <div className="flex flex-col items-center md:items-start gap-4 md:gap-6 lg:gap-8 pb-[64px] md:pb-[95px] lg:pb-0">
             <div className="text-[48px] md:text-[80px]">
               <HTMLRenderer class="text-[48px] md:text-[80px]" html={title} />
             </div>
-            <div className="md:max-w-[800px]">
+            <div className="md:max-w-[800px] text-[20px] lg:text-[25px]">
               <HTMLRenderer html={description} />
             </div>
             <div className="black-green lg:translate-y-[235px]" />
@@ -49,23 +49,21 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
               ))}
             </div>
           </div>
-          {/* <div className="flex max-w-[200px] md:max-w-auto">
-            <Image src={image} alt="Ifood" width={300} height={160} />
-          </div> */}
           <img
-            className="absolute right-0 bottom-0 z-[1] w-[184px] h-[238px] md:w-[390px] md:h-[505px]"
-            src={asset('/image/fundoReferral.png')}
+            className="hidden lg:block absolute right-0 bottom-0 z-[1] w-[430px] h-[583px]"
+            src={asset('/image/macbookDesktop.png')}
             alt={'Fundo macbook'}
-            // width={390}
-            // height={505}
           />
-          {/* <Image
-            className="block md:hidden absolute right-0 bottom-0 z-[1]"
-            src={asset('/image/fundoReferral.png')}
+          <img
+            className="hidden md:block lg:hidden absolute bottom-0 z-[1] w-[583px] h-[328px]"
+            src={asset('/image/macbookTablet.png')}
             alt={'Fundo macbook'}
-            width={195}
-            height={252}
-          /> */}
+          />
+          <img
+            className="block md:hidden w-[287px] h-[231px]"
+            src={asset('/image/macbookMobile.png')}
+            alt={'Fundo macbook'}
+          />
         </div>
       </div>
     </section>
