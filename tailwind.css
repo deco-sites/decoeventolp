@@ -26,7 +26,7 @@
   }
   
   .animate-walk {
-    animation: walk 60s ease-in-out alternate infinite;
+    animation: walk 80s ease-in-out alternate infinite;
   }
 
   .grid-cols-50 {
