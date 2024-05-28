@@ -29,7 +29,7 @@
     animation: walk 60s ease-in-out alternate infinite;
   }
 
-  .grid-para-faixa {
+  .grid-cols-50 {
     @apply grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px]
   }
 

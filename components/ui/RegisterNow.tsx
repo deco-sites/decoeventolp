@@ -24,7 +24,7 @@ export default function RegisterNow(props: Props) {
           <div class="overflow-hidden py-2">
             <a href={props?.href ?? ''}>
               <ul
-                class={`grid grid-para-faixa w-full animate-walk items-center gap-4`}
+                class={`grid grid-cols-50 w-full animate-walk items-center gap-4`}
                 style={`animation-delay: 300ms`}
               >
                 {list.map((text: string, index: number) => (
