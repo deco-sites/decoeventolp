@@ -35,7 +35,7 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
               <HTMLRenderer html={description} />
             </div>
             <div className="black-green lg:translate-y-[235px]" />
-            <div className="flex flex-col items-center md:flex-row gap-4">
+            <div className="flex flex-col items-start md:items-center md:flex-row gap-4">
               {cta?.map(({ color = 'green', href = '', label = '', icon }) => (
                 <a
                   className={`flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg px-8 py-2 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
