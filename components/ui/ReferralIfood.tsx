@@ -49,21 +49,23 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
               ))}
             </div>
           </div>
-          <img
-            className="hidden lg:block absolute right-0 bottom-0 z-[1] w-[430px] h-[583px]"
-            src={asset('/image/macbookDesktop.png')}
-            alt={'Fundo macbook'}
-          />
-          <img
-            className="hidden md:block lg:hidden absolute bottom-0 z-[1] w-[583px] h-[328px]"
-            src={asset('/image/macbookTablet.png')}
-            alt={'Fundo macbook'}
-          />
-          <img
-            className="block md:hidden w-[287px] h-[231px]"
-            src={asset('/image/macbookMobile.png')}
-            alt={'Fundo macbook'}
-          />
+          <div className="flex justify-center">
+            <img
+              className="hidden lg:block absolute right-0 bottom-0 z-[1] w-[430px] h-[583px]"
+              src={asset('/image/macbookDesktop.webp')}
+              alt={'Fundo macbook'}
+            />
+            <img
+              className="hidden md:block lg:hidden absolute bottom-0 z-[1] w-[583px] h-[328px]"
+              src={asset('/image/macbookTablet.webp')}
+              alt={'Fundo macbook'}
+            />
+            <img
+              className="block md:hidden w-[287px] h-[231px]"
+              src={asset('/image/macbookMobile.webp')}
+              alt={'Fundo macbook'}
+            />
+          </div>
         </div>
       </div>
     </section>
