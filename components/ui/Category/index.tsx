@@ -63,10 +63,17 @@ export default function Category({ title, flags, cards }: CategoryProps) {
           </div>
           <div className="w-full flex px-4">
             { cards?.slice(2, 3)?.map(({ title, topics, image }) => (
-              <div className="grid grid-rows-2 gap-5 h-full max-h-[600px] rounded-[16px] overflow-hidden bg-[#0D1717]">
-                <div className="max-h-[200px] p-1">
-                  <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px] object-center" />
-                </div>
+              <div className="grid grid-rows-1 gap-5 h-full w-full max-h-[600px] rounded-[16px] overflow-hidden bg-[#0D1717] border border-[#0D1717]">
+                <div className="min-h-[234px] p-1 rounded-[16px]"
+                  style={{ 
+                    backgroundImage: `url(${image ?? ''})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    verticalAlign: 'middle',
+                  }}
+                />
+                  {/* <Image src={image ?? ''} alt={title} width={350} height={190} className="w-full object-cover rounded-[16px] object-center" />
+                </div> */}
                 <div className="flex flex-col gap-[24px] p-4 md:p-8 bg-[#0D1717]">
                   <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />
                   <ul className="flex flex-col gap-[24px]">
