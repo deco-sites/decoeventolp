@@ -27,11 +27,11 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
     <section className="w-full bg-black px-4 py-10 md:py-[80px] lg:px-24">
       <div className="xl:container xl:mx-auto flex justify-center rounded-[24px] relative z-1 black-green relative">
         <div className="flex flex-col items-center md:grid md:pb-[300px] lg:pb-[100px] md:grid-cols-1 lg:grid-cols-[1fr_400px] py-[64px] px-8 md:p-[40px] lg:py-[100px] lg:px-[80px]">
-          <div className="flex flex-col items-center md:items-start gap-4 md:gap-6 lg:gap-8 pb-[64px] md:pb-[95px] lg:pb-0">
+          <div className="flex flex-col items-start md:items-center lg:items-start gap-4 md:gap-6 lg:gap-8 pb-[64px] md:pb-[95px] lg:pb-0">
             <div className="">
               <HTMLRenderer class="text-[40px] md:text-[48px] line-height-115" html={title} />
             </div>
-            <div className="md:max-w-[740px] lg:max-w-[800px] text-[20px] lg:text-[25px]">
+            <div className="md:max-w-[740px] lg:max-w-[800px] text-[20px] lg:text-[25px] md:text-center lg:text-start">
               <HTMLRenderer html={description} />
             </div>
             <div className="black-green lg:translate-y-[235px]" />
