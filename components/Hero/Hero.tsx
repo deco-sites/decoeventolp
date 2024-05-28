@@ -84,7 +84,7 @@ export default function Hero({ props }: { props: Props }) {
             )}
           </div>
           <HTMLRenderer 
-            class="argentPixel text-[54px] md:text-[98px] lg:text-[128px] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
+            class="argentPixel text-[54px] md:text-[98px] lg:text-[8rem] md:leading-[5.2rem] text-center sm:mb-0 md:mb-2 md:mt-4" 
             html={title}
           />
           <div className="flex justify-center items-center">
