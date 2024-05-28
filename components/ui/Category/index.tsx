@@ -41,7 +41,7 @@ export default function Category({ title, flags, cards }: CategoryProps) {
           )) }
         </div>
         <div className="flex flex-col gap-10 md:gap-[80px] lg:gap-5">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-[80px] lg:gap-5 px-4">
+          <div className="flex flex-col lg:grid lg:grid-cols-2 gap-10 md:gap-[80px] lg:gap-5 px-4">
             { cards?.slice(0, 2)?.map(({ title, topics, image }) => (
               <div className="grid grid-rows-2 gap-5 h-full max-h-[600px] rounded-[16px] overflow-hidden bg-[#0D1717]">
                 <div className="max-h-[200px] p-1">
