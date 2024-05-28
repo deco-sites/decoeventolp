@@ -65,7 +65,7 @@ export default function Achievements({ props }: { props: Props }) {
             {topics.map((topic) => (
               <div className="flex flex-col gap-2">
                 <div class="mb-6 mx-auto flex items-start gap-4">
-                  <img src={asset("/image/check.png")} width={25} height={25} />
+                  <img src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/87e1a247-a346-4129-8fdf-230e9bd37242" width={25} height={25} />
                   <p class="text-white text-xl leading-6 font-medium md:text-2xl md:leading-7 ">
                     {topic.title}
                   </p>

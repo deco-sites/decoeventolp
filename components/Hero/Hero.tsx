@@ -1,6 +1,4 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import type { Props as PropsButton } from "../ui/Button.tsx";
-import Icon from "../ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 
