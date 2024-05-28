@@ -26,7 +26,11 @@
   }
   
   .animate-walk {
-    animation: walk 10s ease-in-out alternate infinite;
+    animation: walk 60s ease-in-out alternate infinite;
+  }
+
+  .grid-para-faixa {
+    @apply grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px]
   }
 
   .bs-gradient-green {
@@ -104,7 +108,7 @@
     transform: translateX(0%)
   }
   to {
-    transform: translateX(-50%)
+    transform: translateX(-7000px)
   }
 }
 

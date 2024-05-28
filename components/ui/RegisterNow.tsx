@@ -11,7 +11,7 @@ export default function RegisterNow(props: Props) {
   } = props;
   const list = useMemo(
     () =>
-      title ? Array(20).fill(null).map((_, i) => title) : Array(20).fill(null).map((_, i) => 'REGISTER NOW'),
+      title ? Array(50).fill(null).map((_, i) => title) : Array(50).fill(null).map((_, i) => 'REGISTER NOW'),
     [],
   );
 
@@ -24,7 +24,7 @@ export default function RegisterNow(props: Props) {
           <div class="overflow-hidden py-2">
             <a href={props?.href ?? ''}>
               <ul
-                class={`grid grid-cols-[200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px_200px] w-full animate-walk items-center gap-4`}
+                class={`grid grid-para-faixa w-full animate-walk items-center gap-4`}
                 style={`animation-delay: 300ms`}
               >
                 {list.map((text: string, index: number) => (
