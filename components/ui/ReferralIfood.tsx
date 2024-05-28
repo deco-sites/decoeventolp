@@ -2,6 +2,7 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
 import Image from "apps/website/components/Image.tsx";
 import { asset } from "$fresh/runtime.ts";
+import Clipboard from "site/islands/Clipboard.tsx";
 
 export interface CTA {
   href: string;
@@ -36,7 +37,19 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             </div>
             <div className="black-green lg:translate-y-[235px]" />
             <div className="flex flex-col items-start md:items-center md:flex-row gap-4">
-              {cta?.map(({ color = 'green', href = '', label = '', icon }) => (
+              <Clipboard />
+              {cta?.map(({ color = 'green', href = '', label = '', icon }, index) => index === 1 ? (
+                <button
+                  className={`flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg px-8 py-2 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
+                  ${BTN_COLORS[color]}
+                  `}
+                  href={href}
+                  id="clipboard-btn"
+                >
+                  {/* {icon ? <img src={icon} alt={'check'} width={20} /> : null} */}
+                  {label}
+                </button>
+              ) :(
                 <a
                   className={`flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg px-8 py-2 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
                   ${BTN_COLORS[color]}

@@ -3,6 +3,7 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
+import * as $Clipboard from "./islands/Clipboard.tsx";
 import * as $Header from "./islands/Header.tsx";
 import * as $NRF_BackgroundGrid from "./islands/NRF/BackgroundGrid.tsx";
 import * as $NRF_Grid from "./islands/NRF/Grid.tsx";
@@ -16,6 +17,7 @@ const manifest = {
     "./routes/_app.tsx": $_app,
   },
   islands: {
+    "./islands/Clipboard.tsx": $Clipboard,
     "./islands/Header.tsx": $Header,
     "./islands/NRF/BackgroundGrid.tsx": $NRF_BackgroundGrid,
     "./islands/NRF/Grid.tsx": $NRF_Grid,
