@@ -85,7 +85,7 @@
           "cta": [
             {
               "color": "green",
-              "href": "#",
+              "href": "https://deco.cx/en/blog/htmx-first-class-support",
               "label": "deco.cx + HTMX"
             },
             {
