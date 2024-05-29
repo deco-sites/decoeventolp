@@ -40,12 +40,12 @@
         "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
         "buttons": [
           {
-            "href": "#prices-section",
+            "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
             "label": "Register now",
             "color": "green"
           },
           {
-            "href": "#prices-section",
+            "href": "https://deco.cx/discord",
             "label": "Questions? Join our Discord",
             "color": "neutral"
           }
@@ -55,7 +55,7 @@
     {
       "__resolveType": "site/sections/Benefits/Benefits.tsx",
       "props": {
-        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Why&nbsp;</span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">participate?</span></p>",
+        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Why&nbsp;</span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">participate ?</span></p>",
         "items": [
           {
             "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c16cc13c-696f-432d-8f24-348d2dbf2a59",
@@ -90,7 +90,7 @@
             },
             {
               "color": "neutral",
-              "href": "#",
+              "href": "https://htmx.org/docs/",
               "label": "HTMX's docs"
             }
           ],
@@ -102,12 +102,12 @@
           "cta": [
             {
               "color": "green",
-              "href": "#",
-              "label": "deco.cx"
+              "label": "deco.cx",
+              "href": "/"
             },
             {
               "color": "neutral",
-              "href": "#",
+              "href": "https://deco.cx/docs/en/overview",
               "label": "Official docs"
             }
           ],
@@ -117,7 +117,7 @@
     },
     {
       "__resolveType": "site/sections/Category.tsx",
-      "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Choose your&nbsp;</span><span class=\"argentPixel\">category</span></span></p>",
+      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Choose your</span> category</span></p>",
       "flags": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
@@ -156,8 +156,8 @@
               "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$7,500</span></p>"
             }
           ],
-          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/1d2d1334-b8f3-4e3d-bbf3-d526cb00d6a0"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5400a71e-4ba5-46bb-9c7a-00bbcbdf24cd",
+          "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Storefronts</span></p>"
         },
         {
           "topics": [
@@ -170,15 +170,10 @@
               "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">R$10,000</span></p>"
             }
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/cc0febc4-8303-4163-ac77-5a1f0ec5a4e5",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1b0da4a-e132-4826-8516-d44efea31743",
           "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
         }
       ]
-    },
-    {
-      "__resolveType": "site/sections/RegisterNowBanner.tsx",
-      "title": "REGISTER NOW",
-      "href": "#"
     },
     {
       "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
@@ -285,25 +280,6 @@
       }
     },
     {
-      "__resolveType": "site/sections/ReferralIfood.tsx",
-      "title": "<p><span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>",
-      "description": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get R$50.00 at &nbsp;<img style=\"display: inline;\" src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\" alt=\"ifood\" width=\"61\" height=\"33\" data-mce-style=\"display: inline;\" data-mce-src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\"><br></span><br><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> </span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020",
-      "cta": [
-        {
-          "color": "green",
-          "href": "#",
-          "label": "Invite now"
-        },
-        {
-          "color": "none",
-          "href": "#",
-          "label": "Copy invite",
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"
-        }
-      ]
-    },
-    {
       "__resolveType": "site/sections/HowItWork.tsx",
       "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">How</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">it works</span></p>",
       "cards": [
@@ -332,7 +308,26 @@
     {
       "__resolveType": "site/sections/RegisterNowBanner.tsx",
       "title": "REGISTER NOW",
-      "href": "#"
+      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form"
+    },
+    {
+      "__resolveType": "site/sections/ReferralIfood.tsx",
+      "title": "<p><span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>",
+      "description": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get R$50.00 at &nbsp;<img style=\"display: inline;\" src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\" alt=\"ifood\" width=\"61\" height=\"33\" data-mce-style=\"display: inline;\" data-mce-src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\"><br></span><br><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> </span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020",
+      "cta": [
+        {
+          "color": "green",
+          "href": "#",
+          "label": "Invite now"
+        },
+        {
+          "color": "none",
+          "href": "#",
+          "label": "Copied link!",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Faq/Faq.tsx",
@@ -371,6 +366,11 @@
       }
     },
     {
+      "__resolveType": "site/sections/RegisterNowBanner.tsx",
+      "title": "REGISTER NOW",
+      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form"
+    },
+    {
       "__resolveType": "site/sections/AreYouReady.tsx",
       "props": {
         "flag": {
@@ -394,10 +394,10 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready?</span></p>",
+        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready ?</span></p>",
         "button": {
           "id": "bt-click-enroll-1",
-          "href": "#prices-section",
+          "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
           "type": "ligth",
           "label": "Register now"
         },
