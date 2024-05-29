@@ -23,7 +23,7 @@ export default function HowItWork({ title, cards }: HowItWorkProps) {
         ) }
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] md:gap-6 px-4">
           { cards?.map(({ title, description, icon }) => (
-            <div className="flex flex-col rounded-[24px] bg-[#000D0D] gap-4 py-5 px-6 md:py-6 md:px-8 lg:px-12 lg:py-10">
+            <div className="flex flex-col rounded-[24px] bg-[#0D1717] gap-4 py-5 px-6 md:py-6 md:px-8 lg:px-12 lg:py-10">
               {icon && (
                 <div>
                   <img src={icon} alt={title} width={25} height={25} />
