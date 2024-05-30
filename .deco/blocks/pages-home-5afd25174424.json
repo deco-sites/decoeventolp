@@ -32,7 +32,7 @@
         "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon X</span><br></pre>",
         "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
         "flagSound": {
-          "text": "Friday, June 28th @4pm - Sunday, June 30th ",
+          "text": "Friday, June 28th @4pm (GMT-3) to Sunday, June 30th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3ca60ebd-d38b-4503-8e46-7b6de7e72a29"
         },
         "afterButtonText": "Check the Pre-requisites",
@@ -63,7 +63,7 @@
           },
           {
             "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/23119936-e827-42b4-a638-d81035899e38",
-            "title": "Compete for over R$25K"
+            "title": "Compete for over US$5K"
           },
           {
             "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9d33cedf-03cd-43da-831c-ac98ef288293",
@@ -195,19 +195,22 @@
                 "time": "4PM"
               },
               {
-                "time": "4PM",
+                "time": "5PM",
                 "title": "Website creation tutorial",
-                "content": "Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."
+                "content": "<p>&nbsp;</p>",
+                "dataPublish": "Modules"
               },
               {
-                "time": "4PM",
-                "title": "Competition rules overview",
-                "content": "Pharetra quam ut est sit amet viverra ageu eu."
+                "time": "6PM",
+                "title": "How to use HTMX on deco.cx",
+                "content": "<p>&nbsp;</p>",
+                "dataPublish": "Modules"
               },
               {
-                "time": "4PM",
-                "title": "Event schedule",
-                "content": "Arcu dictum nunc  vel accumsan lacus ut in. Amet."
+                "time": "7PM",
+                "title": "Event rules and details",
+                "content": "<p>&nbsp;</p>",
+                "dataPublish": "Modules"
               }
             ],
             "period": "4PM - 10PM"
@@ -222,27 +225,13 @@
             ],
             "listContent": [
               {
-                "time": "4PM",
-                "title": "Introduction to deco.cx",
-                "content": "Purus a nis sed elementum at tortor viverra orci sit."
-              },
-              {
-                "time": "4PM",
-                "title": "Website creation tutorial",
-                "content": "Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."
-              },
-              {
-                "time": "4PM",
-                "title": "Competition rules overview",
-                "content": "Pharetra quam ut est sit amet viverra ageu eu."
-              },
-              {
-                "time": "4PM",
-                "title": "Event schedule",
-                "content": "Arcu dictum nunc  vel accumsan lacus ut in. Amet."
+                "dataPublish": "Modules",
+                "title": "Coding time",
+                "content": "<p><br data-mce-bogus=\"1\"></p>",
+                "time": "10AM"
               }
             ],
-            "period": "4PM - 10PM"
+            "period": "8PM - 10PM"
           },
           {
             "title": "Sunday, June 16th",
@@ -254,27 +243,37 @@
             ],
             "listContent": [
               {
-                "time": "4PM",
-                "title": "Introduction to deco.cx",
-                "content": "Purus a nis sed elementum at tortor viverra orci sit."
+                "dataPublish": "Modules",
+                "title": "Coding time",
+                "content": "<p><br data-mce-bogus=\"1\"></p>",
+                "time": "8AM"
               },
               {
-                "time": "4PM",
-                "title": "Website creation tutorial",
-                "content": "Dignissim amet nulla morbi eu orci faucibus at eu, Sit eros et pulvinar."
+                "dataPublish": "Modules",
+                "title": "Submissions due",
+                "content": "<p>&nbsp;</p>",
+                "time": "3PM"
               },
               {
-                "time": "4PM",
-                "title": "Competition rules overview",
-                "content": "Pharetra quam ut est sit amet viverra ageu eu."
+                "dataPublish": "Modules",
+                "title": "Finalists announced",
+                "time": "5PM ",
+                "content": "<p><br></p>"
               },
               {
-                "time": "4PM",
-                "title": "Event schedule",
-                "content": "Arcu dictum nunc  vel accumsan lacus ut in. Amet."
+                "dataPublish": "Modules",
+                "title": "Final presentations",
+                "content": "<p>&nbsp;</p>",
+                "time": "6PM "
+              },
+              {
+                "dataPublish": "Modules",
+                "title": "Winners announced",
+                "content": "<p><br data-mce-bogus=\"1\"></p>",
+                "time": "8PM "
               }
             ],
-            "period": "4PM - 10PM"
+            "period": "8AM - 8PM"
           }
         ]
       }
@@ -335,32 +334,40 @@
         "title": "FAQs",
         "items": [
           {
-            "answer": "deco.cx is the web builder for the Post-AI era. It is a modern alternative to WordPress built with TypeScript, React and Tailwind",
-            "question": "What's deco.cx?"
+            "answer": "Hackathon X is a 3-day virtual event hosted by deco.cx from Friday, June 28th to Sunday, June 30th. It focuses on transforming ideas into htmx-powered templates, offering participants an opportunity to showcase their creativity and compete for exciting prizes.",
+            "question": "What is Hackathon X - \"HTMX Edition\"?"
           },
           {
-            "answer": "Absolutely, if you intent to enroll more than 5 students from the same company, please reach out.",
-            "question": "Do you have group discounts?"
+            "answer": "Registration for Hackathon X is now open! Simply fill out the registration form (CTA below) to sign up and secure your spot in the event.",
+            "question": "How can I register for Hackathon X?"
           },
           {
-            "answer": "You should know React or a similar component-based framework. Desirably you also know TypeScript and Tailwind.",
-            "question": "What are the pre-requisites for enrolling?"
+            "answer": "Participants can choose from several categories, including Landing Pages, Storefronts, and the Open Category. Each category winner will receive a swag kit, and cash rewards range from R$2,500 to R$10,000. Additionally, participants can access our bounty marketplace on Discord and select a project from there. Whenever someone posts a bounty, they offer a cash reward for the job. By completing a paid task from the marketplace and obtaining authorization from the bounty owner, participants can compete for the hackathon prizes with their deliverables.",
+            "question": "What categories can I participate in, and what are the prizes?"
           },
           {
-            "answer": "After submitting your final PR, we will take 10-15 business days to review it.",
-            "question": "How long does it takes to get my certification?"
+            "answer": "Projects will be evaluated based on design, editability, performance, and creativity. Winners will be selected based on these criteria, with one winning team and three honorable mentions per category.",
+            "question": "How will projects be judged?"
           },
           {
-            "answer": "You will have all tools and methods needed to create a fully integrated, high-performance digital experience such as stores already powered by deco.cx.",
-            "question": "What will I be able to build after decoCamp?"
+            "answer": "Yes, participants are welcome to work on existing projects or client sites, provided they have the necessary authorization to do so. Additionally, participants can explore our bounty marketplace on Discord and select a project from there to complete paid tasks for the hackathon while competing for prizes, given that they obtain authorization from the bounty owner.",
+            "question": "Can I work on existing projects or client sites during the hackathon?"
           },
           {
-            "answer": "Sure thing! You can choose between a regular student and get access only to the content or becoming an Official Certified Partner.",
-            "question": "Can I have access to the content without getting certified?"
+            "answer": "HTMX is a powerful library that allows developers to access modern browser features directly from HTML, simplifying the development process and enhancing site speed. To learn more about HTMX and how it's being leveraged in the hackathon, visit their official website: https://htmx.org/. ",
+            "question": "What is HTMX, and how does it relate to the hackathon?"
           },
           {
-            "answer": "Currently, deco.camp is held in both Portuguese and English.",
-            "question": "In which language is decoCamp taught?"
+            "answer": "No specific prerequisites are required to participate in Hackathon X, but we strongly advise having at least one developer and one designer in each team. Our tech stack includes TypeScript, React (JSX), Tailwind, and HTMX. For more information, visit our docs: https://deco.cx/docs/. ",
+            "question": "Are there any prerequisites to participate?"
+          },
+          {
+            "question": "How can I collaborate with others during the hackathon?",
+            "answer": "We recommend forming teams with at least one designer and one developer. If you're looking for team members, join our Discord server here  (https://deco.cx/discord) and follow the instructions to find new members. Fill in the registration form as soon as possible, and if you need to change anything later (such as adding new members to your team), submit a revision. Groups can have a maximum of five members, and all members who deliver a site will receive a certificate. You have until one week before the hackathon to finalize your team."
+          },
+          {
+            "question": "What is the Referral Program, and how does it work?",
+            "answer": "For every person who signs up for Hackathon X using your referral link, you'll receive R$50.00 at iFood. The person who brings the most participants will win a MacBook Air. When you fill out the registration form, you will receive a unique referral code. Share it with whoever you refer and ask them to include your code on their registration form. This way, we can count your referrals accurately."
           }
         ]
       }
@@ -401,9 +408,9 @@
           "type": "ligth",
           "label": "Register now"
         },
-        "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><span><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into htmx-powered templates</span></strong></span> 💚</span><br></h5>",
+        "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span><br></h5>",
         "flagSound": {
-          "text": "Friday, June 28th @4pm - Sunday, June 30th",
+          "text": "Friday, June 28th @4pm (GMT-3) to Sunday, June 30th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/24b8c88d-459e-41ad-ac57-8811150d4b08"
         },
         "afterButtonText": "Check the Pre-requisites"
