@@ -320,12 +320,6 @@
           "color": "green",
           "href": "#",
           "label": "Invite now"
-        },
-        {
-          "color": "none",
-          "href": "#",
-          "label": "Copied link!",
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"
         }
       ]
     },
@@ -334,10 +328,6 @@
       "props": {
         "title": "FAQs",
         "items": [
-          {
-            "answer": "deco.cx is the web builder for the Post-AI era. It is a modern alternative to WordPress built with TypeScript, React and Tailwind",
-            "question": "What's deco.cx?"
-          },
           {
             "answer": "Hackathon X is a 3-day virtual event hosted by deco.cx from Friday, June 28th to Sunday, June 30th. It focuses on transforming ideas into htmx-powered templates, offering participants an opportunity to showcase their creativity and compete for exciting prizes.",
             "question": "What is Hackathon X - 'HTMX Edition'?"
@@ -363,8 +353,8 @@
             "question": "What is HTMX, and how does it relate to the hackathon?"
           },
           {
-            "question": "Are there any prerequisites to participate?",
-            "answer": "No specific prerequisites are required to participate in Hackathon X, but we strongly advise having at least one developer and one designer in each team. Our tech stack includes TypeScript, React (JSX), Tailwind, and HTMX. For more information, visit our docs."
+            "answer": "No specific prerequisites are required to participate in Hackathon X, but we strongly advise having at least one developer and one designer in each team. Our tech stack includes TypeScript, React (JSX), Tailwind, and HTMX. For more information, visit our docs.",
+            "question": "Are there any prerequisites to participate?"
           },
           {
             "question": "How can I collaborate with others during the hackathon?",
