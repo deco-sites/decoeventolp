@@ -74,7 +74,7 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 
   if (nested && nested.length > 0) {
     return (
-      <li class="relative h-full grid text-white" {...props}>
+      <li class="relative h-full grid" {...props}>
         <Dropdown
           items={nested}
           value={label}
@@ -87,13 +87,13 @@ function MenuLink({ href, label, targetBlank, nested, ...props }: MenuLink) {
 
   return (
     <li
-      class="relative h-full grid text-white hover:text-[#02F67C]"
+      class="relative h-full grid text-white hover:text-[#02F67C] opacity-50"
       {...props}
     >
       <a
         target={targetBlank ? "_blank" : "_self"}
         href={href}
-        class="flex text-white items-center h-full px-[24px] self-center font-normal text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-center"
+        class="flex items-center h-full px-[24px] self-center font-light text-[16px] bg-clip-text bg-linear-white-green bg-position-100 transition-colors ease-in duration-300 justify-center"
         style="background-size: 200%;"
       >
         {label}

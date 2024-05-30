@@ -39,7 +39,7 @@ export default function WhatIsHtmx(
     <div class="w-full bg-black py-10 md:py-[80px]">
       <div className="xl:container xl:mx-auto mx-5 md:mx-10 grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-[40px]">
         { sections?.map(({ titleText = '', titleImage = '', subtitle = '', description = '', cta, bottomMessage = '' }) => (
-          <div class="flex flex-col items-start justify-end gap-6 md:gap-8 lg:md:gap-[40px] rounded-[24px] bg-[#000D0D] p-[40px] lg:p-[80px]">
+          <div class="flex flex-col items-start justify-end gap-6 md:gap-8 lg:md:gap-[40px] rounded-[24px] bg-[#0D1717] p-[40px] lg:p-[80px]">
             { titleImage ? (
               <div className="flex justify-center md:justify-start items-center flex-wrap">
                 { titleText && <HTMLRenderer class="inline text-[40px] md:text-[48px]" html={titleText} /> }
@@ -50,13 +50,6 @@ export default function WhatIsHtmx(
                       src={titleImage}
                       alt={'HTMX'}
                     />
-                    {/* <Image
-                      className={"block md:hidden "}
-                      src={titleImage}
-                      width={193.5}
-                      height={35.5}
-                      alt={'HTMX'}
-                    /> */}
                   </div>
                 ) }
               </div>
