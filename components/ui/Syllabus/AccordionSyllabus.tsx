@@ -30,7 +30,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
   const { title, listContent, period = "4PM" } = props;
 
   return (
-    <details className="border-b rounded-none border-neutral border-[rgba(255,255,255,0.15)] last:border-b-0 cursor-pointer syllabus">
+    <details className="border-b rounded-none border-neutral last:border-b-0 cursor-pointer syllabus">
       <summary className="collapse-title flex flex-row px-4 py-5 md:py-7 md:px-8 font-medium text-white justify-start items-center text-sm md:text-[20px] gap-3 xl:gap-4">
         <Icon
           class="text-white w-auto h-auto -ml-[3px] md:min-w-[20px] md:min-h-[20px]"
@@ -46,7 +46,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
           {period}
         </span>
       </summary>
-      <div className=" md:px-8 bg-black p-4 md:py-6 cursor-default">
+      <div className="md:px-8 bg-black p-4 md:py-6 cursor-default border border-x border-x-neutral border-opacity-10 last:border-0">
         <ul class="w-full flex flex-col gap-6 ">
           {listContent.map((item) => (
             <li class="flex flex-row gap-4 justify-start items-start">
