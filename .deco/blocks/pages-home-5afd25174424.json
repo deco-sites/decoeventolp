@@ -191,26 +191,23 @@
             "listContent": [
               {
                 "title": "Introduction to deco.cx",
-                "content": "Purus a nis sed elementum at tortor viverra orci sit.",
+                "content": "<p><br data-mce-bogus=\"1\"></p>",
                 "time": "4PM"
               },
               {
                 "time": "5PM",
                 "title": "Website creation tutorial",
-                "content": "<p>&nbsp;</p>",
-                "dataPublish": "Modules"
+                "content": "<p>&nbsp;</p>"
               },
               {
                 "time": "6PM",
                 "title": "How to use HTMX on deco.cx",
-                "content": "<p>&nbsp;</p>",
-                "dataPublish": "Modules"
+                "content": "<p>&nbsp;</p>"
               },
               {
                 "time": "7PM",
                 "title": "Event rules and details",
-                "content": "<p>&nbsp;</p>",
-                "dataPublish": "Modules"
+                "content": "<p>&nbsp;</p>"
               }
             ],
             "period": "4PM - 10PM"
@@ -225,7 +222,6 @@
             ],
             "listContent": [
               {
-                "dataPublish": "Modules",
                 "title": "Coding time",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
                 "time": "10AM"
@@ -243,31 +239,26 @@
             ],
             "listContent": [
               {
-                "dataPublish": "Modules",
                 "title": "Coding time",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
                 "time": "8AM"
               },
               {
-                "dataPublish": "Modules",
                 "title": "Submissions due",
                 "content": "<p>&nbsp;</p>",
                 "time": "3PM"
               },
               {
-                "dataPublish": "Modules",
                 "title": "Finalists announced",
                 "time": "5PM ",
                 "content": "<p><br></p>"
               },
               {
-                "dataPublish": "Modules",
                 "title": "Final presentations",
                 "content": "<p>&nbsp;</p>",
                 "time": "6PM "
               },
               {
-                "dataPublish": "Modules",
                 "title": "Winners announced",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
                 "time": "8PM "
@@ -319,12 +310,6 @@
           "color": "green",
           "href": "#",
           "label": "Invite now"
-        },
-        {
-          "color": "none",
-          "href": "#",
-          "label": "Copied link!",
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1"
         }
       ]
     },
