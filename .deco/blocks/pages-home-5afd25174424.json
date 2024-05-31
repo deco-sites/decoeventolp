@@ -332,15 +332,15 @@
     {
       "__resolveType": "site/sections/Faq/Faq.tsx",
       "props": {
-        "title": "FAQs",
+        "title": "FAQ",
         "items": [
           {
-            "answer": "Hackathon X is a 3-day virtual event hosted by deco.cx from Friday, June 28th to Sunday, June 30th. It focuses on transforming ideas into htmx-powered templates, offering participants an opportunity to showcase their creativity and compete for exciting prizes.",
-            "question": "What is Hackathon X - \"HTMX Edition\"?"
+            "answer": "Hackathon 5 is a 3-day virtual event hosted by deco.cx from Friday, June 28th to Sunday, June 30th. It focuses on transforming ideas into htmx-powered templates, offering participants an opportunity to showcase their creativity and compete for exciting prizes.",
+            "question": "What is Hackathon 5 - \"HTMX Edition\"?"
           },
           {
-            "answer": "Registration for Hackathon X is now open! Simply fill out the registration form (CTA below) to sign up and secure your spot in the event.",
-            "question": "How can I register for Hackathon X?"
+            "answer": "Registration for Hackathon 5 is now open! Simply fill out the registration form (CTA below) to sign up and secure your spot in the event.",
+            "question": "How can I register for Hackathon 5?"
           },
           {
             "answer": "Participants can choose from several categories, including Landing Pages, Storefronts, and the Open Category. Each category winner will receive a swag kit, and cash rewards range from R$2,500 to R$10,000. Additionally, participants can access our bounty marketplace on Discord and select a project from there. Whenever someone posts a bounty, they offer a cash reward for the job. By completing a paid task from the marketplace and obtaining authorization from the bounty owner, participants can compete for the hackathon prizes with their deliverables.",
