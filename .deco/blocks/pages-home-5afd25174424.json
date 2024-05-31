@@ -29,7 +29,7 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon X</span><br></pre>",
+        "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon 5</span><br></pre>",
         "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
         "flagSound": {
           "text": "Friday, June 28th @4pm (GMT-3) to Sunday, June 30th ",
@@ -170,7 +170,23 @@
               "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">US$2,000</span></p>"
             }
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1b0da4a-e132-4826-8516-d44efea31743",
+          "image": {
+            "__resolveType": "website/flags/multivariate/image.ts",
+            "variants": [
+              {
+                "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1b0da4a-e132-4826-8516-d44efea31743",
+                "rule": {
+                  "__resolveType": "website/matchers/device.ts"
+                }
+              },
+              {
+                "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1b0da4a-e132-4826-8516-d44efea31743",
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
           "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
         }
       ]
