@@ -6,13 +6,13 @@
     }
   ],
   "seo": {
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
+    "titleTemplate": "Hackathon X | deco.cx",
+    "descriptionTemplate": "deco.cx's 5th Hackathon - \"HTMX Edition\"! 🔥 Dive into the world of ultra-fast HTMX website templates and compete for over US$5K in prizes! 💰",
     "type": "website",
-    "title": "Hackathon V",
-    "description": "Are you ready ?",
+    "title": "Hackathon X",
+    "description": "deco.cx's 5th Hackathon - \"HTMX Edition\"! 🔥 Dive into the world of ultra-fast HTMX website templates and compete for over US$5K in prizes! 💰",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/37fbc450-a570-42fd-9ab4-76160da7904e",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/564a71b0-888d-4f66-9a22-141f3f0e9748"
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/e68074b8-4b3b-4f8e-9891-0eb594888225"
   },
   "global": [
     {
