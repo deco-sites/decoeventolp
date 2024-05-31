@@ -69,7 +69,7 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
                 >
                 </span>
               </div>
-              <div class="hidden md:flex flex-row gap-3 ml-auto text-base">
+              <div class="hidden md:flex flex-row gap-3 ml-auto text-base text-[#A1A1AA]">
                 { item.dataPublish ? (
                   <a
                     href={item.link}
