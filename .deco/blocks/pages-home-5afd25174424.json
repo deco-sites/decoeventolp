@@ -402,32 +402,6 @@
       }
     },
     {
-      "__resolveType": "site/sections/Footer/Default.tsx",
-      "subscribe": {},
-      "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/87ef2894-327a-42b3-ae82-3fa8b880c09d",
-        "alt": "Deco logo"
-      },
-      "social": [
-        {
-          "network": "Instagram",
-          "href": "https://www.instagram.com/deco.cx/"
-        },
-        {
-          "network": "Linkedin",
-          "href": "https://www.linkedin.com/company/deco-cx/posts/?feedView=all"
-        },
-        {
-          "network": "Facebook",
-          "href": "#"
-        },
-        {
-          "network": "Twitter",
-          "href": "https://x.com/deco_frontend"
-        }
-      ]
-    },
-    {
       "__resolveType": "site/sections/Theme/Theme.tsx",
       "colorScheme": "any",
       "font": {
@@ -440,6 +414,9 @@
         ]
       },
       "mode": "dark"
+    },
+    {
+      "__resolveType": "site/sections/Footer/DecoFooter.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
