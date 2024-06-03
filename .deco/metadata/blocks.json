@@ -153,5 +153,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FHero%2FHero.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Hero/Hero.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FBenefits%2FBenefits.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Benefits/Benefits.tsx"
   }
 }

@@ -37,7 +37,7 @@
         },
         "afterButtonText": "Check the Pre-requisites",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6797598e-91d1-49b2-b586-acd9e85e5827",
-        "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span></h5>",
+        "description": "<p style=\"text-align: center; font-size: 20px;\" data-mce-style=\"text-align: center; font-size: 20px;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span></p>",
         "buttons": [
           {
             "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
@@ -81,7 +81,7 @@
       "sections": [
         {
           "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/9e8d7b74-b3f7-4823-920e-cc080e1d8403",
-          "subtitle": "<h5 style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">htmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript.</span></h5>",
+          "subtitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255); font-size: 20px;\" data-mce-style=\"color: rgb(255, 255, 255); font-size: 20px;\">htmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript.</span></p>",
           "cta": [
             {
               "color": "green",
@@ -98,7 +98,7 @@
         },
         {
           "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bd23cc6a-662a-4406-835c-292e1f03488c",
-          "subtitle": "<h5 style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Integrated frontend platform with efficient tech stack and powerful features to build high-performance websites and evolve 10x faster.</span></h5>",
+          "subtitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255); font-size: 20px;\" data-mce-style=\"color: rgb(255, 255, 255); font-size: 20px;\">Integrated frontend platform with efficient tech stack and powerful features to build high-performance websites and evolve 10x faster.</span></p>",
           "cta": [
             {
               "color": "green",
@@ -174,16 +174,19 @@
             "__resolveType": "website/flags/multivariate/image.ts",
             "variants": [
               {
-                "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1b0da4a-e132-4826-8516-d44efea31743",
+                "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/98b5ef09-9702-4ae6-abaa-496802ec445c",
                 "rule": {
-                  "__resolveType": "website/matchers/device.ts"
+                  "__resolveType": "website/matchers/device.ts",
+                  "desktop": true
                 }
               },
               {
-                "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1b0da4a-e132-4826-8516-d44efea31743",
                 "rule": {
-                  "__resolveType": "website/matchers/always.ts"
-                }
+                  "__resolveType": "website/matchers/device.ts",
+                  "tablet": true,
+                  "mobile": true
+                },
+                "value": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/88461897-6b42-4021-a040-3c9941b593ae"
               }
             ]
           },
@@ -319,8 +322,8 @@
     {
       "__resolveType": "site/sections/ReferralIfood.tsx",
       "title": "<p><span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Referral </span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Program</span></span></p>",
-      "description": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get US$5 at &nbsp;<img style=\"display: inline;\" src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\" alt=\"ifood\" width=\"61\" height=\"33\" data-mce-style=\"display: inline;\" data-mce-src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020\"><br></span><br><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> </span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29aacae2-3296-40bc-8e5f-69116382e020",
+      "description": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">For every person who signs up in your name, you get U$10 to spend at &nbsp;<img style=\"display: inline;\" src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/7b9b6528-7786-4721-9696-75280d85fe8c\" alt=\"amazon\" width=\"87\" height=\"26\" data-mce-style=\"display: inline;\" data-mce-src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/7b9b6528-7786-4721-9696-75280d85fe8c\"><br></span><br><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The person who brings the most participants wins</span> </span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">MACBOOK AIR</span></p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/7b9b6528-7786-4721-9696-75280d85fe8c",
       "cta": [
         {
           "color": "green",

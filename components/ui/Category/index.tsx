@@ -34,7 +34,7 @@ export default function Category({ title, flags, cards }: CategoryProps) {
         </div>
         <div class="flex flex-row gap-4 lg:gap-8 flex-wrap gap-y-4 lg:gap-y-8 justify-center items-center">
           { flags?.map(({ icon, text }) => (
-            <span class="text-white text-sm md:text-base off-black border border-base-content rounded-3xl px-4 py-2 text-sm text-center lg:text-start flex flex-row items-center justify-center gap-2">
+            <span class="text-white text-sm md:text-base off-black border border-base-content rounded-3xl px-4 py-2 text-center lg:text-start flex flex-row items-center justify-center gap-2">
               { icon && <img src={icon ?? ''} alt={text} width={16} height={16} /> }
               <HTMLRenderer html={text} />
             </span>
@@ -51,7 +51,7 @@ export default function Category({ title, flags, cards }: CategoryProps) {
                   <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />
                   <ul className="flex flex-col gap-[24px]">
                     { topics?.map(({ text, icon }) => (
-                      <li className="flex items-center gap-4">
+                      <li className="flex items-center text-[20px] gap-4">
                         <img src={icon} alt={text} width={16} height={16} />
                         <HTMLRenderer html={text} />
                       </li>
@@ -78,9 +78,9 @@ export default function Category({ title, flags, cards }: CategoryProps) {
                   <HTMLRenderer class="text-[40px] md:text-[48px]" html={title} />
                   <ul className="flex flex-col gap-[24px]">
                     { topics?.map(({ text, icon }) => (
-                      <li className="flex items-center gap-4">
+                      <li className="flex items-center text-[20px] gap-4">
                         <img src={icon} alt={text} width={16} height={16} />
-                        <HTMLRenderer html={text} />
+                        <HTMLRenderer class="text-[20px];" html={text} />
                       </li>
                     )) }
                   </ul>
