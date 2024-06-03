@@ -54,12 +54,12 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
           <div className="flex justify-center">
             <img
               className="hidden lg:block absolute right-0 bottom-0 z-[1] w-[430px] h-[583px]"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/cfa4415f-51e9-4a45-a0fa-ac47e319da45"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/52876723-f382-43f4-b396-93fcbe170f8a"
               alt="Fundo macbook"
             />
             <img
               className="hidden md:block lg:hidden absolute bottom-0 z-[1] w-[583px] h-[328px]"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/52876723-f382-43f4-b396-93fcbe170f8a"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/cfa4415f-51e9-4a45-a0fa-ac47e319da45"
               alt="Fundo macbook"
             />
             <img
