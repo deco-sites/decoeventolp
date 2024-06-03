@@ -54,17 +54,17 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
           <div className="flex justify-center">
             <img
               className="hidden lg:block absolute right-0 bottom-0 z-[1] w-[430px] h-[583px]"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f44a3782-d25f-4e67-b715-09569fb7f1cd"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/cfa4415f-51e9-4a45-a0fa-ac47e319da45"
               alt="Fundo macbook"
             />
             <img
               className="hidden md:block lg:hidden absolute bottom-0 z-[1] w-[583px] h-[328px]"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5e364686-8d3a-410d-8374-42b68ef45486"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/52876723-f382-43f4-b396-93fcbe170f8a"
               alt="Fundo macbook"
             />
             <img
               className="block md:hidden w-[287px] h-[231px]"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/dd55f5f8-4013-4859-95a9-73438bbf5e3b"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/33dd2416-980b-4846-894b-12a38c2a490a"
               alt="Fundo macbook"
             />
           </div>

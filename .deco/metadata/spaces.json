@@ -5,26 +5,6 @@
       "name": "Site Home",
       "pinned": true,
       "icon": "home",
-      "layout": [],
-      "tabs": {
-        "dashboard::Home::home::Home::%7B%7D": {
-          "name": "Home",
-          "icon": "home",
-          "render": "function",
-          "viewId": "Home",
-          "id": "dashboard::Home::home::Home::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Highlights"
-    },
-    {
-      "id": "pages",
-      "name": "Pages",
-      "pinned": true,
-      "icon": "files",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -71,12 +51,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "pages::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                    "id": "dashboard::Home::home::Home::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-dashboard::Home::home::Home::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "pages::List::list::List::%7B%7D"
+                      "id": "dashboard::Home::home::Home::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -92,6 +72,26 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
+      "tabs": {
+        "dashboard::Home::home::Home::%7B%7D": {
+          "name": "Home",
+          "icon": "home",
+          "render": "function",
+          "viewId": "Home",
+          "id": "dashboard::Home::home::Home::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Highlights"
+    },
+    {
+      "id": "pages",
+      "name": "Pages",
+      "pinned": true,
+      "icon": "files",
+      "layout": [],
       "tabs": {
         "pages::List::list::List::%7B%7D": {
           "name": "List",
@@ -1659,7 +1659,8 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D": {
@@ -1676,7 +1677,7 @@
       }
     },
     {
-      "id": "/components/ui/ReferralIfood.tsx",
+      "id": "/.deco/blocks/Preview%20site%2Fsections%2FReferralIfood.tsx.json",
       "name": "ReferralIfood.tsx",
       "pinned": false,
       "icon": "code",
@@ -1713,24 +1714,24 @@
         "content": [
           {
             "type": "stack",
-            "width": 100,
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "activeItemIndex": 0,
             "content": [
               {
-                "id": "%2Fcomponents%2Fui%2FReferralIfood.tsx::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D",
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2Fcomponents%2Fui%2FReferralIfood.tsx::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D\" />",
                 "type": "component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FReferralIfood.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D\" />",
+                "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FReferralIfood.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D",
                 "componentName": "component",
                 "componentState": {
-                  "id": "%2Fcomponents%2Fui%2FReferralIfood.tsx::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D"
-                },
-                "isClosable": true,
-                "reorderEnabled": true
+                  "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FReferralIfood.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D"
+                }
               }
-            ]
+            ],
+            "width": 100,
+            "activeItemIndex": 0
           }
         ],
         "isClosable": true,
@@ -1740,7 +1741,7 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2Fcomponents%2Fui%2FReferralIfood.tsx::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D": {
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FReferralIfood.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D": {
           "name": "Code",
           "icon": "code",
           "accepts": "function",
@@ -1749,7 +1750,7 @@
           "viewProps": {
             "spaceId": "/components/ui/ReferralIfood.tsx"
           },
-          "id": "%2Fcomponents%2Fui%2FReferralIfood.tsx::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FReferralIfood.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FReferralIfood.tsx%22%7D",
           "state": {
             "__signal": "error"
           }
