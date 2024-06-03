@@ -165,5 +165,9 @@
   "/.deco/blocks/Preview%20site%2Fsections%2FReferralIfood.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/ReferralIfood.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FHeader%2FHeader.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header/Header.tsx"
   }
 }

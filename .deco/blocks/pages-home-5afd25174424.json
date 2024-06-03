@@ -526,6 +526,12 @@
           "label": "Privacy Policy"
         }
       ]
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "trackingIds": [
+        " GTM-P6D23BB"
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
