@@ -42,12 +42,14 @@
           {
             "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
             "label": "Register now",
-            "color": "green"
+            "color": "green",
+            "id": "bt-register-hacka"
           },
           {
             "href": "https://discord.gg/wwXeNrnP",
             "label": "Questions? Join our Discord",
-            "color": "neutral"
+            "color": "neutral",
+            "id": "bt-discord-hacka"
           }
         ]
       }
@@ -317,7 +319,8 @@
     {
       "__resolveType": "site/sections/RegisterNowBanner.tsx",
       "title": "REGISTER NOW",
-      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form"
+      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
+      "id": "bt-register-hacka"
     },
     {
       "__resolveType": "site/sections/ReferralIfood.tsx",
@@ -379,7 +382,8 @@
     {
       "__resolveType": "site/sections/RegisterNowBanner.tsx",
       "title": "REGISTER NOW",
-      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form"
+      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
+      "id": "bt-register-hacka"
     },
     {
       "__resolveType": "site/sections/AreYouReady.tsx",
@@ -407,7 +411,7 @@
         },
         "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready ?</span></p>",
         "button": {
-          "id": "bt-click-enroll-1",
+          "id": "bt-register-hacka",
           "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
           "type": "ligth",
           "label": "Register now"
