@@ -1,6 +1,7 @@
 import { useMemo } from "preact/hooks";
 
 export interface Props {
+  id?: string;
   title: string;
   href?: string;
 }
@@ -8,6 +9,7 @@ export interface Props {
 export default function RegisterNow(props: Props) {
   const {
     title,
+    id
   } = props;
   const list = useMemo(
     () =>
@@ -22,7 +24,7 @@ export default function RegisterNow(props: Props) {
       </div>
         <div class="w-full text-center items-center">
           <div class="overflow-hidden py-2">
-            <a href={props?.href ?? ''}>
+            <a id={id} href={props?.href ?? ''}>
               <ul
                 class={`grid grid-cols-50 w-full animate-walk items-center gap-4`}
                 style={`animation-delay: 300ms`}

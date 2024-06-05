@@ -83,6 +83,7 @@ export default function AreYouReady({ props }: { props: Props }) {
             <div className="light-green translate-y-[155px] lg:translate-y-[235px]" />
             <div class="flex flex-col gap-2 items-center lg:items-start ">
               <a
+                id={button.id}
                 className="flex items-center hover:bg-transparent md:hover:border md:hover:text-[#fff] border-[#02F67C] border bg-[#02F67C] text-[16px] text-[#0A2121] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold"
                 href={button.href}
               >

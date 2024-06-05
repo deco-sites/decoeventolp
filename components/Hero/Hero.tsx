@@ -23,6 +23,7 @@ export interface Props {
 
 export interface CTA {
   color?: "green" | 'neutral',
+  id?: string;
   href: string;
   label: string;
 }
@@ -104,8 +105,9 @@ export default function Hero({ props }: { props: Props }) {
           </div>
           <HTMLRenderer class="text-center text-sm md:text-base md:leading-[1.8rem]" html={description} />
           <div class="flex flex-col md:flex-row gap-4 md:gap-6 items-center">
-            { buttons.map(({ color = 'green', href, label }: CTA) => (
+            { buttons.map(({ color = 'green', href, label, id }: CTA) => (
               <a
+                id={id}
                 className={`flex items-center text-[16px] px-8 py-3 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
                 ${BTN_COLORS[color]}
               `}
