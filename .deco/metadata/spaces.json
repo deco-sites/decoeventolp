@@ -1332,28 +1332,7 @@
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
-                "width": 33.333333333333336,
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FNRF%2FHeader.tsx%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FNRF%2FHeader.tsx%22%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FNRF%2FHeader.tsx%22%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "width": 33.333333333333336,
+                "width": 50,
                 "activeItemIndex": 0,
                 "content": [
                   {
@@ -1371,10 +1350,10 @@
               },
               {
                 "type": "stack",
-                "width": 33.33333333333333,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
+                "width": 50,
                 "activeItemIndex": 0,
                 "content": [
                   {
@@ -1411,20 +1390,6 @@
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FNRF%2FHeader.tsx%22%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/islands/NRF/Header.tsx"
-          },
-          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fislands%2FNRF%2FHeader.tsx%22%7D",
-          "state": {
-            "__signal": "error"
-          }
-        },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
@@ -1433,7 +1398,8 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         }
       }
