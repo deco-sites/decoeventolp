@@ -1350,10 +1350,10 @@
               },
               {
                 "type": "stack",
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
-                "width": 50,
                 "activeItemIndex": 0,
                 "content": [
                   {
