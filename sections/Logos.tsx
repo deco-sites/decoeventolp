@@ -43,7 +43,7 @@ export default function Logos({
       <div class="container lg:mx-auto">
         <div class="flex flex-col gap-[60px]">
           <p
-            class="text-center text-10 md:text-[3rem] leading-snug tracking-[-1.2px] md:trancking-[-1.44px] font-medium text-white"
+            class="text-center text-[2.5rem] md:text-[3rem] leading-snug tracking-[-1.2px] md:trancking-[-1.44px] font-medium text-white"
             dangerouslySetInnerHTML={{
               __html: title,
             }}
