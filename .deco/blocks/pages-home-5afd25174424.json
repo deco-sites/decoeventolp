@@ -148,7 +148,11 @@
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/07aad7cb-14ee-4d78-86ae-c1e717026d7b",
           "altText": "web summit"
         }
-      ]
+      ],
+      "title": "Event <span class='argentPixel text-[#02F67C] font-normal'>sponsors</span>",
+      "brands": {
+        "logos": []
+      }
     },
     {
       "__resolveType": "site/sections/Category.tsx",
