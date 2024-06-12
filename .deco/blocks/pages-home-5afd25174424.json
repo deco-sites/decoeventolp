@@ -118,7 +118,37 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/11d26394-ffef-44ba-8ef0-af597be1c34e",
+          "altText": "itau"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/336e1b8d-596c-44a4-9f5c-89bffc6213f2",
+          "altText": "fjlabs"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3e446996-be30-49f6-8be9-1baf04cfbc43",
+          "altText": "linx capital"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/33a8cd91-d3c5-4c33-95c8-be23bce5385d",
+          "altText": "maya capital"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/0364774a-9fcb-4936-b589-4afd4de73694",
+          "altText": "endeavor"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/80465053-292a-4ac6-ad1c-104aab2e1959",
+          "altText": "crivo"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/07aad7cb-14ee-4d78-86ae-c1e717026d7b",
+          "altText": "web summit"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Category.tsx",
