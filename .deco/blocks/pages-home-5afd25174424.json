@@ -335,7 +335,8 @@
         },
         {
           "color": "none",
-          "label": "Check leaderboard"
+          "label": "Check leaderboard",
+          "href": " https://experts.deco.cx/referral-leaderboard"
         }
       ]
     },
