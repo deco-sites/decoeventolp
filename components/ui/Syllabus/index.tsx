@@ -4,6 +4,10 @@ import AccordionSyllabus from "./AccordionSyllabus.tsx";
 
 export interface Props {
   title: HTML;
+  headsupCard?: {
+    title?: string;
+    text?: HTML;
+  };
   accordions: Accordion[];
 }
 
@@ -161,7 +165,7 @@ const BASE_PROPS = {
 };
 
 export default function Syllabus({ props }: { props: Props }) {
-  const { title, accordions } = { ...BASE_PROPS, ...props };
+  const { title, headsupCard, accordions } = { ...BASE_PROPS, ...props };
 
   return (
     <div class="w-full h-full bg-black py-10 md:py-[80px] pt-[80px] md:pt-[120px]">
@@ -169,6 +173,14 @@ export default function Syllabus({ props }: { props: Props }) {
         <h2 class="text-white text-[40px] md:text-[48px] text-center line-height-115">
           <HTMLRenderer html={title} />
         </h2>
+        {headsupCard && (
+        <div class="flex flex-col sm:flex-row gap-6 md:gap-16 px-6 py-8 max-w-[698px] bg-[#0D1717] rounded-lg text-white leading-tight text-[12px] md:text-[18px] mx-auto">
+          <h3 class="text-[14px] md:text-[24px] font-semibold">
+            {headsupCard?.title}
+          </h3>
+          <HTMLRenderer html={headsupCard?.text ?? ''} />
+        </div>
+        )}
         <div class="flex flex-col w-full rounded-xl border-neutral border bg-white bg-opacity-5 overflow-hidden">
           {accordions.map((accordion) => (
             <AccordionSyllabus

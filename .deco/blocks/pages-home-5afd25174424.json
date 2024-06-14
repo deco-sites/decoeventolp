@@ -323,7 +323,11 @@
             ],
             "period": "8AM - 8PM"
           }
-        ]
+        ],
+        "headsupCard": {
+          "title": "Note!",
+          "text": "<p>If you're in a different time zone or can't attend the sync sessions on Friday and Sunday, don’t worry! All sessions will be recorded and available online for async viewing. Finalists can submit their projects via Loom instead of presenting live. 🎥✨</p>"
+        }
       }
     },
     {
