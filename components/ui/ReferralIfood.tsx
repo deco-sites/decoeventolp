@@ -39,15 +39,17 @@ export default function ReferralIfood({ image, title, description, cta }: Referr
             <div className="flex flex-col items-start md:items-center md:flex-row gap-4" id="container-do-cta">
               <Clipboard />
               {cta?.map(({ color = 'green', href = '', label = '', icon }, index) => (
-                <button
+                <a
                   className={`flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg px-8 py-2 rounded-full md:transition md:ease-in-out md:duration-300 font-semibold
                   ${BTN_COLORS[color]}
                   `}
                   id="clipboard-btn"
+                  href={href}
+                  target={index > 0 ? "_blank" : ''}
                 >
                   {icon ? <img src={icon} alt={'check'} width={20} /> : null}
                   {label}
-                </button>
+                </a>
               ))}
             </div>
           </div>
