@@ -7,7 +7,7 @@ export default function Clipboard() {
 I'm participating and I think this could be a great fit for you too. Register now: https://deco.cx/hackathon5.
 When you register, please enter my email in the "referral code" section of the form so that my referrals are counted and ranked. Hope you can make it 🙂!`);
       const msgCopied = item.target.cloneNode(true);
-      msgCopied.className = "bg-transparent text-[#fff] border-transparent flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg"
+      msgCopied.className = "absolute mt-32 bg-transparent text-[#fff] border-transparent flex items-center justify-center text-center w-min whitespace-nowrap h-[50px] gap-2 font-medium text-lg"
       msgCopied.innerHTML = "<img style='margin-left: 10px;' src='https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/c1739bf9-c00c-4a01-9f11-3d18e5b683c1' alt='check' width='20'>Invite message copied to clipboard!";
       item.target.parentNode?.appendChild(msgCopied)
       setTimeout(function() {

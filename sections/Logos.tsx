@@ -3,6 +3,7 @@ import { useMemo } from "preact/hooks";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import { AppContext } from "site/apps/site.ts";
+import SponsorMessage from "site/islands/SponsorMessage.tsx";
 
 export interface Image {
   img: ImageWidget;
@@ -15,6 +16,10 @@ export interface Props {
   title?: string;
   brands?: {
     logos?: Image[];
+  };
+  cta?: {
+    label?: string;
+    href?: string;
   };
 }
 
@@ -51,14 +56,17 @@ const LogoSlider = (
 ) => {
   const renderLogoSlide = () => (
     <div
-      className={`flex items-center z-10 gap-4`}
+      className={`flex items-center z-10 gap-8 animate-sliding`}
     >
       {logos.map((logo) => (
-        <a target="_blank">
+        <a
+          class="flex items-center justify-center w-[100px]"
+          target="_blank"
+        >
           <Image
             width={144}
-            height={60}
-            class="p-[15px] object-scale-down"
+            height={57}
+            class="w-full max-h-[57px] object-scale-down"
             src={logo.img}
             alt={logo.img}
             decoding="async"
@@ -71,13 +79,13 @@ const LogoSlider = (
   );
 
   return (
-    <div className="relative overflow-hidden h-11 w-full">
+    <div className="relative overflow-hidden w-full">
       <div className="before:absolute before:inset-y-0 before:left-0 before:w-[60px] lg:before:w-46 before:bg-gradient-to-l before:from-black/0 before:to-black before:z-20">
       </div>
       <div className="after:absolute after:inset-y-0 after:right-0 after:w-[60px] lg:after:w-46 after:bg-gradient-to-r after:from-black/0 after:to-black after:z-20">
       </div>
       <div
-        className="flex whitespace-nowrap gap-4"
+        className="flex whitespace-nowrap gap-8"
         onMouseEnter={(
           e,
         ) => (e.currentTarget.style.animationPlayState = "paused")}
@@ -95,10 +103,14 @@ const LogoSlider = (
   );
 };
 
-function Logos({ title, brands, isMobile }: Omit<Props, "isMobile"> & {
+function Logos({ title, brands, cta, isMobile }: Omit<Props, "isMobile"> & {
   title?: string;
   brands?: {
     logos?: Image[];
+  };
+  cta?: {
+    label?: string;
+    href?: string;
   };
   isMobile: string;
 }) {
@@ -116,7 +128,7 @@ function Logos({ title, brands, isMobile }: Omit<Props, "isMobile"> & {
         <a
           href={element.href}
           target="_blank"
-          class="w-full h-full z-60 relative flex items-center justify-center lg:px-5 lg:py-[10px] gap-4"
+          class="w-full h-full z-60 relative flex items-center justify-center"
         >
           <Picture>
             <Source
@@ -131,7 +143,7 @@ function Logos({ title, brands, isMobile }: Omit<Props, "isMobile"> & {
               width={110}
             />
             <img
-              class="object-contain w-[110px] object-scale-down"
+              class="max-h-[57px] object-scale-down"
               src={element.img ?? ""}
             />
           </Picture>
@@ -152,17 +164,21 @@ function Logos({ title, brands, isMobile }: Omit<Props, "isMobile"> & {
           />
           {isMobile === "desktop"
             ? (
-              <div class="flex flex-wrap justify-center gap-4">
+              <div class="flex flex-wrap justify-center gap-16 max-h-[57px]">
                 {listBrands.map((element, index) => (
                   <Logo key={index} {...element} />
                 ))}
               </div>
             )
-            : (
-              <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
-                <LogoSlider logos={listBrands} />
-              </div>
-            )}
+            : <LogoSlider logos={listBrands} />}
+          <SponsorMessage />
+          <button
+            id="sponsorMessage"
+            href={cta?.href}
+            class="w-[max-content] z-30 items-center border border-[#113032] bg-[#02F67C] justify-center tracking-[-0.48px] flex px-3 py-2 argentPixel font-bold text-[#113032] text-[16px] leading-[120%] hover:opacity-80"
+          >
+            {cta?.label}
+          </button>
         </div>
       </div>
     </div>

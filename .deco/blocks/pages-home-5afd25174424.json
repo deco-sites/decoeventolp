@@ -118,6 +118,42 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Event <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">sponsors</span>",
+      "brands": {
+        "logos": [
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/258d7389-4c83-43ce-a68f-4ff3bd1f9f31",
+            "altText": "N1",
+            "href": "/"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/71796bcf-2ab1-48b6-a1d6-e3f93c3c65af",
+            "altText": "tec4u",
+            "href": "/"
+          },
+          {
+            "altText": "frn3",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b1a59159-79a4-4c30-9370-59e3b6a39c23",
+            "href": "/"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/39779308-1cbd-4d42-96f5-c275bcc4e08e",
+            "altText": "quality",
+            "href": "/"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/4223fb75-85ba-4e0c-989f-252af97c96eb",
+            "altText": "e-plus",
+            "href": "/"
+          }
+        ]
+      },
+      "cta": {
+        "label": "I WANT TO SPONSOR!"
+      }
+    },
+    {
       "__resolveType": "site/sections/Category.tsx",
       "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Choose your</span><span class=\"argentPixel\"> category</span></span></p>",
       "flags": [
@@ -330,7 +366,6 @@
       "cta": [
         {
           "color": "green",
-          "href": "#",
           "label": "Invite now"
         },
         {
@@ -338,7 +373,16 @@
           "label": "Check leaderboard",
           "href": "https://experts.deco.cx/referral-leaderboard"
         }
-      ]
+      ],
+      "firstCta": {
+        "color": "green",
+        "label": "Invite now"
+      },
+      "secondCta": {
+        "color": "none",
+        "label": "Check leaderboard",
+        "href": "https://experts.deco.cx/referral-leaderboard"
+      }
     },
     {
       "__resolveType": "site/sections/Faq/Faq.tsx",

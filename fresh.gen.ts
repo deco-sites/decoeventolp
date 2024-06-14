@@ -10,6 +10,7 @@ import * as $NRF_Grid from "./islands/NRF/Grid.tsx";
 import * as $NRF_Header from "./islands/NRF/Header.tsx";
 import * as $PopUp from "./islands/PopUp.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
+import * as $SponsorMessage from "./islands/SponsorMessage.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -24,6 +25,7 @@ const manifest = {
     "./islands/NRF/Header.tsx": $NRF_Header,
     "./islands/PopUp.tsx": $PopUp,
     "./islands/SliderJS.tsx": $SliderJS,
+    "./islands/SponsorMessage.tsx": $SponsorMessage,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
