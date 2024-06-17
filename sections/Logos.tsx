@@ -173,7 +173,7 @@ function Logos({ title, brands, cta, isMobile }: Omit<Props, "isMobile"> & {
             : <LogoSlider logos={listBrands} />}
           <SponsorMessage />
           <button
-            id="sponsorMessage"
+            id="sponsorMessagePopup"
             href={cta?.href}
             class="w-[max-content] z-30 items-center border border-[#113032] bg-[#02F67C] justify-center tracking-[-0.48px] flex px-3 py-2 argentPixel font-bold text-[#113032] text-[16px] leading-[120%] hover:opacity-80"
           >
