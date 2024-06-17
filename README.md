@@ -15,7 +15,7 @@ the current page you're seeing.
 ---
 ## Usage
 
-Start the project:
+Start the project:.
 
 ```sh
 deno task start
