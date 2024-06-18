@@ -164,7 +164,7 @@ function Logos({ title, brands, cta, isMobile }: Omit<Props, "isMobile"> & {
           />
           {isMobile === "desktop"
             ? (
-              <div class="flex flex-wrap justify-center gap-16 max-h-[57px]">
+              <div class="flex flex-wrap justify-center gap-16 lg:max-h-[57px]">
                 {listBrands.map((element, index) => (
                   <Logo key={index} {...element} />
                 ))}
