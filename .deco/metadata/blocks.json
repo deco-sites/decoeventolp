@@ -169,5 +169,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FHeader%2FHeader.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Header/Header.tsx"
+  },
+  "/.deco/blocks/pages-Chopp%2520HH%2520SP-892046.json": {
+    "name": "Chopp HH SP",
+    "path": "/chopp",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

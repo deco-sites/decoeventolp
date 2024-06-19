@@ -1,0 +1,273 @@
+{
+  "name": "Chopp HH SP",
+  "path": "/chopp",
+  "sections": [
+    {
+      "__resolveType": "Deco Header [EN]"
+    },
+    {
+      "__resolveType": "site/sections/Hero/Hero.tsx",
+      "props": {
+        "flag": {
+          "text": "In-person event",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df"
+        },
+        "popUp": {
+          "items": [
+            {
+              "title": "Language",
+              "content": "<p>React or any other component framework (Vue, Angular)</p>"
+            },
+            {
+              "title": "Desirable",
+              "content": "<p>React, TypeScript, Tailwind</p>"
+            },
+            {
+              "title": "Experience",
+              "content": "<p>Real-life professional experience implementing and managing web apps in production (sites, ecommerces, etc)</p>"
+            }
+          ],
+          "buttonLabel": "Check the Requirements"
+        },
+        "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">deco's beer fest</span><br></pre>",
+        "subtitle": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>Fórum E-commerce Brasil Edition</strong></span></p>",
+        "flagSound": {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/ea7c8966-4ee5-4ed0-85f4-0df70f68148c",
+          "text": "August 1st, 8pm, [nome do bar + endereço], SP"
+        },
+        "afterButtonText": "Check the Pre-requisites",
+        "description": "<p style=\"text-align: center; font-size: 20px; line-height: 1.4;\" data-mce-style=\"text-align: center; font-size: 20px; line-height: 1.4;\"><span style=\"color: #a1a1aa;\" data-mce-style=\"color: #a1a1aa;\"><strong>Join us for an unforgettable happy hour to wrap up one of the largest e-commerce events in Latin-America. </strong></span></p><p style=\"text-align: center; font-size: 20px; line-height: 1.4;\" data-mce-style=\"text-align: center; font-size: 20px; line-height: 1.4;\"><span style=\"color: #a1a1aa;\" data-mce-style=\"color: #a1a1aa;\"><strong>The first 1000 liters of beer are on us! 💚</strong></span></p>",
+        "buttons": [
+          {
+            "href": "https://airtable.com/appN14GnvYzEiZSzE/pagiXjBKrkjaLtBNh/form",
+            "label": "Secure your spot now",
+            "color": "green",
+            "id": "secure-your-spot-chopp"
+          },
+          {
+            "href": "https://discord.com/invite/9fkbcvR833",
+            "label": "Questions? Join our Discord",
+            "color": "neutral",
+            "id": "bt-discord-hacka"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Benefits/Benefits.tsx",
+      "props": {
+        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Why&nbsp;</span><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">participate ?</span></p>",
+        "items": [
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
+            "title": "Expand your network: Meet industry leaders, innovators, and peers."
+          },
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d",
+            "title": "Experience the buzz: Be part of the vibrant e-commerce community and share insights."
+          },
+          {
+            "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2838e451-77fa-42ef-a03b-53d90c6dfc1c",
+            "title": "Unwind and enjoy: Good music, great company, and a lively atmosphere await you."
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/WhatIsHtmx.tsx",
+      "sections": [
+        {
+          "titleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bd23cc6a-662a-4406-835c-292e1f03488c",
+          "subtitle": "<p style=\"line-height: 1.2;\" data-mce-style=\"line-height: 1.2;\"><span style=\"color: rgb(255, 255, 255); font-size: 20px;\" data-mce-style=\"color: rgb(255, 255, 255); font-size: 20px;\">Integrated frontend platform with efficient tech stack and powerful features to build high-performance websites and evolve 10x faster.</span></p>",
+          "cta": [
+            {
+              "color": "green",
+              "label": "deco.cx",
+              "href": "https://deco.cx/"
+            },
+            {
+              "color": "neutral",
+              "href": "https://deco.cx/docs/en/overview",
+              "label": "Official docs"
+            }
+          ],
+          "titleText": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">What is&nbsp;</span></p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Event <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">sponsors</span>",
+      "brands": {
+        "logos": [
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/258d7389-4c83-43ce-a68f-4ff3bd1f9f31",
+            "altText": "N1",
+            "href": "/"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/71796bcf-2ab1-48b6-a1d6-e3f93c3c65af",
+            "altText": "tec4u",
+            "href": "/"
+          },
+          {
+            "altText": "frn3",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/b1a59159-79a4-4c30-9370-59e3b6a39c23",
+            "href": "/"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/39779308-1cbd-4d42-96f5-c275bcc4e08e",
+            "altText": "quality",
+            "href": "/"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/4223fb75-85ba-4e0c-989f-252af97c96eb",
+            "altText": "e-plus",
+            "href": "/"
+          }
+        ]
+      },
+      "cta": {
+        "label": "I WANT TO SPONSOR!"
+      }
+    },
+    {
+      "__resolveType": "Deco Header [EN]"
+    },
+    {
+      "__resolveType": "site/sections/RegisterNowBanner.tsx",
+      "title": "SECURE YOUR SPOT",
+      "href": "https://airtable.com/appN14GnvYzEiZSzE/pagiXjBKrkjaLtBNh/form",
+      "id": "secure-spot-chopp"
+    },
+    {
+      "__resolveType": "site/sections/Theme/Theme.tsx",
+      "colorScheme": "any",
+      "font": {
+        "__resolveType": "website/loaders/fonts/googleFonts.ts",
+        "fonts": [
+          {
+            "variations": [],
+            "family": "Albert Sans"
+          }
+        ]
+      },
+      "mode": "dark"
+    },
+    {
+      "__resolveType": "site/sections/Footer/DecoFooter.tsx",
+      "social": {
+        "gitUrl": "https://github.com/deco-cx",
+        "discordUrl": "https://deco.cx/discord",
+        "linkedinUrl": "https://www.linkedin.com/company/deco-cx/"
+      },
+      "menu": [
+        {
+          "href": "/",
+          "title": "Platform",
+          "submenu": [
+            {
+              "href": "https://admin.deco.cx/",
+              "title": "Login"
+            },
+            {
+              "href": "/en/pricing",
+              "title": "Pricing"
+            },
+            {
+              "href": "/en/contact-us",
+              "title": "Contact us"
+            }
+          ]
+        },
+        {
+          "href": "/",
+          "title": "Resources",
+          "submenu": [
+            {
+              "href": "/docs/en",
+              "title": "Docs"
+            },
+            {
+              "href": "/en/blog",
+              "title": "Blog"
+            },
+            {
+              "href": "/en/community",
+              "title": "Community"
+            }
+          ]
+        },
+        {
+          "href": "/",
+          "title": "Products",
+          "submenu": [
+            {
+              "href": "/ai-assistant",
+              "title": "AI Assistant"
+            },
+            {
+              "href": "https://www.deco.cx",
+              "title": "Frontend Platform"
+            }
+          ]
+        },
+        {
+          "href": "#",
+          "title": "Solutions",
+          "submenu": [
+            {
+              "href": "https://www.deco.cx/headless-commerce",
+              "title": "Headless Commerce"
+            },
+            {
+              "href": "https://www.deco.cx/seo-for-ecommerce",
+              "title": "Master SEO"
+            },
+            {
+              "href": "https://www.deco.cx/speed-up-your-site",
+              "title": "Boost PageSpeed"
+            }
+          ]
+        }
+      ],
+      "rounded": true,
+      "extraLinks": [
+        {
+          "href": "https://deco.cx/terms-of-use",
+          "label": "Terms of Use"
+        },
+        {
+          "href": "https://deco.cx/privacy-policy",
+          "label": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "trackingIds": [
+        " GTM-P6D23BB"
+      ]
+    },
+    {
+      "__resolveType": "site/sections/AreYouReady.tsx",
+      "props": {
+        "button": {
+          "href": "/link",
+          "label": "sign-up"
+        },
+        "flag": {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/cba2b9e9-fb5b-4e83-a4b7-f0de61543480",
+          "text": "Dia 25 do 04"
+        },
+        "title": "<p>What's. this?</p>",
+        "description": "<p>What's this?</p>"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website"
+  }
+}

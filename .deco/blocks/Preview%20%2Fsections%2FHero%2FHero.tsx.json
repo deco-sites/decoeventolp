@@ -1,3 +1,7 @@
 {
-  "__resolveType": "site/sections/Hero/Hero.tsx"
+  "__resolveType": "site/sections/Hero/Hero.tsx",
+  "props": {
+    "flag": {},
+    "buttons": []
+  }
 }
