@@ -66,7 +66,7 @@ const LogoSlider = (
           <Image
             width={144}
             height={57}
-            class="w-full max-h-[57px] object-scale-down"
+            class="w-full object-scale-down"
             src={logo.img}
             alt={logo.img}
             decoding="async"
@@ -143,7 +143,7 @@ function Logos({ title, brands, cta, isMobile }: Omit<Props, "isMobile"> & {
               width={110}
             />
             <img
-              class="max-h-[57px] object-scale-down"
+              class=" object-scale-down"
               src={element.img ?? ""}
             />
           </Picture>
@@ -164,7 +164,7 @@ function Logos({ title, brands, cta, isMobile }: Omit<Props, "isMobile"> & {
           />
           {isMobile === "desktop"
             ? (
-              <div class="flex flex-wrap justify-center gap-16 lg:max-h-[57px]">
+              <div class="flex flex-wrap justify-center gap-16">
                 {listBrands.map((element, index) => (
                   <Logo key={index} {...element} />
                 ))}
