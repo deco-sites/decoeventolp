@@ -32,7 +32,7 @@
         "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon 5</span><br></pre>",
         "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
         "flagSound": {
-          "text": "Friday, June 28th @4pm (GMT-3) to Sunday, June 30th ",
+          "text": "New Date: Friday, July 12th at 4pm (GMT-3) to Sunday, July 14th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3ca60ebd-d38b-4503-8e46-7b6de7e72a29"
         },
         "afterButtonText": "Check the Pre-requisites",
@@ -278,7 +278,7 @@
         "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255); \" data-mce-style=\"color: rgb(255, 255, 255);\">overview</span></p>",
         "accordions": [
           {
-            "title": "Friday, June 28th",
+            "title": "Friday, July 12th",
             "children": [
               {
                 "title": "deco’s Web Builder and Framework",
@@ -310,7 +310,7 @@
             "period": "4PM - 10PM"
           },
           {
-            "title": "Saturday, June 29th",
+            "title": "Saturday, July 13th",
             "children": [
               {
                 "title": "deco’s Web Builder and Framework",
@@ -327,7 +327,7 @@
             "period": "8AM - 10PM"
           },
           {
-            "title": "Sunday, June 30th",
+            "title": "Sunday, July 14th",
             "children": [
               {
                 "title": "deco’s Web Builder and Framework",
@@ -511,7 +511,7 @@
         },
         "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span><br></h5>",
         "flagSound": {
-          "text": "Friday, June 28th @4pm (GMT-3) to Sunday, June 30th ",
+          "text": "Friday, July 12th at 4pm (GMT-3) to Sunday, July 14th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/24b8c88d-459e-41ad-ac57-8811150d4b08"
         },
         "afterButtonText": "Check the Pre-requisites"
