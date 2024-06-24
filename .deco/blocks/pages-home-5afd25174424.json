@@ -307,7 +307,7 @@
                 "content": "<p>&nbsp;</p>"
               }
             ],
-            "period": "4PM - 10PM"
+            "period": "4PM - 10PM (GMT-3)"
           },
           {
             "title": "Saturday, July 13th",
@@ -324,7 +324,7 @@
                 "time": "8AM"
               }
             ],
-            "period": "8AM - 10PM"
+            "period": "8AM - 10PM (GMT-3)"
           },
           {
             "title": "Sunday, July 14th",
@@ -361,7 +361,7 @@
                 "time": "8PM "
               }
             ],
-            "period": "8AM - 8PM"
+            "period": "8AM - 8PM (GMT-3)"
           }
         ],
         "headsupCard": {
