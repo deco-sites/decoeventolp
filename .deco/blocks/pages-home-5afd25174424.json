@@ -138,7 +138,7 @@
             "href": "/"
           },
           {
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/39779308-1cbd-4d42-96f5-c275bcc4e08e",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/867cf590-130d-488a-8cd3-f51acbf48ead",
             "altText": "quality",
             "href": "/"
           },
@@ -186,6 +186,16 @@
             "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bba6f839-0581-4b8e-aca2-9af39f4a46d4",
             "altText": "smarthint",
             "href": "/"
+          },
+          {
+            "altText": "azion",
+            "href": "/",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6998a548-34cc-4575-a65d-a948ff8da7ee"
+          },
+          {
+            "altText": "linx",
+            "href": "/",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/151bc5f7-e45c-4795-9079-a1d780f18d4a"
           }
         ]
       },
