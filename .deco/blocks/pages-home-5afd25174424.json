@@ -158,39 +158,34 @@
             "href": "/"
           },
           {
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/464410fb-843b-41ac-8e9f-0d16e5d16ae1",
-            "altText": "corebiz",
-            "href": "/"
-          },
-          {
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fee8c080-95ab-4155-bb10-3070dfc556f7",
             "altText": "deno",
-            "href": "/"
+            "href": "/",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fee8c080-95ab-4155-bb10-3070dfc556f7"
           },
           {
-            "altText": "econverse",
             "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fc2f093f-4235-4566-b1c6-47503571b0b7",
+            "altText": "econverse",
             "href": "/"
           },
           {
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/a8e4fd3a-c97b-4274-9b81-d54044ecae71",
             "altText": "maeztra",
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/a8e4fd3a-c97b-4274-9b81-d54044ecae71",
             "href": "/"
           },
           {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/0db0a54d-9e62-4cca-a366-0308520e62b2",
             "altText": "quick",
-            "href": "/",
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/0db0a54d-9e62-4cca-a366-0308520e62b2"
-          },
-          {
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bba6f839-0581-4b8e-aca2-9af39f4a46d4",
-            "altText": "smarthint",
             "href": "/"
           },
           {
-            "altText": "azion",
+            "altText": "smarthint",
             "href": "/",
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6998a548-34cc-4575-a65d-a948ff8da7ee"
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/bba6f839-0581-4b8e-aca2-9af39f4a46d4"
+          },
+          {
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6998a548-34cc-4575-a65d-a948ff8da7ee",
+            "altText": "azion",
+            "href": "/"
           },
           {
             "altText": "linx",
