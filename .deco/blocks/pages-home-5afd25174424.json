@@ -190,7 +190,7 @@
           {
             "altText": "linx",
             "href": "/",
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/151bc5f7-e45c-4795-9079-a1d780f18d4a"
+            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/d16a5ac1-cbfa-4c00-8744-b038266a74fd"
           }
         ]
       },
@@ -439,19 +439,19 @@
         "title": "FAQ",
         "items": [
           {
-            "answer": "Hackathon 5 is a 3-day virtual event hosted by deco.cx from Friday, June 28th to Sunday, June 30th. It focuses on transforming ideas into htmx-powered templates, offering participants an opportunity to showcase their creativity and compete for exciting prizes.",
+            "answer": "Hackathon 5 is a 3-day virtual event hosted by deco.cx from Friday, July 12th to Sunday, July 14th. It focuses on transforming ideas into htmx-powered templates, offering participants an opportunity to showcase their creativity and compete for exciting prizes.",
             "question": "What is Hackathon 5 - \"HTMX Edition\"?"
           },
           {
-            "answer": "Registration for Hackathon 5 is now open! Simply fill out the registration form (CTA below) to sign up and secure your spot in the event.",
+            "answer": "Registration for Hackathon 5 is now open! Simply fill out the registration form (CTA below) to sign up and secure your spot in the event. Registration is open until Wednesday July, 10th. ",
             "question": "How can I register for Hackathon 5?"
           },
           {
-            "answer": "Participants can choose from several categories, including Landing Pages, Storefronts, and the Open Category. Each category winner will receive a swag kit, and cash rewards range from R$2,500 to R$10,000. Additionally, participants can access our bounty marketplace on Discord and select a project from there. Whenever someone posts a bounty, they offer a cash reward for the job. By completing a paid task from the marketplace and obtaining authorization from the bounty owner, participants can compete for the hackathon prizes with their deliverables.",
+            "answer": "Participants can choose from several categories, including Landing Pages, Storefronts, and the Open Category. Each category winner will receive a swag kit, and cash rewards range from $500 USD to $2,000 USD. Additionally, participants can access our bounty marketplace on Discord and select a project from there. Whenever someone posts a bounty, they offer a cash reward for the job. By completing a paid task from the marketplace and obtaining authorization from the bounty owner, participants can compete for the hackathon prizes with their deliverables.",
             "question": "What categories can I participate in, and what are the prizes?"
           },
           {
-            "answer": "Projects will be evaluated based on design, editability, performance, and creativity. Winners will be selected based on these criteria, with one winning team and three honorable mentions per category.",
+            "answer": "Projects will be evaluated based on design, editability, performance, and creativity. Winners will be selected based on these criteria, with one winning team and two honorable mentions per category.",
             "question": "How will projects be judged?"
           },
           {
@@ -468,11 +468,11 @@
           },
           {
             "question": "How can I collaborate with others during the hackathon?",
-            "answer": "We recommend forming teams with at least one designer and one developer. If you're looking for team members, join our Discord server here  (https://deco.cx/discord) and follow the instructions to find new members. Fill in the registration form as soon as possible, and if you need to change anything later (such as adding new members to your team), submit a revision. Groups can have a maximum of five members, and all members who deliver a site will receive a certificate. You have until one week before the hackathon to finalize your team."
+            "answer": "We recommend forming teams with at least one designer and one developer. If you're looking for team members, join our Discord server here  (https://deco.cx/discord) and follow the instructions to find new members. Fill in the registration form as soon as possible, and if you need to change anything later (such as adding new members to your team), submit a revision. Groups can have a maximum of five members, and all members who deliver a site will receive a certificate."
           },
           {
-            "question": "What is the Referral Program, and how does it work?",
-            "answer": "For every person who signs up for Hackathon X using your referral link, you'll receive R$50.00 at iFood. The person who brings the most participants will win a MacBook Air. When you fill out the registration form, you will receive a unique referral code. Share it with whoever you refer and ask them to include your code on their registration form. This way, we can count your referrals accurately."
+            "question": "How does the Referral Program work?",
+            "answer": "1. Invite your friends to join the hackathon using your email as the referral code (they should add your email to th\n\n2. Earn $10 USD in Amazon gift cards for each friend who registers and completes the hackathon.\n\n3. The top referrer wins a MacBook Air!\n\nTrack your progress and see where you stand on our leaderboard: https://lnkd.in/duEaUe2s\n"
           }
         ]
       }
