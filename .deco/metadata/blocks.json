@@ -119,12 +119,6 @@
     "blockType": "apps",
     "__resolveType": "decohub/apps/htmx.ts"
   },
-  "/.deco/blocks/pages-home-5afd25174424.json": {
-    "name": "Home",
-    "path": "/",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/site.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/site.ts"
