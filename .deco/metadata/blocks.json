@@ -187,5 +187,5 @@
     "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
-  },
+  }
 }
