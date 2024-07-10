@@ -1371,8 +1371,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D": {
