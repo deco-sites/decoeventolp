@@ -280,7 +280,7 @@
     {
       "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
       "props": {
-        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124); \" data-mce-style=\"color: rgb(2, 246, 124);\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255); \" data-mce-style=\"color: rgb(255, 255, 255);\">overview</span></p>",
+        "title": "<p><span style=\"color: rgb(2, 246, 124)\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255)\">overview</span></p>",
         "accordions": [
           {
             "title": "Friday, July 12th",
@@ -292,18 +292,18 @@
             ],
             "listContent": [
               {
-                "title": "Introduction to deco.cx's Hackathon 5 - HTMX edition",
-                "content": "<p><br data-mce-bogus=\"1\"></p>",
+                "title": "Release of all hackathon materials on Discord",
+                "content": "<p>Stay tuned for important information and resources. If you are not in our Discord community yet, join <a data-mce-href=\"https://discord.com/invite/9fkbcvR833\" href=\"https://discord.com/invite/9fkbcvR833\" target=\"_blank\" rel=\"noopener\">here</a>.<!-- notionvc: 71ac3cf1-ce38-46c6-b4d6-7334e6530f1e --></p>",
                 "time": "4PM"
               },
               {
                 "time": "5PM",
-                "title": "Website creation tutorial",
+                "title": "Optional synchronous watch parties",
                 "content": "<p>&nbsp;</p>"
               },
               {
-                "time": "6PM",
-                "title": "How to use HTMX on deco.cx",
+                "time": "10PM",
+                "title": "End of the first day",
                 "content": "<p>&nbsp;</p>"
               }
             ],
@@ -321,10 +321,16 @@
               {
                 "title": "Coding time",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
-                "time": "8AM"
+                "time": "8:00 AM"
+              },
+              {
+                "dataPublish": "Modules",
+                "title": "First submissions due",
+                "time": "7:00 PM ",
+                "content": "<p><br data-mce-bogus=\"1\"></p>"
               }
             ],
-            "period": "8AM - 10PM (GMT-3)"
+            "period": "8:00 AM to 10:00 PM (GMT-3)"
           },
           {
             "title": "Sunday, July 14th",
@@ -336,22 +342,22 @@
             ],
             "listContent": [
               {
-                "title": "Coding time",
+                "title": "Continue working on your project and make final improvements",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
-                "time": "8AM"
+                "time": "All Morning"
               },
               {
                 "title": "Final submissions due",
                 "content": "<p>&nbsp;</p>",
-                "time": "12PM"
+                "time": "12:00 PM"
               },
               {
                 "title": "Winners announced",
-                "time": "3PM ",
+                "time": "3:00 PM ",
                 "content": "<p><br></p>"
               }
             ],
-            "period": "8AM - 3PM (GMT-3)"
+            "period": "8:00 AM to 3:00 PM (GMT-3)"
           }
         ],
         "headsupCard": {
