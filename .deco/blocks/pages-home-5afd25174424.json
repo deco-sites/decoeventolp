@@ -293,21 +293,23 @@
             "listContent": [
               {
                 "title": "Release of all hackathon materials on Discord",
-                "content": "<p></p><p><span style=\"font-size: 14pt\">Stay tuned for important information and resources. If you are not in our Discord community yet, join </span><a target=\"_blank\" rel=\"noopener\" href=\"https://discord.com/invite/9fkbcvR833\"><span style=\"font-size: 14pt\">here</span></a><span style=\"font-size: 14pt\">.</span></p>",
+                "content": "<p></p>",
                 "time": "4:00 PM (GMT-3)"
               },
               {
                 "time": "5PM",
-                "title": "Optional synchronous watch parties",
+                "title": "Optional live discussions and Q&A sessions on our Discord server",
                 "content": "<p>&nbsp;</p>"
               },
               {
-                "time": "10PM",
+                "time": "10:00 PM (GMT-3)",
                 "title": "End of the first day",
-                "content": "<p>&nbsp;</p>"
+                "content": "<p>&nbsp;</p><p>After this time, our team will not be on call on Discord for help, but feel free to keep coding :)</p>",
+                "link": "After this time, our team will not be on call on Discord for help, but feel free to keep coding :)",
+                "dataPublish": "After this time, our team will not be on call on Discord for help, but feel free to keep coding :)"
               }
             ],
-            "period": "4PM - 10PM (GMT-3)"
+            "period": "4:00 PM - 10:00 PM (GMT-3)"
           },
           {
             "title": "Saturday, July 13th",
@@ -319,15 +321,14 @@
             ],
             "listContent": [
               {
-                "title": "Coding time",
+                "title": "Code, code, code! ",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
-                "time": "8:00 AM"
+                "time": "8:00 AM (GMT-3)"
               },
               {
-                "dataPublish": "Modules",
-                "title": "First submissions due",
-                "time": "7:00 PM ",
-                "content": "<p><br data-mce-bogus=\"1\"></p>"
+                "title": "SUBMISSIONS DUE!!!",
+                "time": "7:00 PM (GMT-3)",
+                "content": "<p></p><ul><li><p>xyz</p></li></ul>"
               }
             ],
             "period": "8:00 AM to 10:00 PM (GMT-3)"
@@ -362,7 +363,7 @@
         ],
         "headsupCard": {
           "title": "Note!",
-          "text": "<p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry.</p>"
+          "text": "<p>The event is <strong>100% virtual and asynchronous.</strong> All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry.</p><p></p><p>All materials will be available on our Discord server. If you haven't joined yet, please do so <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/9fkbcvR833\">here</a>. </p>"
         }
       }
     },
