@@ -29,7 +29,7 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<p>Hackathon 5</p>",
+        "title": "<p><span style=\"color: #08f67c\">Hackathon 5</span></p>",
         "subtitle": "<p><strong><span style=\"color: rgb(2, 246, 124)\">&nbsp;edition</span></strong></p>",
         "flagSound": {
           "text": "Friday, July 12th 4pm (GMT-3) to Sunday, 14th ",
@@ -119,7 +119,7 @@
     },
     {
       "__resolveType": "site/sections/Logos.tsx",
-      "title": "Event <span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">sponsors</span>",
+      "title": "<p><span style=\"color: rgb(255, 255, 255)\">Event</span><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124)\"> sponsors</span></p>",
       "brands": {
         "logos": [
           {
@@ -200,7 +200,7 @@
     },
     {
       "__resolveType": "site/sections/Category.tsx",
-      "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Choose your</span><span class=\"argentPixel\"> category</span></span></p>",
+      "title": "<p><span style=\"color: rgb(255, 255, 255)\">Choose your</span> <span class=\"argentPixel\" style=\"color: #08f67c\">category</span></p>",
       "flags": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
@@ -280,7 +280,7 @@
     {
       "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
       "props": {
-        "title": "<p><span style=\"color: rgb(2, 246, 124)\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255)\">overview</span></p>",
+        "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124)\">Agenda&nbsp;</span><span style=\"color: rgb(255, 255, 255)\">overview</span></p>",
         "accordions": [
           {
             "title": "Friday, July 12th",
@@ -367,7 +367,7 @@
     },
     {
       "__resolveType": "site/sections/HowItWork.tsx",
-      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">How</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">it works</span></p>",
+      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124)\">How</span> <span style=\"color: rgb(255, 255, 255)\">it works</span></p>",
       "cards": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
@@ -385,9 +385,9 @@
           "description": "<p><br></p><p><span style=\"color: rgb(255, 255, 255)\">At least one </span><strong><span style=\"color: rgb(255, 255, 255)\">designer</span></strong><span style=\"color: rgb(255, 255, 255)\"> and one </span><strong><span style=\"color: rgb(255, 255, 255)\">developer</span></strong><span style=\"color: rgb(255, 255, 255)\"> on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255)\">Maximum of five in each group. </span><strong><span style=\"color: rgb(255, 255, 255)\">All members that deliver a site will get a certificate.</span></strong></p>"
         },
         {
-          "title": "HTMX-powered templates",
+          "title": "Project specifics",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/48f7bbe1-1c1b-48f5-bb24-a98d2b03d829",
-          "description": "<p><span style=\"color: #b92d2d\"><br></span></p><p><span style=\"color: #b92d2d\">We would love to receive templates to be </span><strong><span style=\"color: #b92d2d\">featured on our deco.store</span></strong><span style=\"color: #b92d2d\">. This opens doors to future collabs and opportunities.&nbsp;</span><span style=\"color: #b92d2d\"><br><br></span><span style=\"color: #b92d2d\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><span style=\"color: #b92d2d\"><br></span></p>"
+          "description": "<p><span style=\"color: rgb(185, 45, 45)\"><br></span><span style=\"color: #ffffff\">Websites should be editable using deco's admin, so your projects should be built on </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\"><u><span style=\"color: #ffffff\">deco.cx</span></u></a><span style=\"color: #ffffff\">. We also </span><span style=\"color: #ffffff\">highly encourage you to use HTMX on your projects. We will release a video explaining how to do so. Alternatively, see our </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/docs/en/overview\"><u><span style=\"color: #ffffff\">docs</span></u></a><span style=\"color: #ffffff\">. </span></p><p></p><p><span style=\"color: #ffffff\">We would love to receive templates to be </span><strong><span style=\"color: #ffffff\">featured on our deco.store</span></strong><span style=\"color: #ffffff\">. This opens doors to future collabs and opportunities, so keep this in mind while building. </span></p><p></p><p></p>"
         }
       ]
     },
