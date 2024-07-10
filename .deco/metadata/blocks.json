@@ -187,5 +187,13 @@
     "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FSyllabus%2FSyllabus.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Syllabus/Syllabus.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FSyllabus%2FSyllabus.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Syllabus/Syllabus.tsx"
   }
 }

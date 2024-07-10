@@ -56,15 +56,14 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
                 class="w-min-[14px] mt-[5px] xl:mt-[9px] xl:w-[20px] h-[20px]"
               >
               </Icon>
-              <div class="flex flex-col w-fit">
-                <a
-                  href={item.link}
-                  class="text-[#02f67c] text-sm md:text-[20px] hover:underline cursor-pointer"
+              <div class="flex flex-col gap-3 w-fit">
+                <p
+                  class="text-[#02f67c] text-xl"
                 >
                   {item.title}
-                </a>
+                </p>
                 <span
-                  class="text-xs text-white"
+                  class="text-md text-white"
                   dangerouslySetInnerHTML={{ __html: item.content }}
                 >
                 </span>

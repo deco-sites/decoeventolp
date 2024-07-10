@@ -304,7 +304,7 @@
               {
                 "time": "10:00 PM (GMT-3)",
                 "title": "End of the first day",
-                "content": "<p>&nbsp;</p><p>After this time, our team will not be on call on Discord for help, but feel free to keep coding :)</p>"
+                "content": "<p>&nbsp;After this time, our team will not be on call on Discord for help, but feel free to keep coding :)</p>"
               }
             ],
             "period": "4:00 PM - 10:00 PM (GMT-3)"
@@ -326,7 +326,7 @@
               {
                 "title": "Submissions due !!!",
                 "time": "7:00 PM (GMT-3)",
-                "content": "<p></p><p></p><p></p><p>After submission, just relax and await the results (or continue to improve your project in case you are chosen as a finalist).</p><p></p><p>In order to submit your project, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://airtable.com/appVZzdJlLMiyBArk/pagB37UVzxa8wFmgP/form\"><u>complete this form</u></a> (also available on Discord).</p>"
+                "content": "<p>After submission, just relax and await the results (or continue to improve your project in case you are chosen as a finalist).</p><p></p><p>In order to submit your project, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://airtable.com/appVZzdJlLMiyBArk/pagB37UVzxa8wFmgP/form\"><u>complete this form</u></a> (also available on Discord).</p>"
               }
             ],
             "period": "8:00 AM to 10:00 PM (GMT-3)"
@@ -347,7 +347,7 @@
               },
               {
                 "title": "Final submissions due !!!",
-                "content": "<p>&nbsp;</p><p>Form for final submissions coming soon. </p>",
+                "content": "<p>&nbsp;Form for final submissions coming soon.</p>",
                 "time": "12:00 PM (GMT-3)"
               },
               {
@@ -367,12 +367,12 @@
     },
     {
       "__resolveType": "site/sections/HowItWork.tsx",
-      "title": "<p><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124)\">How</span> <span style=\"color: rgb(255, 255, 255)\">it works</span></p>",
+      "title": "<p><span style=\"color: rgb(2, 246, 124)\">How</span> <span style=\"color: rgb(255, 255, 255)\">it works</span></p>",
       "cards": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
           "title": "Categories & Prizes",
-          "description": "<p><span style=\"color: #d12e2e\"><br></span></p><p><span style=\"color: #ffffff\">Build&nbsp;</span><strong><span style=\"color: #ffffff\">Landing Pages, E-commerce Related Pages or Sections or submit to our Open Category</span></strong><span style=\"color: #ffffff\">.&nbsp;</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff\">The prizes vary according to the delivery, but the criteria is always </span><strong><span style=\"color: #ffffff\">Design, Editability &amp; Performance</span></strong><span style=\"color: #ffffff\">.</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff\">There will be </span><strong><span style=\"color: #ffffff\">one winning team and three honorable mentions per category</span></strong><span style=\"color: #ffffff\">. Scroll down for more details.</span><span style=\"color: #d12e2e\"><br></span></p>"
+          "description": "<p><span style=\"color: rgb(209, 46, 46)\"><br></span><span style=\"color: rgb(255, 255, 255)\">Build&nbsp;Landing Pages, E-commerce Related Pages or Sections or submit to our Open Category.&nbsp;<br><br>The prizes vary according to the delivery, but the criteria is always Design, Editability &amp; Performance.<br><br>There will be one winning team and three honorable mentions per category. Scroll down for more details.</span><span style=\"color: rgb(209, 46, 46)\"><br></span></p>"
         },
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d",
@@ -381,13 +381,13 @@
         },
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
-          "title": "Team",
-          "description": "<p><br></p><p><span style=\"color: rgb(255, 255, 255)\">At least one </span><strong><span style=\"color: rgb(255, 255, 255)\">designer</span></strong><span style=\"color: rgb(255, 255, 255)\"> and one </span><strong><span style=\"color: rgb(255, 255, 255)\">developer</span></strong><span style=\"color: rgb(255, 255, 255)\"> on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255)\">Maximum of five in each group. </span><strong><span style=\"color: rgb(255, 255, 255)\">All members that deliver a site will get a certificate.</span></strong></p>"
+          "title": "Team & Submission",
+          "description": "<p></p><p><span style=\"color: #ffffff\">We recommend at least one designer and one developer on each team, but you can choose to work alone as well. Search for teammates in our </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/9fkbcvR833\"><u><span style=\"color: #ffffff\">Discord community.</span></u></a><span style=\"color: #ffffff\"> Maximum of five in each group.</span></p><p></p><p><span style=\"color: #ffffff\">In order to submit your project, </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://airtable.com/appVZzdJlLMiyBArk/pagB37UVzxa8wFmgP/form\"><u><span style=\"color: #ffffff\">complete this form</span></u></a><span style=\"color: #ffffff\">. After your form has been successfully submitted, each member of your team will receive a confirmation email. Everything you have to submit is asked for in the form.</span></p><p></p><p><span style=\"color: #ffffff\">If you'd like to change your submission, please submit a new form and select the \"Revision\" option. We will consider your last submission as long as it is delivered by the deadline - SATURDAY at 7 PM (GMT-3). Only one person from your team needs to submit the form, but please include all team members' email addresses.</span></p><p></p>"
         },
         {
           "title": "Project specifics",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/48f7bbe1-1c1b-48f5-bb24-a98d2b03d829",
-          "description": "<p><span style=\"color: rgb(185, 45, 45)\"><br></span><span style=\"color: #ffffff\">Websites should be editable using deco's admin, so your projects should be built on </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\"><u><span style=\"color: #ffffff\">deco.cx</span></u></a><span style=\"color: #ffffff\">. We also </span><span style=\"color: #ffffff\">highly encourage you to use HTMX on your projects. We will release a video explaining how to do so. Alternatively, see our </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/docs/en/overview\"><u><span style=\"color: #ffffff\">docs</span></u></a><span style=\"color: #ffffff\">. </span></p><p></p><p><span style=\"color: #ffffff\">We would love to receive templates to be </span><strong><span style=\"color: #ffffff\">featured on our deco.store</span></strong><span style=\"color: #ffffff\">. This opens doors to future collabs and opportunities, so keep this in mind while building. </span></p><p></p><p></p>"
+          "description": "<p><span style=\"color: rgb(185, 45, 45)\"><br></span><span style=\"color: rgb(255, 255, 255)\">Websites should be editable using deco's admin, so your projects should be built on </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\"><u><span style=\"color: rgb(255, 255, 255)\">deco.cx</span></u></a><span style=\"color: rgb(255, 255, 255)\">. We also highly encourage you to use HTMX on your projects. We will release a video explaining how to do so. Alternatively, see our </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/docs/en/overview\"><u><span style=\"color: rgb(255, 255, 255)\">docs</span></u></a><span style=\"color: rgb(255, 255, 255)\">.</span></p><p></p><p></p><p><span style=\"color: rgb(255, 255, 255)\">We would love to receive templates to be </span><strong><span style=\"color: rgb(255, 255, 255)\">featured on our deco.store</span></strong><span style=\"color: rgb(255, 255, 255)\">. This opens doors to future collabs and opportunities, so keep this in mind while building.</span></p>"
         }
       ]
     },
