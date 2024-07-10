@@ -29,7 +29,7 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<pre><code>Hackathon 5\n</code></pre>",
+        "title": "<p>Hackathon 5</p>",
         "subtitle": "<p><strong><span style=\"color: rgb(2, 246, 124)\">&nbsp;edition</span></strong></p>",
         "flagSound": {
           "text": "Friday, July 12th 4pm (GMT-3) to Sunday, 14th ",
@@ -372,22 +372,22 @@
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
           "title": "Categories & Prizes",
-          "description": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Build&nbsp;<strong>Landing Pages, Blogs, Storefronts</strong>, or submit to our <strong>Open Category</strong>.&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">The prizes vary according to the delivery, but the criteria is always <strong>Design, Editability &amp; Performance</strong>.</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">There will be <strong>one winning team and three honorable mentions per category</strong>. Scroll down for more details.</span><br></p>"
+          "description": "<p><span style=\"color: #d12e2e\"><br></span></p><p><span style=\"color: #ffffff\">Build&nbsp;</span><strong><span style=\"color: #ffffff\">Landing Pages, E-commerce Related Pages or Sections or submit to our Open Category</span></strong><span style=\"color: #ffffff\">.&nbsp;</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff\">The prizes vary according to the delivery, but the criteria is always </span><strong><span style=\"color: #ffffff\">Design, Editability &amp; Performance</span></strong><span style=\"color: #ffffff\">.</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff\">There will be </span><strong><span style=\"color: #ffffff\">one winning team and three honorable mentions per category</span></strong><span style=\"color: #ffffff\">. Scroll down for more details.</span><span style=\"color: #d12e2e\"><br></span></p>"
         },
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/10b52395-4352-4a81-8195-69e8fca8956d",
           "title": "Content",
-          "description": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\"><strong>Marketplace bounties:</strong> Explore our marketplace and select from a variety of bounty options to work on.</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\"><strong>Your own creations:</strong> Feel inspired? Develop your own template idea and showcase your creativity.</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\"><strong>Client projects welcome:</strong> Take the opportunity to work on a project for a client of yours.</span><br></p>"
+          "description": "<p><span style=\"color: #ffffff\"><br></span></p><p><strong><span style=\"color: #ffffff\">Marketplace bounties:</span></strong><span style=\"color: #ffffff\"> Explore our marketplace and select from a variety of bounty options to work on.</span><span style=\"color: #ffffff\"><br><br></span><strong><span style=\"color: #ffffff\">Your own creations:</span></strong><span style=\"color: #ffffff\"> Feel inspired? Develop your own template idea and showcase your creativity.</span><span style=\"color: #ffffff\"><br><br></span><strong><span style=\"color: #ffffff\">Client projects welcome:</span></strong><span style=\"color: #ffffff\"> Take the opportunity to work on a project for a client of yours.</span><br></p>"
         },
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
           "title": "Team",
-          "description": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">At least one <strong>designer</strong> and one <strong>developer</strong> on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Maximum of five in each group. <strong>All members that deliver a site will get a certificate.</strong></span></p>"
+          "description": "<p><br></p><p><span style=\"color: rgb(255, 255, 255)\">At least one </span><strong><span style=\"color: rgb(255, 255, 255)\">designer</span></strong><span style=\"color: rgb(255, 255, 255)\"> and one </span><strong><span style=\"color: rgb(255, 255, 255)\">developer</span></strong><span style=\"color: rgb(255, 255, 255)\"> on each team, but we can help you find your people!&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255)\">Maximum of five in each group. </span><strong><span style=\"color: rgb(255, 255, 255)\">All members that deliver a site will get a certificate.</span></strong></p>"
         },
         {
           "title": "HTMX-powered templates",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/48f7bbe1-1c1b-48f5-bb24-a98d2b03d829",
-          "description": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">We would love to receive templates to be <strong>featured on our deco.store</strong>. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"
+          "description": "<p><span style=\"color: #b92d2d\"><br></span></p><p><span style=\"color: #b92d2d\">We would love to receive templates to be </span><strong><span style=\"color: #b92d2d\">featured on our deco.store</span></strong><span style=\"color: #b92d2d\">. This opens doors to future collabs and opportunities.&nbsp;</span><span style=\"color: #b92d2d\"><br><br></span><span style=\"color: #b92d2d\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><span style=\"color: #b92d2d\"><br></span></p>"
         }
       ]
     },
