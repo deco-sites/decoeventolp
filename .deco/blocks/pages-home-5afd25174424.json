@@ -292,20 +292,19 @@
             ],
             "listContent": [
               {
-                "title": "Release of all hackathon materials on Discord",
+                "title": "Release of all hackathon materials",
                 "content": "<p></p>",
                 "time": "4:00 PM (GMT-3)"
               },
               {
-                "time": "5PM",
-                "title": "Optional live discussions and Q&A sessions on our Discord server",
+                "time": "5:00 PM (GMT-3)",
+                "title": "Optional live discussions and Q&A sessions",
                 "content": "<p>&nbsp;</p>"
               },
               {
                 "time": "10:00 PM (GMT-3)",
                 "title": "End of the first day",
-                "content": "<p>&nbsp;</p><p>After this time, our team will not be on call on Discord for help, but feel free to keep coding :)</p>",
-                "dataPublish": "After this time, our team will not be on call on Discord for help, but feel free to keep coding :)"
+                "content": "<p>&nbsp;</p><p>After this time, our team will not be on call on Discord for help, but feel free to keep coding :)</p>"
               }
             ],
             "period": "4:00 PM - 10:00 PM (GMT-3)"
@@ -325,9 +324,9 @@
                 "time": "8:00 AM (GMT-3)"
               },
               {
-                "title": "SUBMISSIONS DUE!!!",
+                "title": "Submissions due !!!",
                 "time": "7:00 PM (GMT-3)",
-                "content": "<p></p><ul><li><p>xyz</p></li></ul>"
+                "content": "<p></p><p>After submission, just relax and await the results (or continue to improve your project in case you are chosen as a finalist). In order to submit your project, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://airtable.com/appVZzdJlLMiyBArk/pagB37UVzxa8wFmgP/form\"><u><span>complete this form</span></u></a><span> (also available on Discord).</span></p>"
               }
             ],
             "period": "8:00 AM to 10:00 PM (GMT-3)"
@@ -342,18 +341,18 @@
             ],
             "listContent": [
               {
-                "title": "Continue working on your project and make final improvements",
+                "title": "Finalists continue to improve projects",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
-                "time": "All Morning"
+                "time": "Before 12:00 PM (GMT-3)"
               },
               {
-                "title": "Final submissions due",
-                "content": "<p>&nbsp;</p>",
-                "time": "12:00 PM"
+                "title": "Final submissions due !!!",
+                "content": "<p>&nbsp;</p><p>Form for final submissions coming soon. </p>",
+                "time": "12:00 PM (GMT-3)"
               },
               {
                 "title": "Winners announced",
-                "time": "3:00 PM ",
+                "time": "3:00 PM (GMT-3)",
                 "content": "<p><br></p>"
               }
             ],
@@ -362,7 +361,7 @@
         ],
         "headsupCard": {
           "title": "Note!",
-          "text": "<p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry.</p><p></p><p>All materials will be available on our Discord server. If you haven't joined yet, please do so <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/9fkbcvR833\"><strong><u>here</u></strong></a><strong><u>.</u></strong></p>"
+          "text": "<p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry. All materials will be available on our Discord server. If you haven't joined yet, please do so <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/9fkbcvR833\"><strong><u>here</u></strong></a><strong><u>.</u></strong></p>"
         }
       }
     },
