@@ -6,7 +6,7 @@ import Icon from "../Icon.tsx";
 interface Content {
   title: string;
   /**
-   * @format html
+   * @format rich-text
    */
   content: string;
   link?: string;

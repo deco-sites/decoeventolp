@@ -7,7 +7,7 @@ interface Requirements {
   title: string;
   /**
    * @title content
-   * @format html
+   * @format rich-text
    */
   content: string;
 }

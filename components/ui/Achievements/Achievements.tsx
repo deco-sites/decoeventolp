@@ -4,11 +4,11 @@ import BigText from "site/components/ui/BigText.tsx";
 
 export interface Props {
   /**
-   * @format html
+   * @format rich-text
    */
   title: string;
   /**
-   * @format html
+   * @format rich-text
    */
   subTitle: string;
   topics: {

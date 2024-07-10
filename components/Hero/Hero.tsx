@@ -14,7 +14,7 @@ export interface Props {
   };
   image?: ImageWidget;
   /**
-   * @format html
+   * @format rich-text
    */
   title: string;
   subtitle: HTML;

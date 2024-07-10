@@ -22,7 +22,7 @@ export interface Props {
   nameMentor: string;
   profession: string;
   /**
-   * @format html
+   * @format rich-text
    */
   content: string;
   contacts: Contact[];
