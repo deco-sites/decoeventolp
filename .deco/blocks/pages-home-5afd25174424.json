@@ -9,7 +9,7 @@
       "__resolveType": "site/sections/Hero/Hero.tsx",
       "props": {
         "flag": {
-          "text": "100% remote: Discord",
+          "text": "100% remote and async: Discord",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/f7f1800e-dc58-41e5-b6a8-2cd9f4d07fa4"
         },
         "popUp": {
@@ -29,15 +29,15 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon 5</span><br></pre>",
-        "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
+        "title": "<pre><code>Hackathon 5\n</code></pre>",
+        "subtitle": "<p><strong><span style=\"color: rgb(2, 246, 124)\">&nbsp;edition</span></strong></p>",
         "flagSound": {
           "text": "Friday, July 12th 4pm (GMT-3) to Sunday, 14th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3ca60ebd-d38b-4503-8e46-7b6de7e72a29"
         },
         "afterButtonText": "Check the Pre-requisites",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/6797598e-91d1-49b2-b586-acd9e85e5827",
-        "description": "<p style=\"text-align: center; font-size: 20px;\" data-mce-style=\"text-align: center; font-size: 20px;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span></p>",
+        "description": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(161, 161, 170)\">An event to transform ideas into high-performance web apps</span></strong> 💚</p>",
         "buttons": [
           {
             "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
@@ -222,7 +222,7 @@
             },
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/940b93fb-dd80-4ca6-8da9-5d23027ad57d",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">US$500</span></p>"
+              "text": "<p><span style=\"color: rgb(2, 246, 124)\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255)\">$ 500 USD</span></p>"
             }
           ],
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/a4f47570-0309-498a-9327-6ed7ef023881",
@@ -236,7 +236,7 @@
             },
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2838e451-77fa-42ef-a03b-53d90c6dfc1c",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">US$2,000</span></p>"
+              "text": "<p><span style=\"color: rgb(2, 246, 124)\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255)\">$ 2,000 USD</span></p>"
             }
           ],
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/297bd027-572f-46fa-8c57-4ea2dcbac880",
@@ -250,7 +250,7 @@
             },
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/29f29541-9fbf-4032-bc1b-6af748112617",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">US$2,000</span></p>"
+              "text": "<p><span style=\"color: rgb(2, 246, 124)\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255)\">$ 2,000 USD</span></p>"
             }
           ],
           "image": {
@@ -293,8 +293,8 @@
             "listContent": [
               {
                 "title": "Release of all hackathon materials on Discord",
-                "content": "<p>Stay tuned for important information and resources. If you are not in our Discord community yet, join <a data-mce-href=\"https://discord.com/invite/9fkbcvR833\" href=\"https://discord.com/invite/9fkbcvR833\" target=\"_blank\" rel=\"noopener\">here</a>.<!-- notionvc: 71ac3cf1-ce38-46c6-b4d6-7334e6530f1e --></p>",
-                "time": "4PM"
+                "content": "<p></p><p><span style=\"font-size: 14pt\">Stay tuned for important information and resources. If you are not in our Discord community yet, join </span><a target=\"_blank\" rel=\"noopener\" href=\"https://discord.com/invite/9fkbcvR833\"><span style=\"font-size: 14pt\">here</span></a><span style=\"font-size: 14pt\">.</span></p>",
+                "time": "4:00 PM (GMT-3)"
               },
               {
                 "time": "5PM",
@@ -362,7 +362,7 @@
         ],
         "headsupCard": {
           "title": "Note!",
-          "text": "<div class=\"flex flex-grow flex-col max-w-full\"><div class=\"min-h-[20px] text-message flex flex-col items-start whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 juice:w-full juice:items-end overflow-x-auto gap-2\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"76540a98-ec3c-49d1-b62c-7d5a4c1f6a46\"><div class=\"flex w-full flex-col gap-1 juice:empty:hidden juice:first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert light\"><p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. We will be active on Discord throughout the three days and will host some optional synchronous watch parties. So, if you're in a different time zone or can't attend the scheduled times below, don't worry—this agenda is completely flexible.</p></div></div></div></div>"
+          "text": "<p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry.</p>"
         }
       }
     },
@@ -471,7 +471,7 @@
       "props": {
         "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready ?</span></p>",
         "flag": {
-          "text": "100% remote: Discord",
+          "text": "100% remote and async: Discord",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/08071aaf-e548-4f38-853c-e759b83c6e8d"
         },
         "popUp": {
@@ -497,7 +497,7 @@
           "type": "ligth",
           "label": "Register now"
         },
-        "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span><br></h5>",
+        "description": "<h5 style=\"text-align: center\"><strong><span style=\"color: rgb(161, 161, 170)\">An event to transform ideas into high-performance web apps</span></strong> 💚</h5>",
         "flagSound": {
           "text": "Friday, July 12th 4pm (GMT-3) to Sunday, 14th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/24b8c88d-459e-41ad-ac57-8811150d4b08"
