@@ -7,6 +7,11 @@ import manifest, { Manifest } from "../manifest.gen.ts";
 type WebsiteApp = ReturnType<typeof website>;
 
 /**
+ * @format rich-text
+ */
+export type HTML = string;
+
+/**
  * @title Site
  * @description Start your site from a template or from scratch.
  * @category Tool

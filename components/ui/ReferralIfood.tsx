@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import { HTML } from "site/apps/site.ts";
 import Image from "apps/website/components/Image.tsx";
 import { asset } from "$fresh/runtime.ts";
 import Clipboard from "site/islands/Clipboard.tsx";

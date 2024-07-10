@@ -1,6 +1,7 @@
 import type { Props as Mentors } from "site/components/ui/Mentors/ProfileMentor.tsx";
 import ProfileMentor from "./ProfileMentor.tsx";
-import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import { HTML } from "site/apps/site.ts";
 
 export interface Props {
   title?: HTML;

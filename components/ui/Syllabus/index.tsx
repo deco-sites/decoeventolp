@@ -1,4 +1,5 @@
-import HTMLRenderer, { HTML } from "deco-sites/std/components/HTMLRenderer.tsx";
+import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
+import { HTML } from "site/apps/site.ts";
 import type { Props as Accordion } from "./AccordionSyllabus.tsx";
 import AccordionSyllabus from "./AccordionSyllabus.tsx";
 
