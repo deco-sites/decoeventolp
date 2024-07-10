@@ -305,7 +305,6 @@
                 "time": "10:00 PM (GMT-3)",
                 "title": "End of the first day",
                 "content": "<p>&nbsp;</p><p>After this time, our team will not be on call on Discord for help, but feel free to keep coding :)</p>",
-                "link": "After this time, our team will not be on call on Discord for help, but feel free to keep coding :)",
                 "dataPublish": "After this time, our team will not be on call on Discord for help, but feel free to keep coding :)"
               }
             ],
@@ -363,7 +362,7 @@
         ],
         "headsupCard": {
           "title": "Note!",
-          "text": "<p>The event is <strong>100% virtual and asynchronous.</strong> All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry.</p><p></p><p>All materials will be available on our Discord server. If you haven't joined yet, please do so <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/9fkbcvR833\">here</a>. </p>"
+          "text": "<p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. So, if you're in a different time zone or can't attend the scheduled times below, don't worry.</p><p></p><p>All materials will be available on our Discord server. If you haven't joined yet, please do so <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/9fkbcvR833\"><strong><u>here</u></strong></a><strong><u>.</u></strong></p>"
         }
       }
     },
