@@ -32,7 +32,7 @@
         "title": "<pre><span class=\"argentPixel\" style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Hackathon 5</span><br></pre>",
         "subtitle": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\"><strong>&nbsp;edition</strong></span></p>",
         "flagSound": {
-          "text": "New Date: Friday, July 12th at 4pm (GMT-3) to Sunday, July 14th ",
+          "text": "Friday, July 12th 4pm (GMT-3) to Sunday, 14th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/3ca60ebd-d38b-4503-8e46-7b6de7e72a29"
         },
         "afterButtonText": "Check the Pre-requisites",
@@ -236,7 +236,7 @@
             },
             {
               "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/2838e451-77fa-42ef-a03b-53d90c6dfc1c",
-              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">US$1,500</span></p>"
+              "text": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Winner cash reward:</span> <span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">US$2,000</span></p>"
             }
           ],
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/297bd027-572f-46fa-8c57-4ea2dcbac880",
@@ -292,7 +292,7 @@
             ],
             "listContent": [
               {
-                "title": "Introduction to deco.cx",
+                "title": "Introduction to deco.cx's Hackathon 5 - HTMX edition",
                 "content": "<p><br data-mce-bogus=\"1\"></p>",
                 "time": "4PM"
               },
@@ -304,11 +304,6 @@
               {
                 "time": "6PM",
                 "title": "How to use HTMX on deco.cx",
-                "content": "<p>&nbsp;</p>"
-              },
-              {
-                "time": "7PM",
-                "title": "Event rules and details",
                 "content": "<p>&nbsp;</p>"
               }
             ],
@@ -346,32 +341,22 @@
                 "time": "8AM"
               },
               {
-                "title": "Submissions due",
+                "title": "Final submissions due",
                 "content": "<p>&nbsp;</p>",
-                "time": "3PM"
-              },
-              {
-                "title": "Finalists announced",
-                "time": "5PM ",
-                "content": "<p><br></p>"
-              },
-              {
-                "title": "Final presentations",
-                "content": "<p>&nbsp;</p>",
-                "time": "6PM "
+                "time": "12PM"
               },
               {
                 "title": "Winners announced",
-                "content": "<p><br data-mce-bogus=\"1\"></p>",
-                "time": "8PM "
+                "time": "3PM ",
+                "content": "<p><br></p>"
               }
             ],
-            "period": "8AM - 8PM (GMT-3)"
+            "period": "8AM - 3PM (GMT-3)"
           }
         ],
         "headsupCard": {
           "title": "Note!",
-          "text": "<p>If you're in a different time zone or can't attend the sync sessions on Friday and Sunday, don’t worry! All sessions will be recorded and available online for async viewing. Finalists can submit their projects via Loom instead of presenting live. 🎥✨</p>"
+          "text": "<div class=\"flex flex-grow flex-col max-w-full\"><div class=\"min-h-[20px] text-message flex flex-col items-start whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 juice:w-full juice:items-end overflow-x-auto gap-2\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"76540a98-ec3c-49d1-b62c-7d5a4c1f6a46\"><div class=\"flex w-full flex-col gap-1 juice:empty:hidden juice:first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert light\"><p>The event is 100% virtual and asynchronous. All sessions will be pre-recorded and available for on-demand viewing. We will be active on Discord throughout the three days and will host some optional synchronous watch parties. So, if you're in a different time zone or can't attend the scheduled times below, don't worry—this agenda is completely flexible.</p></div></div></div></div>"
         }
       }
     },
@@ -400,12 +385,6 @@
           "description": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">We would love to receive templates to be <strong>featured on our deco.store</strong>. This opens doors to future collabs and opportunities.&nbsp;</span><br><br><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">We highly encourage you to build with htmx. We will go over how to do so on the first day.</span><br></p>"
         }
       ]
-    },
-    {
-      "__resolveType": "site/sections/RegisterNowBanner.tsx",
-      "title": "REGISTER NOW",
-      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
-      "id": "bt-register-hacka"
     },
     {
       "__resolveType": "site/sections/ReferralIfood.tsx",
@@ -476,20 +455,15 @@
           },
           {
             "question": "Must hackathon entries be created using the deco.cx system?",
-            "answer": "Although you can host y"
+            "answer": "Websites should be editable using deco's admin, so, yes. Check out our docs for more info on our stack: https://deco.cx/docs/en/overview"
           }
         ]
       }
     },
     {
-      "__resolveType": "site/sections/RegisterNowBanner.tsx",
-      "title": "REGISTER NOW",
-      "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
-      "id": "bt-register-hacka"
-    },
-    {
       "__resolveType": "site/sections/AreYouReady.tsx",
       "props": {
+        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready ?</span></p>",
         "flag": {
           "text": "100% remote: Discord",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/08071aaf-e548-4f38-853c-e759b83c6e8d"
@@ -511,7 +485,6 @@
           ],
           "buttonLabel": "Check the Requirements"
         },
-        "title": "<p><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">Are you ready ?</span></p>",
         "button": {
           "id": "bt-register-hacka",
           "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
@@ -520,7 +493,7 @@
         },
         "description": "<h5 data-mce-style=\"text-align: center;\" style=\"text-align: center;\"><span style=\"color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(236, 240, 241);\"><strong><span style=\"color: rgb(161, 161, 170);\" data-mce-style=\"color: rgb(161, 161, 170);\">A 3-day event to transform ideas into ultra-fast htmx website templates</span></strong> 💚</span><br></h5>",
         "flagSound": {
-          "text": "Friday, July 12th at 4pm (GMT-3) to Sunday, July 14th ",
+          "text": "Friday, July 12th 4pm (GMT-3) to Sunday, 14th ",
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/24b8c88d-459e-41ad-ac57-8811150d4b08"
         },
         "afterButtonText": "Check the Pre-requisites"
