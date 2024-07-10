@@ -367,7 +367,7 @@
     },
     {
       "__resolveType": "site/sections/HowItWork.tsx",
-      "title": "<p><span style=\"color: rgb(2, 246, 124)\">How</span> <span style=\"color: rgb(255, 255, 255)\">it works</span></p><p></p>",
+      "title": "<p><span class=\"argentPixel\"\n style=\"color: rgb(2, 246, 124)\">How</span> <span style=\"color: rgb(255, 255, 255)\">it works</span></p><p></p>",
       "cards": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
