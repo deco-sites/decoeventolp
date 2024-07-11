@@ -275,11 +275,7 @@
           },
           "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
         }
-      ],
-      "note": {
-        "title": "",
-        "text": "<p><strong>Not sure what to build or which category to submit to?</strong> Check out our full guide for examples and expectations to help you decide. <u>Read the full guide here.</u></p>"
-      }
+      ]
     },
     {
       "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
@@ -388,8 +384,7 @@
           "title": "Project specifics",
           "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Build on </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/\"><strong><u><span style=\"color: #08f67c; font-size: 12pt\">deco.cx</span></u></strong></a><span style=\"color: #08f67c; font-size: 12pt\">:</span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> The only restriction for your projects is that the final web app must be editable using Deco's admin, so your projects should be built on </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/\"><u><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">deco.cx</span></u></a><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">.<br><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Use HTMX</span></strong><span style=\"color: #08f67c; font-size: 12pt\">: </span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">We highly encourage you to use HTMX in your projects. We will release a video explaining how to do this. Alternatively, see our docs.<br></span><span style=\"color: #08f67c; font-size: 12pt\"><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Integrations</span></strong><span style=\"color: #08f67c; font-size: 12pt\">:</span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> You are allowed to integrate with any external source or embed existing services into your project.</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Previously developed code</span></strong><span style=\"color: #08f67c; font-size: 12pt\">: </span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">You can use code that has been developed previously, as long as it is ported to our structure.</span></p>"
         }
-      ],
-      "note": {}
+      ]
     },
     {
       "__resolveType": "site/sections/ReferralIfood.tsx",
