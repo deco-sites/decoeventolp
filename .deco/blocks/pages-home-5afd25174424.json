@@ -275,7 +275,11 @@
           },
           "title": "<p><span style=\"color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(255, 255, 255);\">Open Category</span></p>"
         }
-      ]
+      ],
+      "note": {
+        "text": "<p><span style=\"font-size: 13pt\">Not sure what to build or which category to submit to? Check out our full guide for exemples and expectations to help you decide. </span><span style=\"color: #08f67c; font-size: 13pt\">Read the full guide</span><span style=\"font-size: 13pt\"> </span><u><span style=\"font-size: 13pt\">here</span></u><span style=\"font-size: 13pt\"> (coming soon). </span></p>",
+        "title": "<p></p>"
+      }
     },
     {
       "__resolveType": "site/sections/Syllabus/Syllabus.tsx",
@@ -372,7 +376,7 @@
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/5a74e4d5-b6a3-4700-8489-ee15f80edecb",
           "title": "Criteria",
-          "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br>Regardless of the category, the criteria is always the same: </span><strong><span style=\"color: rgb(14, 243, 122); font-size: 12pt\">Design, Editability and Performance. <br></span></strong><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br></span><strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\">Design:</span></strong><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> How visually appealing is the project? Is the Product Detail Page apple-like? Are the images high-quality? Is the usability good? Are there a lot of broken parts?<br><br></span><strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\">Editability:</span></strong><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> Are you using our Deco props to edit content without code? If a business user who doesn't know how to code needed to update the site content later, would the forms be understandable?<br><br></span><strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\">Performance:</span></strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\"> </span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">What is the page speed of your site? Are Core Web Vitals (CWV) approved? Did you add a lot of client-side scripts, or are you using Fresh and HTMX frameworks to minimize this?</span><span style=\"color: rgb(255, 255, 255); font-size: 14pt\"><br></span></p>"
+          "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br>Regardless of the category, the criteria is always the same: </span><strong><span style=\"color: rgb(14, 243, 122); font-size: 12pt\">Design, Editability and Performance. <br></span></strong><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br></span><strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\">Design:</span></strong><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> How visually appealing is the project? Is the usability good?<br><br></span><strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\">Editability:</span></strong><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> Are you using our deco props to edit content without code? <br><br></span><strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\">Performance:</span></strong><span style=\"color: rgb(8, 246, 124); font-size: 12pt\"> </span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">What is the page speed of your site? Are Core Web Vitals (CWV) approved?</span><span style=\"color: rgb(255, 255, 255); font-size: 14pt\"><br></span></p>"
         },
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/fac2a476-b00a-430e-b4dd-b567576b76df",
@@ -385,7 +389,9 @@
           "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Build on </span></strong><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/\"><strong><u><span style=\"color: #08f67c; font-size: 12pt\">deco.cx</span></u></strong></a><span style=\"color: #08f67c; font-size: 12pt\">:</span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> The only restriction for your projects is that the final web app must be editable using Deco's admin, so your projects should be built on </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/\"><u><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">deco.cx</span></u></a><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">.<br><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Use HTMX</span></strong><span style=\"color: #08f67c; font-size: 12pt\">: </span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">We highly encourage you to use HTMX in your projects. We will release a video explaining how to do this. Alternatively, see our docs.<br></span><span style=\"color: #08f67c; font-size: 12pt\"><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Integrations</span></strong><span style=\"color: #08f67c; font-size: 12pt\">:</span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"> You are allowed to integrate with any external source or embed existing services into your project.</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 12pt\"><br></span><strong><span style=\"color: #08f67c; font-size: 12pt\">Previously developed code</span></strong><span style=\"color: #08f67c; font-size: 12pt\">: </span><span style=\"color: rgb(255, 255, 255); font-size: 12pt\">You can use code that has been developed previously, as long as it is ported to our structure.</span></p>"
         }
       ],
-      "note": {}
+      "note": {
+        "text": "<p><span style=\"font-size: 12pt\">This is only a summary. For comprehensive instructions and doubts, please refer to our </span><span style=\"color: #08f67c; font-size: 12pt\">full guide</span><span style=\"font-size: 12pt\"> </span><u><span style=\"font-size: 12pt\">here</span></u><span style=\"font-size: 12pt\"> (coming soon).</span></p>"
+      }
     },
     {
       "__resolveType": "site/sections/ReferralIfood.tsx",
