@@ -2,6 +2,7 @@ import HTMLRenderer from "deco-sites/std/components/HTMLRenderer.tsx";
 import { HTML } from "site/apps/site.ts";
 import { ImageWidget } from "apps/admin/widgets.ts";
 
+
 export interface HowItWorkProps {
   title?: HTML;
   cards?: CardProps[];
@@ -11,14 +12,17 @@ export interface HowItWorkProps {
 export interface Note {
   /**
    * @format rich-text
-   */
-  title?: string;
+  */
+ title?: string;
   /**
    * @format rich-text
-   */
-  text?: string;
+  */
+ text?: string;
 }
 
+/**
+ * @title {{{title}}}
+ */
 export interface CardProps {
   icon?: ImageWidget;
   title: string;
@@ -46,8 +50,13 @@ export default function HowItWork({ title, cards, note }: HowItWorkProps) {
           </div>
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] md:gap-6 px-4">
-          {cards?.map(({ title, description, icon }) => (
-            <div className="flex flex-col rounded-[24px] bg-[#0D1717] gap-4 py-5 px-6 md:py-6 md:px-8 lg:px-12 lg:py-10">
+          {cards?.map(({ title, description, icon }, index) => (
+            <div
+              className={`flex flex-col ${
+                (index === cards.length - 1 && index % 2 === 0) &&
+                "col-span-full"
+              } rounded-[24px] bg-[#0D1717] gap-4 py-5 px-6 md:py-6 md:px-8 lg:px-12 lg:py-10`}
+            >
               {icon && (
                 <div>
                   <img src={icon} alt={title} width={25} height={25} />
