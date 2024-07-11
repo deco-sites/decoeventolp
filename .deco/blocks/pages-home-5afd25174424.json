@@ -200,7 +200,7 @@
     },
     {
       "__resolveType": "site/sections/Category.tsx",
-      "title": "<p><span style=\"color: rgb(255, 255, 255)\">Choose your</span> <span style=\"color: rgb(8, 246, 124)\">category</span></p>",
+      "title": "<p><span style=\"color: rgb(255, 255, 255)\">Choose your</span> <span class=\"argentPixel\" style=\"color: rgb(8, 246, 124)\">category</span></p>",
       "flags": [
         {
           "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10325/12247507-e6da-4065-857e-6d4468d8de2d",
