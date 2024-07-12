@@ -50,34 +50,33 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
         <ul class="w-full flex flex-col gap-6 ">
           {listContent.map((item) => (
             <li class="flex flex-row gap-4 justify-start items-start">
-              <Icon
-                id="video"
-                size={14}
-                class="w-min-[14px] mt-[5px] xl:mt-[9px] xl:w-[20px] h-[20px]"
-              >
-              </Icon>
-              <div class="flex flex-col gap-3 w-fit">
-                <p
-                  class="text-[#02f67c] text-xl"
-                >
-                  {item.title}
-                </p>
-                <span
-                  class="text-md text-white"
-                  dangerouslySetInnerHTML={{ __html: item.content }}
-                >
-                </span>
+              <div class="flex flex-col items-center justify-start mt-[5px] xl:mt-[9px]">
+                <Icon
+                  id="video"
+                  size={14}
+                  class="w-[14px] h-[14px] xl:w-[20px] xl:h-[20px]"
+                />
               </div>
-              <div class="hidden md:flex flex-row gap-3 ml-auto text-base text-[#A1A1AA]">
-                { item.dataPublish ? (
-                  <a
-                    href={item.link}
-                    class="hover:text-[#02f67c] hover:underline cursor-pointer"
-                  >
-                    {item.dataPublish}
-                  </a>
-                ) : null }
-                <span>{item.time}</span>
+              <div class="flex flex-col gap-3 w-full">
+                <div class="flex flex-row justify-between items-start">
+                  <div class="flex flex-col gap-3 w-fit">
+                    <p class="text-[#02f67c] text-xl">
+                      {item.title}
+                    </p>
+                    <span class="text-md text-white" dangerouslySetInnerHTML={{ __html: item.content }}></span>
+                  </div>
+                  <div class="flex flex-row gap-3 text-base text-[#A1A1AA] items-center">
+                    {item.dataPublish ? (
+                      <a
+                        href={item.link}
+                        class="hover:text-[#02f67c] hover:underline cursor-pointer"
+                      >
+                        {item.dataPublish}
+                      </a>
+                    ) : null}
+                    <span class="text-right">{item.time}</span>
+                  </div>
+                </div>
               </div>
             </li>
           ))}
@@ -86,3 +85,4 @@ export default function AccordionSyllabus({ props }: { props: Props }) {
     </details>
   );
 }
+
