@@ -40,10 +40,10 @@
         "description": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(161, 161, 170)\">An event to transform ideas into high-performance web apps</span></strong> 💚</p>",
         "buttons": [
           {
-            "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
-            "label": "Register now",
+            "label": "This event has passed :(",
             "color": "green",
-            "id": "bt-register-hacka"
+            "id": "bt-register-hacka",
+            "href": "https://deco.cx/"
           },
           {
             "href": "https://discord.com/invite/9fkbcvR833",
@@ -494,9 +494,9 @@
         },
         "button": {
           "id": "bt-register-hacka",
-          "href": "https://airtable.com/appVZzdJlLMiyBArk/pagezjSYPQgrFGvzN/form",
+          "href": "https://deco.cx/",
           "type": "ligth",
-          "label": "Register now"
+          "label": "This event has passed :("
         },
         "description": "<h5 style=\"text-align: center\"><strong><span style=\"color: rgb(161, 161, 170)\">An event to transform ideas into high-performance web apps</span></strong> 💚</h5>",
         "flagSound": {
